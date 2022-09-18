@@ -1,0 +1,2551 @@
+/* screen - premiere-connexion */
+
+.premiere-connexion {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 900px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.premiere-connexion .overlap-group14 {
+  height: 1358px;
+  margin-left: -135px;
+  margin-top: -294.78px;
+  position: relative;
+  width: 1776px;
+}
+
+.premiere-connexion .overlap-group12 {
+  height: 1116px;
+  left: 924px;
+  position: absolute;
+  top: 0;
+  width: 852px;
+}
+
+.premiere-connexion .rectangle {
+  background-color: #fff3e8;
+  border-radius: 137px;
+  height: 397px;
+  left: 310px;
+  position: absolute;
+  top: 76px;
+  transform: rotate(-22.00deg);
+  width: 485px;
+}
+
+.premiere-connexion .group-61 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 40px;
+  box-shadow: 0px 4px 70px #00000014;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 741px;
+  padding: 66px 36px;
+  position: absolute;
+  top: 375px;
+  width: 539px;
+}
+
+.premiere-connexion .sign-in {
+  color: var(--cioccolato);
+  font-family: var(--font-family-poppins);
+  font-size: 45px;
+  font-weight: 500;
+  height: 52px;
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-left: 13px;
+  white-space: nowrap;
+}
+
+.premiere-connexion .group-49 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 9px;
+  min-height: 108px;
+  width: 433px;
+}
+
+.premiere-connexion .welcome-to-lorem {
+  color: var(--cioccolato);
+  font-family: var(--font-family-poppins);
+  font-size: 21px;
+  font-weight: 700;
+  height: 34px;
+  letter-spacing: 2.10px;
+  line-height: 21px;
+  margin-right: 11.0px;
+  width: 396px;
+}
+
+.premiere-connexion .span0 {
+  font-weight: 400;
+}
+
+.premiere-connexion .overlap-group {
+  height: 59px;
+  margin-top: 15px;
+  position: relative;
+  width: 433px;
+}
+
+.premiere-connexion .rectangle-30 {
+  background-color: #fef2e7;
+  border-radius: 12px;
+  height: 59px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 431px;
+}
+
+.premiere-connexion .lorem-ipsum-is-simpl {
+  color: var(--brown-bramble);
+  font-family: var(--font-family-poppins);
+  font-size: 13px;
+  font-weight: 300;
+  height: 47px;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: 13px;
+  position: absolute;
+  top: 8px;
+  width: 420px;
+}
+
+.premiere-connexion .group-54 {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  height: 94px;
+  justify-content: space-between;
+  margin-top: 32px;
+  width: 451px;
+}
+
+.premiere-connexion .creez-password {
+  flex: 1;
+  height: 26px;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-right: 144px;
+  max-height: 26px;
+}
+
+.premiere-connexion .rectangle-17 {
+  background-color: #f5f5f5;
+  border: 0;
+  border-radius: 9px;
+  flex: 1;
+  height: 57px;
+  max-height: 57px;
+  padding: 10px;
+}
+
+.premiere-connexion .group-55 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+  min-height: 94px;
+  width: 451px;
+}
+
+.premiere-connexion .password-confirm {
+  height: 26px;
+  letter-spacing: 0;
+  line-height: 16px;
+  width: 320px;
+}
+
+.premiere-connexion .rectangle-17-1 {
+  background-color: #f5f5f5;
+  border: 0;
+  border-radius: 9px;
+  height: 57px;
+  margin-top: 11px;
+  padding: 10px;
+  width: 451px;
+}
+
+.premiere-connexion .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 26px;
+  margin-left: 13.0px;
+  margin-top: 38px;
+  min-width: 223px;
+}
+
+.premiere-connexion .icon-awesome-check-square {
+  height: 22px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.premiere-connexion .garder-connect {
+  align-self: flex-end;
+  height: 25px;
+  letter-spacing: 0;
+  line-height: 13px;
+  margin-left: 14px;
+  width: 187px;
+}
+
+.premiere-connexion .group-56 {
+  align-items: center;
+  align-self: center;
+  background-color: var(--blaze-orange);
+  border-radius: 10px;
+  box-shadow: 0px 4px 38px #7793414d;
+  cursor: pointer;
+  display: flex;
+  height: 54px;
+  margin-top: 46px;
+  min-width: 451px;
+  padding: 2px 143.6px;
+}
+
+.premiere-connexion .icon-ionic-ios-checkmark-circle-outline {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.88px;
+  min-width: 18px;
+}
+
+.premiere-connexion .trac-container {
+  height: 18px;
+  margin-top: 0;
+  position: relative;
+  width: 18px;
+}
+
+.premiere-connexion .trac-556 {
+  height: 7px;
+  left: 4px;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 9px;
+}
+
+.premiere-connexion .trac-557 {
+  height: 18px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+.premiere-connexion .valider {
+  align-self: flex-end;
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 500;
+  height: 44px;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-left: 14px;
+  text-align: center;
+  width: 106px;
+}
+
+.premiere-connexion .group-container {
+  height: 1072px;
+  left: 0;
+  position: absolute;
+  top: 286px;
+  width: 954px;
+}
+
+.premiere-connexion .groupe-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 319px;
+  left: 607px;
+  min-width: 315px;
+  opacity: 0.04;
+  position: absolute;
+  top: 28px;
+  transform: rotate(258.00deg);
+}
+
+.premiere-connexion .overlap-group-1 {
+  height: 356px;
+  margin-left: -22px;
+  margin-top: -29.58px;
+  position: relative;
+  width: 347px;
+}
+
+.premiere-connexion .subtract {
+  height: 131px;
+  left: 84px;
+  object-fit: cover;
+  position: absolute;
+  top: 83px;
+  transform: rotate(-258.00deg);
+  width: 126px;
+}
+
+.premiere-connexion .subtract-1 {
+  height: 290px;
+  left: 22px;
+  object-fit: cover;
+  position: absolute;
+  top: 33px;
+  transform: rotate(-258.00deg);
+  width: 303px;
+}
+
+.premiere-connexion .ellipse-4 {
+  background-color: var(--yellow-orange);
+  border-radius: 39.69px;
+  height: 79px;
+  left: 242px;
+  position: absolute;
+  top: 253px;
+  transform: rotate(-41.90deg);
+  width: 79px;
+}
+
+.premiere-connexion .group-63 {
+  display: flex;
+  height: 77px;
+  left: 260px;
+  position: absolute;
+  top: 208px;
+  width: 396px;
+}
+
+.premiere-connexion .group-1 {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  min-width: 398px;
+}
+
+.premiere-connexion .overlap-group-2 {
+  height: 79px;
+  margin-bottom: -2px;
+  position: relative;
+  width: 398px;
+}
+
+.premiere-connexion .sign-in-to {
+  color: var(--brown-bramble);
+  font-family: var(--font-family-poppins);
+  font-size: 34px;
+  font-weight: 600;
+  height: 53px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 34px;
+  position: absolute;
+  top: 0;
+  width: 236px;
+}
+
+.premiere-connexion .lorem-ipsum-is-simply {
+  color: var(--brown-bramble);
+  font-family: var(--font-family-poppins);
+  font-size: 24px;
+  font-weight: 400;
+  height: 38px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 41px;
+  width: 398px;
+}
+
+.premiere-connexion .groupe-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 391px;
+  left: 50px;
+  min-width: 387px;
+  opacity: 0.04;
+  position: absolute;
+  top: 634px;
+  transform: rotate(73.00deg);
+}
+
+.premiere-connexion .overlap-group1 {
+  height: 454px;
+  margin-left: -34px;
+  margin-top: -44.74px;
+  position: relative;
+  width: 438px;
+}
+
+.premiere-connexion .subtract-2 {
+  height: 160px;
+  left: 111px;
+  object-fit: cover;
+  position: absolute;
+  top: 111px;
+  transform: rotate(-73.00deg);
+  width: 150px;
+}
+
+.premiere-connexion .subtract-3 {
+  height: 345px;
+  left: 34px;
+  object-fit: cover;
+  position: absolute;
+  top: 55px;
+  transform: rotate(-73.00deg);
+  width: 369px;
+}
+
+.premiere-connexion .ellipse-4-1 {
+  background-color: var(--yellow-orange);
+  border-radius: 48.7px;
+  height: 97px;
+  left: 303px;
+  position: absolute;
+  top: 319px;
+  transform: rotate(-41.90deg);
+  width: 97px;
+}
+
+.premiere-connexion .group-container-1 {
+  height: 377px;
+  left: 250px;
+  position: absolute;
+  top: 309px;
+  width: 515px;
+}
+
+.premiere-connexion .groupe-4 {
+  align-items: center;
+  display: flex;
+  height: 326px;
+  justify-content: flex-end;
+  left: 17px;
+  min-width: 485px;
+  position: absolute;
+  top: 19px;
+}
+
+.premiere-connexion .trac-container-1 {
+  height: 326px;
+  position: relative;
+  width: 446px;
+}
+
+.premiere-connexion .trac-1 {
+  height: 326px;
+  left: 31px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 415px;
+}
+
+.premiere-connexion .trac-2 {
+  height: 42px;
+  left: 301px;
+  object-fit: cover;
+  position: absolute;
+  top: 71px;
+  width: 73px;
+}
+
+.premiere-connexion .trac-3 {
+  height: 70px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 191px;
+  width: 51px;
+}
+
+.premiere-connexion .trac-5 {
+  height: 27px;
+  left: 392px;
+  object-fit: cover;
+  position: absolute;
+  top: 97px;
+  width: 33px;
+}
+
+.premiere-connexion .trac-6 {
+  height: 32px;
+  left: 190px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 29px;
+}
+
+.premiere-connexion .trac-4 {
+  height: 33px;
+  margin-left: 12px;
+  margin-top: 94.8px;
+  object-fit: cover;
+  width: 26px;
+}
+
+.premiere-connexion .groupe-14 {
+  align-items: flex-start;
+  display: flex;
+  height: 296px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 515px;
+  position: absolute;
+  top: 68px;
+}
+
+.premiere-connexion .overlap-group2 {
+  height: 292px;
+  margin-top: 0;
+  position: relative;
+  width: 130px;
+}
+
+.premiere-connexion .trac-8 {
+  height: 109px;
+  left: 27px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 60px;
+}
+
+.premiere-connexion .groupe-10 {
+  align-items: flex-end;
+  background-image: url(../img/trac--11@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 106px;
+  left: 0;
+  min-width: 130px;
+  padding: 0.0px 25.6px;
+  position: absolute;
+  top: 185px;
+}
+
+.premiere-connexion .groupe-9 {
+  background-image: url(../img/trac--12@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 73px;
+  width: 61px;
+}
+
+.premiere-connexion .groupe-13 {
+  align-items: flex-end;
+  background-image: url(../img/trac--13@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 242px;
+  justify-content: flex-end;
+  left: 12px;
+  min-width: 113px;
+  padding: 46.1px 2.6px;
+  position: absolute;
+  top: 50px;
+}
+
+.premiere-connexion .groupe-12 {
+  background-image: url(../img/trac--14@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 142px;
+  width: 76px;
+}
+
+.premiere-connexion .overlap-group1-1 {
+  align-self: flex-end;
+  height: 166px;
+  margin-bottom: 0;
+  margin-left: 273px;
+  position: relative;
+  width: 111px;
+}
+
+.premiere-connexion .trac-7 {
+  height: 119px;
+  left: 30px;
+  object-fit: cover;
+  position: absolute;
+  top: 47px;
+  width: 82px;
+}
+
+.premiere-connexion .groupe-7 {
+  align-items: flex-end;
+  background-image: url(../img/trac--9@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 162px;
+  left: 0;
+  min-width: 91px;
+  padding: 34.0px 0.9px;
+  position: absolute;
+  top: 0;
+}
+
+.premiere-connexion .groupe-6 {
+  background-image: url(../img/trac--10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 93px;
+  width: 63px;
+}
+
+.premiere-connexion .group-container-2 {
+  height: 308px;
+  left: 44px;
+  position: absolute;
+  top: 52px;
+  width: 212px;
+}
+
+.premiere-connexion .groupe-15 {
+  background-image: url(../img/trac--15@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 48px;
+  left: 92px;
+  position: absolute;
+  top: 259px;
+  width: 41px;
+}
+
+.premiere-connexion .trac-16 {
+  flex: 1;
+  height: 28.96px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 7.1px;
+  object-fit: cover;
+}
+
+.premiere-connexion .groupe-16 {
+  align-items: flex-start;
+  background-image: url(../img/trac--17@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 48px;
+  left: 41px;
+  min-width: 41px;
+  padding: 9.9px 0.0px;
+  position: absolute;
+  top: 259px;
+}
+
+.premiere-connexion .trac-18 {
+  height: 25px;
+  object-fit: cover;
+  width: 41px;
+}
+
+.premiere-connexion .overlap-group2-1 {
+  height: 88px;
+  left: 57px;
+  position: absolute;
+  top: 0;
+  width: 58px;
+}
+
+.premiere-connexion .trac-19 {
+  height: 42px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 58px;
+}
+
+.premiere-connexion .groupe-19 {
+  align-items: flex-end;
+  background-image: url(../img/trac--20@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 17px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 10px;
+  padding: 4.6px 1.0px;
+  position: absolute;
+  top: 40px;
+}
+
+.premiere-connexion .overlap-group-3 {
+  align-items: flex-end;
+  background-image: url(../img/trac--21@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 7px;
+  min-width: 7px;
+  padding: 2.1px 1.5px;
+}
+
+.premiere-connexion .groupe-18 {
+  background-image: url(../img/trac--22@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  width: 3px;
+}
+
+.premiere-connexion .groupe-24 {
+  align-items: flex-end;
+  background-image: url(../img/trac--23@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 17px;
+  left: 49px;
+  min-width: 10px;
+  padding: 4.6px 1.0px;
+  position: absolute;
+  top: 40px;
+}
+
+.premiere-connexion .overlap-group1-2 {
+  align-items: flex-end;
+  background-image: url(../img/trac--24@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 7px;
+  justify-content: flex-end;
+  min-width: 7px;
+  padding: 2.1px 1.5px;
+}
+
+.premiere-connexion .groupe-23 {
+  background-image: url(../img/trac--25@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  width: 3px;
+}
+
+.premiere-connexion .trac-26 {
+  height: 20px;
+  left: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 67px;
+  width: 19px;
+}
+
+.premiere-connexion .trac-27 {
+  height: 10px;
+  left: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 67px;
+  width: 19px;
+}
+
+.premiere-connexion .trac-28 {
+  height: 58px;
+  left: 6px;
+  object-fit: cover;
+  position: absolute;
+  top: 17px;
+  width: 48px;
+}
+
+.premiere-connexion .trac-29 {
+  height: 32px;
+  left: 7px;
+  object-fit: cover;
+  position: absolute;
+  top: 50px;
+  width: 44px;
+}
+
+.premiere-connexion .trac-30 {
+  height: 5px;
+  left: 18px;
+  object-fit: cover;
+  position: absolute;
+  top: 42px;
+  width: 3px;
+}
+
+.premiere-connexion .trac-31 {
+  height: 5px;
+  left: 37px;
+  object-fit: cover;
+  position: absolute;
+  top: 42px;
+  width: 3px;
+}
+
+.premiere-connexion .trac-32 {
+  height: 5px;
+  left: 33px;
+  object-fit: cover;
+  position: absolute;
+  top: 34px;
+  width: 12px;
+}
+
+.premiere-connexion .trac-33 {
+  height: 5px;
+  left: 13px;
+  object-fit: cover;
+  position: absolute;
+  top: 34px;
+  width: 12px;
+}
+
+.premiere-connexion .groupe-25 {
+  background-image: url(../img/trac--34@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 12px;
+  left: 27px;
+  position: absolute;
+  top: 42px;
+  width: 5px;
+}
+
+.premiere-connexion .trac-35 {
+  height: 7px;
+  left: 21px;
+  object-fit: cover;
+  position: absolute;
+  top: 59px;
+  width: 15px;
+}
+
+.premiere-connexion .trac-36 {
+  height: 34px;
+  left: 6px;
+  object-fit: cover;
+  position: absolute;
+  top: 17px;
+  width: 48px;
+}
+
+.premiere-connexion .overlap-group3 {
+  height: 206px;
+  left: 33px;
+  position: absolute;
+  top: 81px;
+  width: 179px;
+}
+
+.premiere-connexion .groupe-27 {
+  background-image: url(../img/trac--37@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 206px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 109px;
+}
+
+.premiere-connexion .groupe-28 {
+  background-image: url(../img/trac--38@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 23px;
+  left: 94px;
+  position: absolute;
+  top: 59px;
+  width: 15px;
+}
+
+.premiere-connexion .trac-39 {
+  height: 82px;
+  left: 101px;
+  object-fit: cover;
+  position: absolute;
+  top: 24px;
+  width: 78px;
+}
+
+.premiere-connexion .groupe-29 {
+  background-image: url(../img/trac--40@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 40px;
+  left: 8px;
+  position: absolute;
+  top: 122px;
+  width: 16px;
+}
+
+.premiere-connexion .groupe-30 {
+  background-image: url(../img/trac--41@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 48px;
+  left: 85px;
+  position: absolute;
+  top: 88px;
+  width: 11px;
+}
+
+.premiere-connexion .groupe-43 {
+  background-image: url(../img/trac--42@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 206px;
+  left: 35px;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+.premiere-connexion .groupe-42 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 12.9px;
+  margin-left: 1.5px;
+  margin-right: 1.2px;
+  margin-top: 12.6px;
+  min-height: calc(100.00% - 25px);
+  width: 37.06px;
+}
+
+.premiere-connexion .groupe-31 {
+  background-image: url(../img/trac--43@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  width: 37px;
+}
+
+.premiere-connexion .groupe-32 {
+  background-image: url(../img/trac--44@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  margin-right: 0.54px;
+  margin-top: 10px;
+  width: 32px;
+}
+
+.premiere-connexion .groupe-33 {
+  background-image: url(../img/trac--45@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  margin-right: 1.18px;
+  margin-top: 10px;
+  width: 29px;
+}
+
+.premiere-connexion .groupe-34 {
+  background-image: url(../img/trac--46@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  margin-right: 2.91px;
+  margin-top: 10px;
+  width: 30px;
+}
+
+.premiere-connexion .groupe-35 {
+  background-image: url(../img/trac--47@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  margin-right: 3.19px;
+  margin-top: 10px;
+  width: 32px;
+}
+
+.premiere-connexion .groupe-36 {
+  background-image: url(../img/trac--48@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  margin-right: 2.99px;
+  margin-top: 10px;
+  width: 30px;
+}
+
+.premiere-connexion .groupe-37 {
+  background-image: url(../img/trac--49@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  margin-right: 2.6px;
+  margin-top: 10px;
+  width: 26px;
+}
+
+.premiere-connexion .groupe-38 {
+  background-image: url(../img/trac--50@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  margin-right: 2.62px;
+  margin-top: 10px;
+  width: 23px;
+}
+
+.premiere-connexion .groupe-39 {
+  background-image: url(../img/trac--51@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  margin-right: 1.97px;
+  margin-top: 10px;
+  width: 25px;
+}
+
+.premiere-connexion .groupe-40 {
+  background-image: url(../img/trac--52@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  margin-right: 2.99px;
+  margin-top: 10px;
+  width: 26px;
+}
+
+.premiere-connexion .groupe-41 {
+  background-image: url(../img/trac--53@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  margin-right: 5.43px;
+  margin-top: 10px;
+  width: 26px;
+}
+
+.premiere-connexion .groupe-46 {
+  display: flex;
+  height: 197px;
+  justify-content: space-between;
+  left: 28px;
+  position: absolute;
+  top: 9px;
+  width: 53px;
+}
+
+.premiere-connexion .groupe-45 {
+  background-image: url(../img/trac--55@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-bottom: 0.6px;
+  margin-top: 0.1px;
+  width: 9.48px;
+}
+
+.premiere-connexion .groupe-44 {
+  background-image: url(../img/trac--54@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 11.29px;
+}
+
+.premiere-connexion .overlap-group4 {
+  height: 197px;
+  left: 0;
+  position: absolute;
+  top: 105px;
+  width: 51px;
+}
+
+.premiere-connexion .trac-56 {
+  height: 184px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 13px;
+  width: 48px;
+}
+
+.premiere-connexion .trac-57 {
+  height: 151px;
+  left: 6px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 44px;
+}
+
+.premiere-connexion .trac-58 {
+  height: 8px;
+  left: 6px;
+  object-fit: cover;
+  position: absolute;
+  top: 143px;
+  width: 18px;
+}
+
+.premiere-connexion .groupe-48 {
+  background-image: url(../img/trac--59@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 49px;
+  left: 31px;
+  position: absolute;
+  top: 50px;
+  width: 14px;
+}
+
+.premiere-connexion .group-container-3 {
+  height: 309px;
+  left: 270px;
+  position: absolute;
+  top: 51px;
+  width: 224px;
+}
+
+.premiere-connexion .groupe-53 {
+  align-items: flex-start;
+  background-image: url(../img/trac--60@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 31px;
+  left: 124px;
+  min-width: 42px;
+  padding: 0.0px 0.0px;
+  position: absolute;
+  top: 278px;
+}
+
+.premiere-connexion .overlap-group-4 {
+  height: 31px;
+  position: relative;
+  width: 42px;
+}
+
+.premiere-connexion .trac-61 {
+  height: 24px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 42px;
+}
+
+.premiere-connexion .groupe-52 {
+  background-image: url(../img/trac--62@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 30px;
+  left: 5px;
+  position: absolute;
+  top: 1px;
+  width: 4px;
+}
+
+.premiere-connexion .groupe-57 {
+  align-items: flex-start;
+  background-image: url(../img/trac--63@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 31px;
+  justify-content: flex-end;
+  left: 73px;
+  min-width: 42px;
+  position: absolute;
+  top: 278px;
+}
+
+.premiere-connexion .overlap-group1-3 {
+  height: 31px;
+  position: relative;
+  width: 41px;
+}
+
+.premiere-connexion .trac-64 {
+  height: 22px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 41px;
+}
+
+.premiere-connexion .groupe-56 {
+  background-image: url(../img/trac--65@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 30px;
+  left: 32px;
+  position: absolute;
+  top: 1px;
+  width: 4px;
+}
+
+.premiere-connexion .groupe-64 {
+  align-items: center;
+  background-image: url(../img/trac--66@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  left: 69px;
+  min-height: 208px;
+  padding: 9.4px 0.5px;
+  position: absolute;
+  top: 82px;
+  width: 101px;
+}
+
+.premiere-connexion .groupe-62 {
+  background-image: url(../img/trac--70@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 20px;
+  margin-left: 2.2px;
+  width: 30px;
+}
+
+.premiere-connexion .overlap-group2-2 {
+  height: 49px;
+  margin-left: 0.62px;
+  margin-top: 36px;
+  position: relative;
+  width: 100px;
+}
+
+.premiere-connexion .trac-67 {
+  height: 38px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 100px;
+}
+
+.premiere-connexion .groupe-63 {
+  background-image: url(../img/trac--71@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 19px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+
+.premiere-connexion .overlap-group3-1 {
+  align-items: flex-start;
+  background-image: url(../img/trac--68@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 31px;
+  justify-content: flex-end;
+  margin-right: 2.47px;
+  margin-top: 24px;
+  min-width: 59px;
+  padding: 4.0px 7.1px;
+}
+
+.premiere-connexion .groupe-61 {
+  background-image: url(../img/trac--69@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 17px;
+  width: 34px;
+}
+
+.premiere-connexion .overlap-group4-1 {
+  height: 126px;
+  left: 145px;
+  position: absolute;
+  top: 0;
+  width: 79px;
+}
+
+.premiere-connexion .trac-72 {
+  height: 85px;
+  left: 31px;
+  object-fit: cover;
+  position: absolute;
+  top: 33px;
+  width: 48px;
+}
+
+.premiere-connexion .groupe-67 {
+  background-image: url(../img/trac--73@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 6px;
+  left: 60px;
+  position: absolute;
+  top: 84px;
+  width: 10px;
+}
+
+.premiere-connexion .trac-74 {
+  height: 39px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 87px;
+  width: 62px;
+}
+
+.premiere-connexion .trac-75 {
+  height: 34px;
+  left: 40px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 22px;
+}
+
+.premiere-connexion .overlap-group5 {
+  height: 79px;
+  left: 89px;
+  position: absolute;
+  top: 11px;
+  width: 59px;
+}
+
+.premiere-connexion .trac-76 {
+  height: 52px;
+  left: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 49px;
+}
+
+.premiere-connexion .groupe-71 {
+  align-items: flex-end;
+  background-image: url(../img/trac--77@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 17px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 10px;
+  padding: 4.7px 1.0px;
+  position: absolute;
+  top: 31px;
+}
+
+.premiere-connexion .overlap-group-5 {
+  align-items: flex-end;
+  background-image: url(../img/trac--78@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 8px;
+  min-width: 7px;
+  padding: 2.1px 1.6px;
+}
+
+.premiere-connexion .groupe-70 {
+  background-image: url(../img/trac--79@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  width: 3px;
+}
+
+.premiere-connexion .groupe-76 {
+  align-items: flex-end;
+  background-image: url(../img/trac--80@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 17px;
+  left: 49px;
+  min-width: 10px;
+  padding: 4.7px 1.0px;
+  position: absolute;
+  top: 31px;
+}
+
+.premiere-connexion .overlap-group1-4 {
+  align-items: flex-end;
+  background-image: url(../img/trac--81@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 8px;
+  justify-content: flex-end;
+  min-width: 7px;
+  padding: 2.1px 1.5px;
+}
+
+.premiere-connexion .groupe-75 {
+  background-image: url(../img/trac--82@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  width: 3px;
+}
+
+.premiere-connexion .trac-83 {
+  height: 21px;
+  left: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 58px;
+  width: 20px;
+}
+
+.premiere-connexion .trac-84 {
+  height: 10px;
+  left: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 58px;
+  width: 20px;
+}
+
+.premiere-connexion .trac-85 {
+  height: 59px;
+  left: 6px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 48px;
+}
+
+.premiere-connexion .trac-86 {
+  height: 5px;
+  left: 18px;
+  object-fit: cover;
+  position: absolute;
+  top: 32px;
+  width: 3px;
+}
+
+.premiere-connexion .trac-87 {
+  height: 5px;
+  left: 37px;
+  object-fit: cover;
+  position: absolute;
+  top: 32px;
+  width: 3px;
+}
+
+.premiere-connexion .trac-88 {
+  height: 4px;
+  left: 35px;
+  object-fit: cover;
+  position: absolute;
+  top: 25px;
+  width: 9px;
+}
+
+.premiere-connexion .trac-89 {
+  height: 4px;
+  left: 14px;
+  object-fit: cover;
+  position: absolute;
+  top: 25px;
+  width: 9px;
+}
+
+.premiere-connexion .groupe-77 {
+  background-image: url(../img/trac--90-23@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 12px;
+  left: 27px;
+  position: absolute;
+  top: 33px;
+  width: 5px;
+}
+
+.premiere-connexion .trac-91 {
+  height: 7px;
+  left: 21px;
+  object-fit: cover;
+  position: absolute;
+  top: 49px;
+  width: 16px;
+}
+
+.premiere-connexion .groupe-78 {
+  background-image: url(../img/trac--92-23@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 26px;
+  position: absolute;
+  top: 58px;
+  width: 7px;
+}
+
+.premiere-connexion .trac-93 {
+  height: 26px;
+  left: 6px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 48px;
+}
+
+.premiere-connexion .groupe-container-1 {
+  height: 14px;
+  left: 4px;
+  position: absolute;
+  top: 28px;
+  width: 50px;
+}
+
+.premiere-connexion .groupe-79 {
+  background-image: url(../img/trac--94-23@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 14px;
+  left: 7px;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.premiere-connexion .groupe-80 {
+  background-image: url(../img/trac--95-23@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 14px;
+  left: 27px;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.premiere-connexion .groupe-81 {
+  background-image: url(../img/trac--96-23@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 9px;
+}
+
+.premiere-connexion .groupe-82 {
+  background-image: url(../img/trac--97@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 4px;
+  left: 40px;
+  position: absolute;
+  top: 1px;
+  width: 10px;
+}
+
+.premiere-connexion .groupe-83 {
+  background-image: url(../img/trac--98@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 21px;
+  position: absolute;
+  top: 3px;
+  width: 8px;
+}
+
+.premiere-connexion .trac-container-2 {
+  height: 81px;
+  left: 0;
+  position: absolute;
+  top: 107px;
+  width: 80px;
+}
+
+.premiere-connexion .trac-99 {
+  height: 81px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 78px;
+}
+
+.premiere-connexion .trac-100 {
+  height: 38px;
+  left: 48px;
+  object-fit: cover;
+  position: absolute;
+  top: 39px;
+  width: 14px;
+}
+
+.premiere-connexion .trac-101 {
+  height: 77px;
+  left: 50px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 31px;
+}
+
+.premiere-connexion .overlap-group-container {
+  height: 305px;
+  left: 203px;
+  position: absolute;
+  top: 55px;
+  width: 112px;
+}
+
+.premiere-connexion .overlap-group-6 {
+  height: 229px;
+  left: 3px;
+  position: absolute;
+  top: 75px;
+  width: 106px;
+}
+
+.premiere-connexion .trac-102 {
+  height: 85px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 144px;
+  width: 106px;
+}
+
+.premiere-connexion .groupe-88 {
+  height: 77px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 153px;
+  width: 101px;
+}
+
+.premiere-connexion .trac-127 {
+  height: 155px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 89px;
+}
+
+.premiere-connexion .groupe-89 {
+  background-image: url(../img/trac--128@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 30px;
+  left: 25px;
+  position: absolute;
+  top: 98px;
+  width: 59px;
+}
+
+.premiere-connexion .groupe-90 {
+  background-image: url(../img/trac--129@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 17px;
+  left: 43px;
+  position: absolute;
+  top: 103px;
+  width: 33px;
+}
+
+.premiere-connexion .groupe-91 {
+  background-image: url(../img/trac--130@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 20px;
+  left: 49px;
+  position: absolute;
+  top: 22px;
+  width: 30px;
+}
+
+.premiere-connexion .trac-131 {
+  height: 26px;
+  left: 27px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 52px;
+}
+
+.premiere-connexion .groupe-92 {
+  background-image: url(../img/trac--132@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 16px;
+  left: 37px;
+  position: absolute;
+  top: 1px;
+  width: 30px;
+}
+
+.premiere-connexion .overlap-group3-2 {
+  height: 82px;
+  left: 23px;
+  position: absolute;
+  top: 0;
+  width: 65px;
+}
+
+.premiere-connexion .trac-133 {
+  height: 68px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 63px;
+}
+
+.premiere-connexion .trac-134 {
+  height: 33px;
+  left: 31px;
+  object-fit: cover;
+  position: absolute;
+  top: 37px;
+  width: 28px;
+}
+
+.premiere-connexion .overlap-group2-3 {
+  height: 70px;
+  left: 4px;
+  position: absolute;
+  top: 12px;
+  width: 58px;
+}
+
+.premiere-connexion .groupe-96 {
+  align-items: flex-end;
+  background-image: url(../img/trac--135@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 17px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 10px;
+  padding: 4.6px 1.0px;
+  position: absolute;
+  top: 23px;
+}
+
+.premiere-connexion .overlap-group-7 {
+  align-items: flex-end;
+  background-image: url(../img/trac--136@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 7px;
+  min-width: 7px;
+  padding: 2.1px 1.5px;
+}
+
+.premiere-connexion .groupe-95 {
+  background-image: url(../img/trac--137@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  width: 3px;
+}
+
+.premiere-connexion .groupe-99 {
+  align-items: flex-end;
+  background-image: url(../img/trac--138@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 17px;
+  left: 48px;
+  min-width: 10px;
+  padding: 4.6px 1.0px;
+  position: absolute;
+  top: 23px;
+}
+
+.premiere-connexion .overlap-group1-5 {
+  align-items: flex-end;
+  background-image: url(../img/trac--139@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 7px;
+  justify-content: flex-end;
+  min-width: 7px;
+  padding: 2.1px 1.5px;
+}
+
+.premiere-connexion .groupe-98 {
+  background-image: url(../img/trac--140@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  width: 3px;
+}
+
+.premiere-connexion .trac-141 {
+  height: 20px;
+  left: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 50px;
+  width: 19px;
+}
+
+.premiere-connexion .trac-142 {
+  height: 10px;
+  left: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 50px;
+  width: 19px;
+}
+
+.premiere-connexion .trac-143 {
+  height: 58px;
+  left: 6px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 47px;
+}
+
+.premiere-connexion .trac-144 {
+  height: 5px;
+  left: 17px;
+  object-fit: cover;
+  position: absolute;
+  top: 24px;
+  width: 3px;
+}
+
+.premiere-connexion .trac-145 {
+  height: 5px;
+  left: 37px;
+  object-fit: cover;
+  position: absolute;
+  top: 24px;
+  width: 3px;
+}
+
+.premiere-connexion .trac-146 {
+  height: 4px;
+  left: 13px;
+  object-fit: cover;
+  position: absolute;
+  top: 18px;
+  width: 11px;
+}
+
+.premiere-connexion .trac-147 {
+  height: 4px;
+  left: 34px;
+  object-fit: cover;
+  position: absolute;
+  top: 18px;
+  width: 11px;
+}
+
+.premiere-connexion .groupe-100 {
+  background-image: url(../img/trac--148@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 12px;
+  left: 27px;
+  position: absolute;
+  top: 26px;
+  width: 5px;
+}
+
+.premiere-connexion .trac-149 {
+  height: 7px;
+  left: 21px;
+  object-fit: cover;
+  position: absolute;
+  top: 42px;
+  width: 15px;
+}
+
+.premiere-connexion .groupe-101 {
+  background-image: url(../img/trac--150@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 25px;
+  position: absolute;
+  top: 50px;
+  width: 7px;
+}
+
+.premiere-connexion .trac-151 {
+  height: 42px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 51px;
+}
+
+.premiere-connexion .trac-152 {
+  height: 65px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 17px;
+}
+
+.premiere-connexion .trac-153 {
+  height: 26px;
+  left: 12px;
+  object-fit: cover;
+  position: absolute;
+  top: 45px;
+  width: 12px;
+}
+
+.premiere-connexion .trac-154 {
+  height: 3px;
+  left: 54px;
+  object-fit: cover;
+  position: absolute;
+  top: 50px;
+  width: 3px;
+}
+
+.premiere-connexion .overlap-group4-2 {
+  height: 75px;
+  left: 0;
+  position: absolute;
+  top: 96px;
+  width: 112px;
+}
+
+.premiere-connexion .trac-155 {
+  height: 75px;
+  left: 33px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 79px;
+}
+
+.premiere-connexion .groupe-104 {
+  background-image: url(../img/trac--156@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  left: 95px;
+  position: absolute;
+  top: 47px;
+  width: 10px;
+}
+
+.premiere-connexion .groupe-105 {
+  background-image: url(../img/trac--157@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 5px;
+  left: 33px;
+  position: absolute;
+  top: 48px;
+  width: 43px;
+}
+
+.premiere-connexion .groupe-106 {
+  background-image: url(../img/trac--158@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 16px;
+  left: 63px;
+  position: absolute;
+  top: 53px;
+  width: 29px;
+}
+
+.premiere-connexion .overlap-group-8 {
+  height: 74px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 94px;
+}
+
+.premiere-connexion .trac-159 {
+  height: 74px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 80px;
+}
+
+.premiere-connexion .groupe-107 {
+  background-image: url(../img/trac--160@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 12px;
+  left: 12px;
+  position: absolute;
+  top: 49px;
+  width: 11px;
+}
+
+.premiere-connexion .trac-161 {
+  height: 26px;
+  left: 74px;
+  object-fit: cover;
+  position: absolute;
+  top: 37px;
+  width: 20px;
+}
+
+.premiere-connexion .trac-162 {
+  height: 18px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 35px;
+  width: 36px;
+}
+
+.premiere-connexion .group-container-4 {
+  height: 98px;
+  left: 26px;
+  position: absolute;
+  top: 0;
+  width: 404px;
+}
+
+.premiere-connexion .groupe-149 {
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 404px;
+}
+
+.premiere-connexion .groupe-148 {
+  display: flex;
+  width: 68.84px;
+}
+
+.premiere-connexion .groupe-147 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  min-width: 68.84px;
+}
+
+.premiere-connexion .groupe-container-2 {
+  align-self: flex-end;
+  height: 17px;
+  position: relative;
+  width: 17px;
+}
+
+.premiere-connexion .groupe-1 {
+  display: flex;
+  flex-direction: column;
+  height: 17px;
+  justify-content: space-between;
+  left: 7px;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+
+.premiere-connexion .groupe-132 {
+  background-image: url(../img/trac--166@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 7.49px;
+  max-height: 7.49px;
+}
+
+.premiere-connexion .groupe-1-1 {
+  background-image: url(../img/trac--166@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 7.49px;
+  max-height: 7.49px;
+}
+
+.premiere-connexion .groupe-1-2 {
+  display: flex;
+  height: 2px;
+  justify-content: space-between;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 17px;
+}
+
+.premiere-connexion .groupe-1-3 {
+  background-image: url(../img/trac--167@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 6.97px;
+}
+
+.premiere-connexion .groupe-136 {
+  background-image: url(../img/trac--178@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-right: 0;
+  width: 6.97px;
+}
+
+.premiere-connexion .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7px;
+  min-height: 44px;
+  width: 45px;
+}
+
+.premiere-connexion .groupe-container-3 {
+  align-items: center;
+  display: flex;
+  margin-left: 3.05px;
+  min-width: 42px;
+}
+
+.premiere-connexion .groupe-146 {
+  display: flex;
+  height: 17px;
+  width: 17px;
+}
+
+.premiere-connexion .groupe-145 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  min-width: 16.82px;
+}
+
+.premiere-connexion .groupe-container {
+  height: 17px;
+  position: relative;
+  width: 17px;
+}
+
+.premiere-connexion .groupe-1-4 {
+  background-image: url(../img/trac--165@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 7.49px;
+  max-height: 7.49px;
+}
+
+.premiere-connexion .groupe-140 {
+  background-image: url(../img/trac--165@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 7.49px;
+  margin-bottom: 0;
+  max-height: 7.49px;
+}
+
+.premiere-connexion .groupe-1-5 {
+  background-image: url(../img/trac--167@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 6.97px;
+}
+
+.premiere-connexion .groupe-130 {
+  background-image: url(../img/trac--173@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 15px;
+  margin-bottom: 0.01px;
+  margin-left: 10px;
+  width: 15px;
+}
+
+.premiere-connexion .groupe-131 {
+  background-image: url(../img/trac--174@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 15px;
+  margin-top: 13px;
+  width: 15px;
+}
+
+.premiere-connexion .groupe-129 {
+  display: flex;
+  margin-bottom: 0.9px;
+  margin-right: 0;
+  margin-top: 7.1px;
+  width: 90.23px;
+}
+
+.premiere-connexion .groupe-128 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100%;
+  width: 90.23px;
+}
+
+.premiere-connexion .groupe-container-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 28px;
+  margin-left: 0;
+  min-width: 80px;
+}
+
+.premiere-connexion .groupe-111 {
+  align-self: flex-end;
+  background-image: url(../img/trac--163@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 15px;
+  width: 15px;
+}
+
+.premiere-connexion .groupe-127 {
+  display: flex;
+  height: 17px;
+  margin-left: 19px;
+  margin-top: 0.41px;
+  width: 17px;
+}
+
+.premiere-connexion .groupe-126 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  min-width: 16.82px;
+}
+
+.premiere-connexion .groupe-120 {
+  background-image: url(../img/trac--169@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 7.49px;
+  max-height: 7.49px;
+}
+
+.premiere-connexion .groupe-121 {
+  background-image: url(../img/trac--170@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 7.49px;
+  max-height: 7.49px;
+}
+
+.premiere-connexion .groupe-124 {
+  background-image: url(../img/trac--172@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 6.97px;
+}
+
+.premiere-connexion .groupe-123 {
+  background-image: url(../img/trac--171@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 6.97px;
+}
+
+.premiere-connexion .groupe-112 {
+  background-image: url(../img/trac--164@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 15px;
+  margin-left: 14px;
+  width: 15px;
+}
+
+.premiere-connexion .groupe-container-5 {
+  align-self: flex-end;
+  height: 17px;
+  margin-top: 4px;
+  position: relative;
+  width: 17px;
+}
+
+.premiere-connexion .groupe-container-6 {
+  height: 98px;
+  left: 218px;
+  position: absolute;
+  top: 0;
+  width: 90px;
+}
+
+.premiere-connexion .groupe-152 {
+  display: flex;
+  height: 82px;
+  left: 38px;
+  position: absolute;
+  top: 17px;
+  width: 53px;
+}
+
+.premiere-connexion .groupe-150 {
+  background-image: url(../img/trac--183@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2.56px;
+  width: 3.99px;
+}
+
+.premiere-connexion .groupe-151 {
+  flex: 1;
+  margin-bottom: 0;
+  margin-left: 2.8px;
+  margin-right: 0;
+  margin-top: 3.0px;
+  object-fit: cover;
+}
+
+.premiere-connexion .groupe-154 {
+  display: flex;
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 45px;
+}
+
+.premiere-connexion .groupe-153 {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  min-width: 44.59px;
+}
+
+.premiere-connexion .trac-container-3 {
+  height: 28px;
+  margin-bottom: 0;
+  position: relative;
+  width: 45px;
+}
+
+.premiere-connexion .trac-194 {
+  height: 13px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 45px;
+}
+
+.premiere-connexion .trac-195 {
+  height: 19px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 41px;
+}
+
+.premiere-connexion .trac-196 {
+  height: 3px;
+  left: 37px;
+  object-fit: cover;
+  position: absolute;
+  top: 17px;
+  width: 4px;
+}
+
+.premiere-connexion .trac-197 {
+  height: 28px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 39px;
+}
+
+.premiere-connexion .groupe-157 {
+  background-image: url(../img/trac--198@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 18px;
+  left: 32px;
+  position: absolute;
+  top: 360px;
+  width: 457px;
+}
+
+.premiere-connexion .trac-199 {
+  flex: 1;
+  height: 8.9px;
+  margin-left: 0;
+  margin-right: 0;
+  object-fit: cover;
+}
+
+.premiere-connexion .overlap-group10 {
+  height: 111px;
+  left: 184px;
+  position: absolute;
+  top: 249px;
+  width: 150px;
+}
+
+.premiere-connexion .trac-200 {
+  height: 84px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+
+.premiere-connexion .rectangle-1 {
+  background-color: var(--black);
+  height: 27px;
+  left: 64px;
+  position: absolute;
+  top: 84px;
+  width: 23px;
+}
+
+.premiere-connexion .ellipse-1 {
+  background-color: #494949;
+  border-radius: 11.55px;
+  height: 23px;
+  left: 63px;
+  position: absolute;
+  top: 32px;
+  width: 23px;
+}
+
+.premiere-connexion .trac-201 {
+  height: 9px;
+  left: 45px;
+  object-fit: cover;
+  position: absolute;
+  top: 101px;
+  width: 60px;
+}
+
+.premiere-connexion .logo {
+  display: flex;
+  height: 81px;
+  left: 195px;
+  position: absolute;
+  top: 358px;
+  width: 371px;
+}
+
+.premiere-connexion .groupe-1-6 {
+  align-items: flex-end;
+  display: flex;
+  height: 62.6px;
+  justify-content: flex-end;
+  min-width: 61.81px;
+  padding: 0 0.0px;
+}
+
+.premiere-connexion .overlap-group-9 {
+  height: 63px;
+  margin-bottom: 0;
+  position: relative;
+  width: 62px;
+}
+
+.premiere-connexion .subtract-4 {
+  height: 26px;
+  left: 12px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 25px;
+}
+
+.premiere-connexion .subtract-5 {
+  height: 58px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 59px;
+}
+
+.premiere-connexion .ellipse-4-2 {
+  background-color: var(--yellow-orange);
+  border-radius: 7.79px;
+  height: 16px;
+  left: 43px;
+  position: absolute;
+  top: 44px;
+  transform: rotate(-41.90deg);
+  width: 16px;
+}
+
+.premiere-connexion .groupe-3-1 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 9.7px;
+  margin-top: 0;
+  min-height: 100%;
+}
+
+.premiere-connexion .insidepro {
+  height: 83px;
+  letter-spacing: -1.00px;
+  line-height: 191.3px;
+  margin-top: -76px;
+  white-space: nowrap;
+}
+
+.premiere-connexion .span1 {
+  color: var(--mango-tango);
+  font-family: var(--font-family-comfortaa);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.premiere-connexion .by-propulse-group {
+  color: var(--granite-gray);
+  font-family: var(--font-family-sansation-regular);
+  font-size: 8px;
+  letter-spacing: 6.88px;
+  line-height: 36.4px;
+  margin-left: 6.0px;
+  margin-top: 21px;
+  min-height: 13px;
+  min-width: 188px;
+  text-align: center;
+  white-space: nowrap;
+}

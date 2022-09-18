@@ -1,0 +1,3804 @@
+/* screen - achat-admin-4 */
+
+.achat-admin-4 {
+  align-items: flex-start;
+  background-color: var(--black-haze);
+  display: flex;
+  height: 1918px;
+  overflow: hidden;
+  width: 1675px;
+}
+
+.achat-admin-4 .sidebar {
+  align-items: flex-start;
+  display: flex;
+  margin-left: -11px;
+  margin-top: -18px;
+  min-width: 316px;
+}
+
+.achat-admin-4 .overlap-group3 {
+  height: 1989px;
+  position: relative;
+  width: 316px;
+}
+
+.achat-admin-4 .rectangle-sidebar {
+  height: 1989px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 314px;
+}
+
+.achat-admin-4 .dashboard-active {
+  display: flex;
+  height: 26px;
+  left: 50px;
+  position: absolute;
+  top: 229px;
+  width: 194px;
+}
+
+.achat-admin-4 .x012-home {
+  background-image: url(../img/vector-1057@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-bottom: 2.5px;
+  margin-left: 0;
+  margin-top: 0;
+  width: 21px;
+}
+
+.achat-admin-4 .dashboard-1 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -2px;
+  margin-left: 15.5px;
+  margin-right: -2.0px;
+  margin-top: 1.8px;
+}
+
+.achat-admin-4 .contacts {
+  display: flex;
+  height: 46px;
+  left: 50px;
+  position: absolute;
+  top: 630px;
+  width: 247px;
+}
+
+.achat-admin-4 .contacts-1 {
+  display: flex;
+  flex: 1;
+  width: 247.42px;
+}
+
+.achat-admin-4 .group-4 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  width: 247.42px;
+}
+
+.achat-admin-4 .group-1 {
+  display: flex;
+  width: 157.67px;
+}
+
+.achat-admin-4 .x036-social {
+  background-image: url(../img/vector-1059@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 23.93px;
+  margin-left: 0;
+  margin-top: 0;
+  width: 23.33px;
+}
+
+.achat-admin-4 .dashboard-2 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -2.0px;
+  margin-left: 19.3px;
+  margin-right: -2.0px;
+  margin-top: 3.7px;
+}
+
+.achat-admin-4 .grille-de-rptition-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 5.26px;
+  margin-right: -2.0px;
+  margin-top: -1.7px;
+  min-width: 9.27px;
+  opacity: 0.71;
+  padding: 0 2.0px;
+  transform: rotate(-90deg);
+}
+
+.achat-admin-4 .icon-feather-chevron-down {
+  height: 9px;
+  margin-top: -2.0px;
+  object-fit: cover;
+  transform: rotate(90deg);
+  width: 5px;
+}
+
+.achat-admin-4 .invoicing {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  height: 245px;
+  justify-content: space-between;
+  left: 0;
+  position: absolute;
+  top: 311px;
+  width: 311px;
+}
+
+.achat-admin-4 .invoicing-1 {
+  display: flex;
+  height: 42px;
+  margin-right: 23.0px;
+  width: 237.33px;
+}
+
+.achat-admin-4 .group-7 {
+  display: flex;
+  flex: 1;
+  width: 237.33px;
+}
+
+.achat-admin-4 .group-1-1 {
+  display: flex;
+  flex: 1;
+  width: 239.33px;
+}
+
+.achat-admin-4 .x011-file {
+  background-image: url(../img/vector-1064@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 23.33px;
+  margin-top: 1.3px;
+  width: 18.67px;
+}
+
+.achat-admin-4 .dashboard-3 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -2px;
+  margin-left: 21.7px;
+  margin-right: -2.0px;
+}
+
+.achat-admin-4 .rectangle-49 {
+  background-color: var(--seashell-peach);
+  border-radius: 0px 50px 50px 0px;
+  flex: 1;
+  height: 69px;
+  max-height: 69px;
+}
+
+.achat-admin-4 .calendar {
+  display: flex;
+  height: 42px;
+  left: 50px;
+  position: absolute;
+  top: 383px;
+  width: 220px;
+}
+
+.achat-admin-4 .calendar-1 {
+  display: flex;
+  flex: 1;
+  width: 220.5px;
+}
+
+.achat-admin-4 .group-12 {
+  display: flex;
+  flex: 1;
+  width: 220.5px;
+}
+
+.achat-admin-4 .group-1-2 {
+  display: flex;
+  flex: 1;
+  width: 222.5px;
+}
+
+.achat-admin-4 .x003-date {
+  background-image: url(../img/vector-1169@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 22.17px;
+  margin-left: 0;
+  margin-top: 1.3px;
+  width: 21.0px;
+}
+
+.achat-admin-4 .dashboard-4 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -2px;
+  margin-left: 20.5px;
+  margin-right: -2.0px;
+}
+
+.achat-admin-4 .overlap-group1-1 {
+  height: 45px;
+  left: 50px;
+  position: absolute;
+  top: 448px;
+  width: 266px;
+}
+
+.achat-admin-4 .calendar-2 {
+  display: flex;
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 266px;
+}
+
+.achat-admin-4 .group-12-1 {
+  display: flex;
+  flex: 1;
+  width: 265.5px;
+}
+
+.achat-admin-4 .group-1-3 {
+  display: flex;
+  flex: 1;
+  width: 267.5px;
+}
+
+.achat-admin-4 .x007-edit {
+  align-items: center;
+  display: flex;
+  height: 21px;
+  margin-left: 0;
+  margin-top: 0;
+  min-width: 21px;
+  padding: 0 0.0px;
+}
+
+.achat-admin-4 .vector-container-3 {
+  height: 21px;
+  position: relative;
+  width: 21px;
+}
+
+.achat-admin-4 .vector-8 {
+  height: 16px;
+  left: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.achat-admin-4 .vector-9 {
+  height: 21px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 21px;
+}
+
+.achat-admin-4 .dashboard-5 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -2.0px;
+  margin-left: 20.5px;
+  margin-right: -2.0px;
+  margin-top: 2.5px;
+}
+
+.achat-admin-4 .icon-feather-chevron-down-1 {
+  height: 9px;
+  left: 243px;
+  object-fit: cover;
+  position: absolute;
+  top: 12px;
+  width: 5px;
+}
+
+.achat-admin-4 .footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 41px;
+  min-height: 93px;
+  position: absolute;
+  top: 1822px;
+  width: 257px;
+}
+
+.achat-admin-4 .x2021-all-rights-reserved {
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-right: 10.0px;
+  margin-top: -3px;
+  text-align: center;
+  white-space: nowrap;
+  width: 172px;
+}
+
+.achat-admin-4 .unicos-modern-dashboard {
+  align-self: flex-end;
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 236px;
+}
+
+.achat-admin-4 .x2021-all-rights-reserved-1 {
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-right: 10.0px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 172px;
+}
+
+.achat-admin-4 .made-with-by-peterdraw {
+  align-self: flex-start;
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: 4px;
+  text-align: center;
+  white-space: nowrap;
+  width: 247px;
+}
+
+.achat-admin-4 .banking {
+  display: flex;
+  height: 42px;
+  left: 50px;
+  position: absolute;
+  top: 510px;
+  width: 203px;
+}
+
+.achat-admin-4 .banking-1 {
+  display: flex;
+  flex: 1;
+  width: 202.67px;
+}
+
+.achat-admin-4 .group-8 {
+  display: flex;
+  flex: 1;
+  width: 202.67px;
+}
+
+.achat-admin-4 .group-1-4 {
+  display: flex;
+  flex: 1;
+  width: 204.67px;
+}
+
+.achat-admin-4 .x040-wallet {
+  background-image: url(../img/vector-1289@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 21px;
+  margin-left: 0;
+  margin-top: 1.5px;
+  width: 23.33px;
+}
+
+.achat-admin-4 .dashboard {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -2px;
+  margin-left: 19.3px;
+  margin-right: -2.0px;
+}
+
+.achat-admin-4 .crypto {
+  display: flex;
+  height: 42px;
+  left: 50px;
+  position: absolute;
+  top: 570px;
+  width: 183px;
+}
+
+.achat-admin-4 .crypto-1 {
+  display: flex;
+  flex: 1;
+  width: 182.67px;
+}
+
+.achat-admin-4 .group-5 {
+  display: flex;
+  flex: 1;
+  width: 182.67px;
+}
+
+.achat-admin-4 .group-1-5 {
+  display: flex;
+  flex: 1;
+  width: 184.67px;
+}
+
+.achat-admin-4 .x005-dollar {
+  align-items: center;
+  display: flex;
+  height: 23.33px;
+  justify-content: flex-end;
+  margin-left: 0;
+  margin-top: 0.3px;
+  min-width: 23.33px;
+}
+
+.achat-admin-4 .vector-container-4 {
+  height: 23px;
+  position: relative;
+  width: 23px;
+}
+
+.achat-admin-4 .vector-10 {
+  height: 14px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 7px;
+}
+
+.achat-admin-4 .vector-11 {
+  height: 23px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.achat-admin-4 .icon-open-menu {
+  height: 13px;
+  left: 28px;
+  object-fit: cover;
+  position: absolute;
+  top: 91px;
+  width: 14px;
+}
+
+.achat-admin-4 .logo {
+  display: flex;
+  height: 81px;
+  left: 60px;
+  position: absolute;
+  top: 78px;
+  width: 238px;
+}
+
+.achat-admin-4 .groupe-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 50.64px;
+  justify-content: flex-end;
+  margin-left: 0;
+  margin-top: 0;
+  min-width: 50px;
+  padding: 0.0px 0;
+}
+
+.achat-admin-4 .overlap-group-6 {
+  height: 51px;
+  position: relative;
+  width: 50px;
+}
+
+.achat-admin-4 .subtract {
+  height: 21px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 20px;
+}
+
+.achat-admin-4 .subtract-1 {
+  height: 47px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 48px;
+}
+
+.achat-admin-4 .ellipse-4 {
+  background-color: var(--yellow-orange);
+  border-radius: 6.3px;
+  height: 13px;
+  left: 35px;
+  position: absolute;
+  top: 35px;
+  transform: rotate(-41.90deg);
+  width: 13px;
+}
+
+.achat-admin-4 .groupe-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 0;
+  margin-left: 4.5px;
+  margin-right: 0;
+  min-height: 100%;
+}
+
+.achat-admin-4 .insidepro {
+  height: 83px;
+  letter-spacing: -0.75px;
+  line-height: 191.3px;
+  margin-top: -81px;
+  white-space: nowrap;
+}
+
+.achat-admin-4 .by-propulse-group {
+  letter-spacing: 5.16px;
+  line-height: 36.4px;
+  margin-left: 4.0px;
+  margin-top: 16px;
+  min-height: 10px;
+  min-width: 142px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.achat-admin-4 .file-manager {
+  display: flex;
+  height: 110px;
+  left: 52px;
+  position: absolute;
+  top: 696px;
+  width: 247px;
+}
+
+.achat-admin-4 .file-manager-1 {
+  display: flex;
+  flex: 1;
+  width: 246.67px;
+}
+
+.achat-admin-4 .group-10 {
+  display: flex;
+  flex: 1;
+  width: 246.67px;
+}
+
+.achat-admin-4 .group-1-6 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  min-width: 248.67px;
+}
+
+.achat-admin-4 .x014-folder {
+  background-image: url(../img/vector-1078@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 21px;
+  margin-top: 4.5px;
+  width: 23px;
+}
+
+.achat-admin-4 .dashboard-container {
+  height: 104px;
+  margin-left: 19px;
+  position: relative;
+  width: 206px;
+}
+
+.achat-admin-4 .dashboard-6 {
+  height: 44px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 0;
+  width: 126px;
+}
+
+.achat-admin-4 .dashboard-7 {
+  height: 93px;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 12px;
+  width: 202px;
+}
+
+.achat-admin-4 .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  margin-top: 52px;
+  min-height: 1760px;
+  width: 1296px;
+}
+
+.achat-admin-4 .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 65px;
+  min-width: 1291px;
+}
+
+.achat-admin-4 .flex-col-1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 60px;
+  width: 649px;
+}
+
+.achat-admin-4 .dashboard-8 {
+  height: 27px;
+  letter-spacing: 0;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.achat-admin-4 .flex-row-1 {
+  align-items: center;
+  display: flex;
+  height: 25px;
+  margin-left: 1px;
+  margin-top: 8px;
+  min-width: 648px;
+}
+
+.achat-admin-4 .vector-smart-object {
+  display: flex;
+  height: 23px;
+  width: 24px;
+}
+
+.achat-admin-4 .groupe-5 {
+  display: flex;
+  flex: 1;
+  width: 24px;
+}
+
+.achat-admin-4 .groupe-4 {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  width: 24px;
+}
+
+.achat-admin-4 .groupe-3-1 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  margin-bottom: 3.1px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 3.4px;
+  min-width: 24px;
+  opacity: 0.5;
+}
+
+.achat-admin-4 .trac-container {
+  height: 17px;
+  margin-top: 0;
+  position: relative;
+  width: 10px;
+}
+
+.achat-admin-4 .trac-91 {
+  height: 8px;
+  left: 7px;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 3px;
+}
+
+.achat-admin-4 .trac-93 {
+  height: 12px;
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 4px;
+}
+
+.achat-admin-4 .trac-96 {
+  height: 17px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.achat-admin-4 .trac-90 {
+  align-self: center;
+  height: 3px;
+  margin-bottom: 0.01px;
+  object-fit: cover;
+  width: 3px;
+}
+
+.achat-admin-4 .trac-92 {
+  height: 8px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 3px;
+}
+
+.achat-admin-4 .trac-94 {
+  height: 12px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 4px;
+}
+
+.achat-admin-4 .trac-95 {
+  height: 17px;
+  left: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.achat-admin-4 .hello-thomas-welcome-to-galucter {
+  letter-spacing: -0.16px;
+  line-height: 16px;
+  margin-left: 10px;
+  min-height: 25px;
+  opacity: 0.6;
+  width: 614px;
+}
+
+.achat-admin-4 .menu-notif {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 418px;
+  min-width: 224px;
+}
+
+.achat-admin-4 .icon-feather-search {
+  align-items: flex-start;
+  display: flex;
+  height: 26px;
+  justify-content: flex-end;
+  margin-top: 6.0px;
+  min-width: 26px;
+}
+
+.achat-admin-4 .trac-container-1 {
+  height: 29px;
+  margin-top: -1.0px;
+  position: relative;
+  width: 29px;
+}
+
+.achat-admin-4 .trac-560 {
+  height: 25px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.achat-admin-4 .trac-561 {
+  height: 9px;
+  left: 19px;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: 9px;
+}
+
+.achat-admin-4 .icon-feather-mail {
+  align-items: flex-start;
+  display: flex;
+  height: 23px;
+  margin-left: 40px;
+  margin-top: 2.0px;
+  min-width: 29px;
+}
+
+.achat-admin-4 .trac-container-2 {
+  height: 25px;
+  margin-left: -1px;
+  margin-top: -1.0px;
+  position: relative;
+  width: 32px;
+}
+
+.achat-admin-4 .trac-558 {
+  height: 25px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 31px;
+}
+
+.achat-admin-4 .trac-559 {
+  height: 13px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 32px;
+}
+
+.achat-admin-4 .icon-notification {
+  display: flex;
+  height: 31px;
+  margin-left: 30px;
+  margin-top: 3.0px;
+  width: 26px;
+}
+
+.achat-admin-4 .vector-smart-object-1 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  min-width: 25.56px;
+}
+
+.achat-admin-4 .overlap-group-7 {
+  height: 33px;
+  margin-left: -1px;
+  margin-top: -1.02px;
+  position: relative;
+  width: 28px;
+}
+
+.achat-admin-4 .trac-88 {
+  height: 27px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 26px;
+}
+
+.achat-admin-4 .trac-89 {
+  height: 8px;
+  left: 7px;
+  object-fit: cover;
+  position: absolute;
+  top: 25px;
+  width: 12px;
+}
+
+.achat-admin-4 .ellipse-1 {
+  background: linear-gradient(24.88deg, #ff0000 141845.66%, #fcba59 165027.1%);
+  border-radius: 6.2px/5.96px;
+  height: 14px;
+  left: 13px;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.achat-admin-4 .ellipse-7 {
+  border-radius: 23.5px/24px;
+  height: 48px;
+  margin-left: 25px;
+  object-fit: cover;
+  width: 47px;
+}
+
+.achat-admin-4 .flex-col-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1px;
+  margin-top: 61px;
+  min-height: 1634px;
+  width: 1295px;
+}
+
+.achat-admin-4 .tab-de-haut {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 15px;
+  display: flex;
+  height: 107px;
+  justify-content: space-between;
+  margin-right: 4.0px;
+  width: 1279px;
+}
+
+.achat-admin-4 .summary {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: -29.4px;
+  margin-left: 122px;
+  min-width: 771px;
+}
+
+.achat-admin-4 .total-clients {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  width: 138px;
+}
+
+.achat-admin-4 .icon {
+  align-items: flex-start;
+  background-color: var(--narvik);
+  border-radius: 24px;
+  display: flex;
+  min-width: 60px;
+  padding: 19.5px 20.8px;
+}
+
+.achat-admin-4 .icon-awesome-calendar-check {
+  height: 20px;
+  object-fit: cover;
+  width: 18px;
+}
+
+.achat-admin-4 .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2.6px;
+  margin-top: 2.4px;
+  width: 60px;
+}
+
+.achat-admin-4 .accepter {
+  flex: 1;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-right: -2px;
+  margin-top: -20px;
+  max-height: 22px;
+  white-space: nowrap;
+}
+
+.achat-admin-4 .number {
+  height: 34px;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-bottom: 12px;
+  white-space: nowrap;
+  width: 41px;
+}
+
+.achat-admin-4 .sale {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  margin-left: 193px;
+  width: 126px;
+}
+
+.achat-admin-4 .icon-1 {
+  align-items: flex-start;
+  background-color: var(--chablis);
+  border-radius: 24px;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 60px;
+  padding: 18.7px 18.7px;
+}
+
+.achat-admin-4 .icon-material-cancel {
+  height: 22px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.achat-admin-4 .text-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2.6px;
+  margin-top: 2.4px;
+  width: 48px;
+}
+
+.achat-admin-4 .rejeter {
+  flex: 1;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-right: -2px;
+  margin-top: -20px;
+  max-height: 22px;
+  white-space: nowrap;
+}
+
+.achat-admin-4 .project {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  margin-left: 167px;
+  width: 147px;
+}
+
+.achat-admin-4 .icon-2 {
+  align-items: flex-start;
+  background-color: var(--buttery-white);
+  border-radius: 24px;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 60px;
+  padding: 13.7px 13.7px;
+}
+
+.achat-admin-4 .icon-feather-loader {
+  align-items: flex-start;
+  display: flex;
+  height: 31px;
+  min-width: 31px;
+}
+
+.achat-admin-4 .flex-row-2 {
+  align-items: center;
+  display: flex;
+  height: 33px;
+  margin-left: -1px;
+  margin-top: -0.83px;
+  min-width: 17px;
+}
+
+.achat-admin-4 .trac-container-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  min-height: 25px;
+  width: 11px;
+}
+
+.achat-admin-4 .trac-567 {
+  height: 7px;
+  margin-left: 4.24px;
+  object-fit: cover;
+  width: 7px;
+}
+
+.achat-admin-4 .trac-569 {
+  height: 2px;
+  margin-top: 5px;
+  object-fit: cover;
+  width: 8px;
+}
+
+.achat-admin-4 .trac-571 {
+  height: 7px;
+  margin-left: 4.24px;
+  margin-top: 5px;
+  object-fit: cover;
+  width: 7px;
+}
+
+.achat-admin-4 .trac-container-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  min-height: 33px;
+  width: 2px;
+}
+
+.achat-admin-4 .trac-565 {
+  height: 8px;
+  object-fit: cover;
+  width: 2px;
+}
+
+.achat-admin-4 .trac-566 {
+  height: 8px;
+  margin-top: 17px;
+  object-fit: cover;
+  width: 2px;
+}
+
+.achat-admin-4 .trac-container-5 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  margin-left: 5px;
+  min-height: 25px;
+  width: 11px;
+}
+
+.achat-admin-4 .trac-572 {
+  height: 7px;
+  object-fit: cover;
+  width: 7px;
+}
+
+.achat-admin-4 .trac-570 {
+  height: 2px;
+  margin-left: 3.1px;
+  margin-top: 5px;
+  object-fit: cover;
+  width: 8px;
+}
+
+.achat-admin-4 .trac-568 {
+  height: 7px;
+  margin-top: 5px;
+  object-fit: cover;
+  width: 7px;
+}
+
+.achat-admin-4 .text-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2.6px;
+  margin-top: 2.4px;
+  width: 69px;
+}
+
+.achat-admin-4 .en-attente {
+  flex: 1;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-right: -2px;
+  margin-top: -20px;
+  max-height: 22px;
+  white-space: nowrap;
+}
+
+.achat-admin-4 .number-6 {
+  height: 34px;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-bottom: 12px;
+  white-space: nowrap;
+  width: 15px;
+}
+
+.achat-admin-4 .project-1 {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  margin-bottom: -29.4px;
+  margin-right: 57px;
+  width: 187px;
+}
+
+.achat-admin-4 .icon-3 {
+  align-items: flex-start;
+  background-color: var(--tutu);
+  border-radius: 24px;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 60px;
+  padding: 18.6px 15.0px;
+}
+
+.achat-admin-4 .icon-awesome-credit-card {
+  height: 20px;
+  object-fit: cover;
+  width: 26px;
+}
+
+.achat-admin-4 .text-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2.6px;
+  margin-top: 2.4px;
+  width: 109px;
+}
+
+.achat-admin-4 .nombre-dachat {
+  flex: 1;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-right: -2px;
+  margin-top: -20px;
+  max-height: 22px;
+  white-space: nowrap;
+}
+
+.achat-admin-4 .number-7 {
+  height: 34px;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-bottom: 12px;
+  white-space: nowrap;
+  width: 28px;
+}
+
+.achat-admin-4 .overlap-group13 {
+  height: 449px;
+  margin-left: 6.0px;
+  margin-top: 53px;
+  position: relative;
+  width: 1289px;
+}
+
+.achat-admin-4 .overlap-group12 {
+  height: 449px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1291px;
+}
+
+.achat-admin-4 .rectangle-345 {
+  background-color: var(--white);
+  border-radius: 12px;
+  height: 449px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1286px;
+}
+
+.achat-admin-4 .elemt-graph {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 31px;
+  min-height: 257px;
+  position: absolute;
+  top: 89px;
+  width: 1260px;
+}
+
+.achat-admin-4 .flex-row-3 {
+  align-items: flex-end;
+  display: flex;
+  margin-top: -3px;
+  min-width: 1211px;
+}
+
+.achat-admin-4 .overlap-group4 {
+  height: 222px;
+  position: relative;
+  width: 110px;
+}
+
+.achat-admin-4 .element-gra-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 205px;
+  left: 50px;
+  min-width: 60px;
+  position: absolute;
+  top: 13px;
+}
+
+.achat-admin-4 .groupe-918 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 10px;
+}
+
+.achat-admin-4 .overlap-group {
+  height: 205px;
+  position: relative;
+  width: 10px;
+}
+
+.achat-admin-4 .gris-2 {
+  background-color: var(--cararra-2);
+  border-radius: 115px;
+  height: 157px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+
+.achat-admin-4 .vert {
+  background-color: var(--green);
+  border-radius: 115px;
+  height: 157px;
+  left: 0;
+  position: absolute;
+  top: 48px;
+  width: 10px;
+}
+
+.achat-admin-4 .groupe-9 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 6px;
+  min-width: 11px;
+}
+
+.achat-admin-4 .overlap-group-1 {
+  height: 205px;
+  position: relative;
+  width: 11px;
+}
+
+.achat-admin-4 .gris {
+  background-color: var(--cararra-2);
+  border-radius: 115px;
+  height: 157px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.achat-admin-4 .rectangle-347 {
+  background-color: var(--blaze-orange);
+  border-radius: 115px;
+  height: 80px;
+  left: 0;
+  position: absolute;
+  top: 125px;
+  width: 11px;
+}
+
+.achat-admin-4 .rectangle-347-1 {
+  background-color: var(--robins-egg-blue);
+  border-radius: 115px;
+  height: 182px;
+  left: 0;
+  position: absolute;
+  top: 23px;
+  width: 11px;
+}
+
+.achat-admin-4 .groupe-921 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 5px;
+  min-width: 11px;
+}
+
+.achat-admin-4 .rectangle-347-2 {
+  background-color: var(--yellow-orange-2);
+  border-radius: 115px;
+  height: 121px;
+  left: 0;
+  position: absolute;
+  top: 84px;
+  width: 11px;
+}
+
+.achat-admin-4 .text-2-1 {
+  color: #808080;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 300;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  width: 71px;
+}
+
+.achat-admin-4 .element-gra-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 4px;
+  margin-left: 33px;
+  min-width: 60px;
+}
+
+.achat-admin-4 .vert-1 {
+  background-color: var(--green);
+  border-radius: 115px;
+  height: 83px;
+  left: 0;
+  position: absolute;
+  top: 122px;
+  width: 10px;
+}
+
+.achat-admin-4 .rectangle-347-3 {
+  background-color: var(--blaze-orange);
+  border-radius: 115px;
+  height: 63px;
+  left: 0;
+  position: absolute;
+  top: 142px;
+  width: 11px;
+}
+
+.achat-admin-4 .rectangle-347-4 {
+  background-color: var(--robins-egg-blue);
+  border-radius: 115px;
+  height: 81px;
+  left: 0;
+  position: absolute;
+  top: 124px;
+  width: 11px;
+}
+
+.achat-admin-4 .rectangle-347-5 {
+  background-color: var(--yellow-orange-2);
+  border-radius: 115px;
+  height: 92px;
+  left: 0;
+  position: absolute;
+  top: 113px;
+  width: 11px;
+}
+
+.achat-admin-4 .element-gra-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 4px;
+  margin-left: 41px;
+  min-width: 60px;
+}
+
+.achat-admin-4 .element-gra-4 {
+  align-items: flex-end;
+  display: flex;
+  margin-bottom: 4px;
+  margin-left: 38px;
+  min-width: 60px;
+}
+
+.achat-admin-4 .vert-2 {
+  background-color: var(--green);
+  border-radius: 115px;
+  height: 180px;
+  left: 0;
+  position: absolute;
+  top: 25px;
+  width: 10px;
+}
+
+.achat-admin-4 .overlap-group2 {
+  height: 128px;
+  position: relative;
+  width: 11px;
+}
+
+.achat-admin-4 .gris-1 {
+  background-color: var(--cararra-2);
+  border-radius: 115px;
+  height: 80px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.achat-admin-4 .rectangle-347-6 {
+  background-color: var(--robins-egg-blue);
+  border-radius: 115px;
+  height: 105px;
+  left: 0;
+  position: absolute;
+  top: 23px;
+  width: 11px;
+}
+
+.achat-admin-4 .rectangle-347-7 {
+  background-color: var(--yellow-orange-2);
+  border-radius: 115px;
+  height: 141px;
+  left: 0;
+  position: absolute;
+  top: 64px;
+  width: 11px;
+}
+
+.achat-admin-4 .element-gra {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 4px;
+  margin-left: 37px;
+  min-width: 60px;
+}
+
+.achat-admin-4 .vert-3 {
+  background-color: var(--green);
+  border-radius: 115px;
+  height: 68px;
+  left: 0;
+  position: absolute;
+  top: 137px;
+  width: 10px;
+}
+
+.achat-admin-4 .rectangle-347-8 {
+  background-color: var(--yellow-orange-2);
+  border-radius: 115px;
+  height: 197px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 11px;
+}
+
+.achat-admin-4 .vert-4 {
+  background-color: var(--green);
+  border-radius: 115px;
+  height: 187px;
+  left: 0;
+  position: absolute;
+  top: 18px;
+  width: 10px;
+}
+
+.achat-admin-4 .rectangle-347-9 {
+  background-color: var(--blaze-orange);
+  border-radius: 115px;
+  height: 151px;
+  left: 0;
+  position: absolute;
+  top: 54px;
+  width: 11px;
+}
+
+.achat-admin-4 .rectangle-347-10 {
+  background-color: var(--robins-egg-blue);
+  border-radius: 115px;
+  height: 117px;
+  left: 0;
+  position: absolute;
+  top: 88px;
+  width: 11px;
+}
+
+.achat-admin-4 .rectangle-347-11 {
+  background-color: var(--yellow-orange-2);
+  border-radius: 115px;
+  height: 61px;
+  left: 0;
+  position: absolute;
+  top: 144px;
+  width: 11px;
+}
+
+.achat-admin-4 .element-gra-5 {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 4px;
+  margin-left: 39px;
+  min-width: 60px;
+}
+
+.achat-admin-4 .vert-5 {
+  background-color: var(--green);
+  border-radius: 115px;
+  height: 57px;
+  left: 0;
+  position: absolute;
+  top: 148px;
+  width: 10px;
+}
+
+.achat-admin-4 .rectangle-347-12 {
+  background-color: var(--blaze-orange);
+  border-radius: 115px;
+  height: 193px;
+  left: 0;
+  position: absolute;
+  top: 12px;
+  width: 11px;
+}
+
+.achat-admin-4 .rectangle-347-13 {
+  background-color: var(--yellow-orange-2);
+  border-radius: 115px;
+  height: 194px;
+  left: 0;
+  position: absolute;
+  top: 11px;
+  width: 11px;
+}
+
+.achat-admin-4 .element-gra-6 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 4px;
+  margin-left: 36px;
+  min-width: 60px;
+}
+
+.achat-admin-4 .gris-2-1 {
+  background-color: var(--cararra-2);
+  border-radius: 115px;
+  height: 181px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+
+.achat-admin-4 .vert-6 {
+  background-color: var(--green);
+  border-radius: 115px;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 157px;
+  width: 10px;
+}
+
+.achat-admin-4 .gris-3 {
+  background-color: var(--cararra-2);
+  border-radius: 115px;
+  height: 203px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.achat-admin-4 .rectangle-347-14 {
+  background-color: var(--robins-egg-blue);
+  border-radius: 115px;
+  height: 192px;
+  left: 0;
+  position: absolute;
+  top: 13px;
+  width: 11px;
+}
+
+.achat-admin-4 .rectangle-347-15 {
+  background-color: var(--yellow-orange-2);
+  border-radius: 115px;
+  height: 59px;
+  left: 0;
+  position: absolute;
+  top: 146px;
+  width: 11px;
+}
+
+.achat-admin-4 .element-gra-7 {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 4px;
+  margin-left: 40px;
+  min-width: 60px;
+}
+
+.achat-admin-4 .rectangle-347-16 {
+  background-color: var(--blaze-orange);
+  border-radius: 115px;
+  height: 127px;
+  left: 0;
+  position: absolute;
+  top: 78px;
+  width: 11px;
+}
+
+.achat-admin-4 .element-gra-8 {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 4px;
+  margin-left: 45px;
+  min-width: 60px;
+}
+
+.achat-admin-4 .vert-7 {
+  background-color: var(--green);
+  border-radius: 115px;
+  height: 114px;
+  left: 0;
+  position: absolute;
+  top: 91px;
+  width: 10px;
+}
+
+.achat-admin-4 .rectangle-347-17 {
+  background-color: var(--robins-egg-blue);
+  border-radius: 115px;
+  height: 135px;
+  left: 0;
+  position: absolute;
+  top: 70px;
+  width: 11px;
+}
+
+.achat-admin-4 .rectangle-347-18 {
+  background-color: var(--yellow-orange-2);
+  border-radius: 115px;
+  height: 159px;
+  left: 0;
+  position: absolute;
+  top: 46px;
+  width: 11px;
+}
+
+.achat-admin-4 .element-gra-9 {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 4px;
+  margin-left: 44px;
+  min-width: 60px;
+}
+
+.achat-admin-4 .vert-8 {
+  background-color: var(--green);
+  border-radius: 115px;
+  height: 122px;
+  left: 0;
+  position: absolute;
+  top: 83px;
+  width: 10px;
+}
+
+.achat-admin-4 .rectangle-347-19 {
+  background-color: var(--blaze-orange);
+  border-radius: 115px;
+  height: 140px;
+  left: 0;
+  position: absolute;
+  top: 65px;
+  width: 11px;
+}
+
+.achat-admin-4 .element-gra-10 {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 4px;
+  margin-left: 51px;
+  min-width: 60px;
+}
+
+.achat-admin-4 .vert-9 {
+  background-color: var(--green);
+  border-radius: 115px;
+  height: 102px;
+  left: 0;
+  position: absolute;
+  top: 103px;
+  width: 10px;
+}
+
+.achat-admin-4 .rectangle-347-20 {
+  background-color: var(--blaze-orange);
+  border-radius: 115px;
+  height: 121px;
+  left: 0;
+  position: absolute;
+  top: 84px;
+  width: 11px;
+}
+
+.achat-admin-4 .rectangle-347-21 {
+  background-color: var(--robins-egg-blue);
+  border-radius: 115px;
+  height: 133px;
+  left: 0;
+  position: absolute;
+  top: 72px;
+  width: 11px;
+}
+
+.achat-admin-4 .janvier-fvri {
+  align-self: flex-end;
+  color: var(--delta-2);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: 15px;
+  min-height: 25px;
+  width: 1210px;
+}
+
+.achat-admin-4 .entete {
+  align-items: flex-start;
+  display: flex;
+  height: 20px;
+  left: 252px;
+  min-width: 742px;
+  position: absolute;
+  top: 393px;
+}
+
+.achat-admin-4 .groupe-922 {
+  display: flex;
+  height: 20px;
+  width: 116px;
+}
+
+.achat-admin-4 .rectangle-382 {
+  background-color: var(--robins-egg-blue);
+  margin-bottom: 2px;
+  margin-top: 2px;
+  width: 16px;
+}
+
+.achat-admin-4 .logiciel {
+  flex: 1;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 6px;
+  margin-right: -2px;
+  width: 94px;
+}
+
+.achat-admin-4 .groupe-923 {
+  display: flex;
+  height: 20px;
+  margin-left: 54px;
+  width: 117px;
+}
+
+.achat-admin-4 .rectangle-382-1 {
+  background-color: var(--yellow-orange-2);
+  margin-bottom: 2px;
+  margin-top: 2px;
+  width: 16px;
+}
+
+.achat-admin-4 .formation {
+  flex: 1;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 7px;
+  margin-right: -2px;
+  width: 94px;
+}
+
+.achat-admin-4 .groupe-924 {
+  display: flex;
+  height: 20px;
+  margin-left: 51px;
+  width: 208px;
+}
+
+.achat-admin-4 .rectangle-382-2 {
+  background-color: var(--green);
+  margin-bottom: 2px;
+  margin-top: 2px;
+  width: 16px;
+}
+
+.achat-admin-4 .matriel-informatique {
+  flex: 1;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 6px;
+  margin-right: -2px;
+  width: 186px;
+}
+
+.achat-admin-4 .groupe-925 {
+  display: flex;
+  height: 20px;
+  margin-left: 35px;
+  width: 163px;
+}
+
+.achat-admin-4 .rectangle-382-3 {
+  background-color: var(--blaze-orange);
+  margin-bottom: 2px;
+  margin-top: 2px;
+  width: 16px;
+}
+
+.achat-admin-4 .matriel-de-bureau {
+  flex: 1;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 6px;
+  margin-right: -2px;
+  width: 141px;
+}
+
+.achat-admin-4 .total-candidates {
+  height: 28px;
+  left: 52px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 26px;
+  width: 393px;
+}
+
+.achat-admin-4 .icon-feather-menu {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 1241px;
+  min-height: 10px;
+  position: absolute;
+  top: 24px;
+  width: 15px;
+}
+
+.achat-admin-4 .trac-579 {
+  height: 2px;
+  margin-left: -0.83px;
+  object-fit: cover;
+  width: 17px;
+}
+
+.achat-admin-4 .trac-5 {
+  height: 2px;
+  margin-left: -0.83px;
+  margin-top: 3px;
+  object-fit: cover;
+  width: 17px;
+}
+
+.achat-admin-4 .overlap-group5 {
+  height: 62px;
+  left: 122px;
+  position: absolute;
+  top: 118px;
+  width: 165px;
+}
+
+.achat-admin-4 .rectangle-383 {
+  background-color: var(--white);
+  border-radius: 3px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 59px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 126px;
+}
+
+.achat-admin-4 .rectangle-384 {
+  background-color: #f2f2f2;
+  border-radius: 2px;
+  height: 23px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 126px;
+}
+
+.achat-admin-4 .fevrier {
+  color: #808080;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 67px;
+}
+
+.achat-admin-4 .ellipse-8 {
+  background-color: var(--robins-egg-blue);
+  border-radius: 6.5px;
+  height: 13px;
+  left: 10px;
+  position: absolute;
+  top: 38px;
+  width: 13px;
+}
+
+.achat-admin-4 .logiciel-425 {
+  color: #6e6e6e;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 30px;
+  white-space: nowrap;
+  width: 137px;
+}
+
+.achat-admin-4 .ux-cp {
+  height: 62px;
+  left: 1175px;
+  object-fit: cover;
+  position: absolute;
+  top: 41px;
+  width: 88px;
+}
+
+.achat-admin-4 .overlap-group11 {
+  height: 463px;
+  margin-right: 3.0px;
+  margin-top: 49px;
+  position: relative;
+  width: 1292px;
+}
+
+.achat-admin-4 .rectangle-55 {
+  background-color: var(--white);
+  border-radius: 15px;
+  height: 463px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 923px;
+}
+
+.achat-admin-4 .groupe-914 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 23px;
+  min-height: 347px;
+  position: absolute;
+  top: 29px;
+  width: 881px;
+}
+
+.achat-admin-4 .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 34px;
+  margin-right: 1.0px;
+  min-width: 854px;
+}
+
+.achat-admin-4 .overlap-group7 {
+  align-self: flex-end;
+  height: 33px;
+  position: relative;
+  width: 393px;
+}
+
+.achat-admin-4 .total-candidates-1 {
+  height: 28px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 3px;
+  width: 393px;
+}
+
+.achat-admin-4 .overlap-group-8 {
+  height: 33px;
+  left: 288px;
+  position: absolute;
+  top: 0;
+  width: 46px;
+}
+
+.achat-admin-4 .frame-376 {
+  background-color: var(--serenade);
+  border-radius: 6px;
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 29px;
+}
+
+.achat-admin-4 .x20 {
+  height: 23px;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 6px;
+  width: 40px;
+}
+
+.achat-admin-4 .frame-7 {
+  background-color: var(--blaze-orange);
+  border-radius: 9px;
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  margin-left: 202px;
+  margin-top: 0;
+  width: 123px;
+}
+
+.achat-admin-4 .icon-awesome-file-export {
+  height: 15.28px;
+  margin-left: 14.1px;
+  margin-top: -7.0px;
+  object-fit: cover;
+  width: 17.19px;
+}
+
+.achat-admin-4 .filter {
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: 3.0px;
+  margin-right: 7.0px;
+  margin-top: 5.0px;
+  width: 74px;
+}
+
+.achat-admin-4 .overlap-group1 {
+  height: 30px;
+  margin-left: 25px;
+  position: relative;
+  width: 111px;
+}
+
+.achat-admin-4 .frame {
+  background-color: var(--blaze-orange);
+  border-radius: 9px;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 96px;
+}
+
+.achat-admin-4 .filter-1 {
+  height: 22px;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 5px;
+  width: 74px;
+}
+
+.achat-admin-4 .icon-material-filter-list {
+  height: 10px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 15px;
+}
+
+.achat-admin-4 .overlap-group6 {
+  height: 298px;
+  margin-top: 15px;
+  position: relative;
+  width: 881px;
+}
+
+.achat-admin-4 .rectangle-242 {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 873px;
+}
+
+.achat-admin-4 .frame-8 {
+  background-color: var(--white);
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 73px;
+  width: 876px;
+}
+
+.achat-admin-4 .frame-9 {
+  background-color: var(--white);
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 129px;
+  width: 881px;
+}
+
+.achat-admin-4 .frame-10 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 157px;
+  position: absolute;
+  top: 85px;
+  width: 881px;
+}
+
+.achat-admin-4 .rectangle {
+  border-radius: 2px;
+  height: 19px;
+  margin-left: 17px;
+  width: 18px;
+}
+
+.achat-admin-4 .rectangle-1 {
+  border-radius: 2px;
+  height: 19px;
+  margin-left: 17px;
+  margin-top: 44px;
+  width: 18px;
+}
+
+.achat-admin-4 .overlap-group2-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 57px;
+  margin-top: 18px;
+  min-width: 881px;
+  padding: 19.0px 17px;
+}
+
+.achat-admin-4 .rectangle-2 {
+  border-radius: 2px;
+  height: 19px;
+  width: 18px;
+}
+
+.achat-admin-4 .frame-11 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 56px;
+  left: 0;
+  min-width: 881px;
+  padding: 18.0px 17px;
+  position: absolute;
+  top: 242px;
+}
+
+.achat-admin-4 .utlisateur {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 437px;
+  min-height: 264px;
+  position: absolute;
+  top: 14px;
+  width: 188px;
+}
+
+.achat-admin-4 .overlap-group3-1 {
+  height: 24px;
+  margin-left: 1px;
+  position: relative;
+  width: 135px;
+}
+
+.achat-admin-4 .iconarrow-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  justify-content: center;
+  left: 122px;
+  min-width: 13px;
+  position: absolute;
+  top: 0;
+}
+
+.achat-admin-4 .overlap-group-2 {
+  height: 13px;
+  margin-top: 0;
+  position: relative;
+  width: 13px;
+}
+
+.achat-admin-4 .group {
+  height: 9px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 9px;
+}
+
+.achat-admin-4 .vector-container {
+  height: 11px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 6px;
+}
+
+.achat-admin-4 .vector {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 6px;
+}
+
+.achat-admin-4 .vector-1 {
+  height: 11px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.achat-admin-4 .vector-container-1 {
+  height: 11px;
+  left: 5px;
+  position: absolute;
+  top: -1px;
+  width: 6px;
+}
+
+.achat-admin-4 .vector-2 {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 6px;
+}
+
+.achat-admin-4 .vector-3 {
+  height: 13px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 13px;
+}
+
+.achat-admin-4 .utilisateur {
+  height: 23px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 1px;
+  width: 126px;
+}
+
+.achat-admin-4 .cameron-williamson-1 {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-top: 46px;
+  opacity: 0.74;
+  width: 162px;
+}
+
+.achat-admin-4 .name-4 {
+  display: flex;
+  height: 20px;
+  margin-top: 35px;
+  width: 141px;
+}
+
+.achat-admin-4 .savannah-nguyen-1 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  opacity: 0.74;
+  width: 141px;
+}
+
+.achat-admin-4 .name-5 {
+  display: flex;
+  height: 20px;
+  margin-top: 36px;
+  width: 174px;
+}
+
+.achat-admin-4 .darlene-robertson-1 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  opacity: 0.74;
+  width: 174px;
+}
+
+.achat-admin-4 .name-6 {
+  display: flex;
+  height: 25px;
+  margin-top: 36px;
+  width: 190px;
+}
+
+.achat-admin-4 .leslie-alexander-1 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  opacity: 0.74;
+  width: 190px;
+}
+
+.achat-admin-4 .type-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 248px;
+  min-height: 258px;
+  position: absolute;
+  top: 17px;
+  width: 209px;
+}
+
+.achat-admin-4 .overlap-group-3 {
+  height: 24px;
+  margin-left: 4.65px;
+  position: relative;
+  width: 137px;
+}
+
+.achat-admin-4 .type {
+  height: 23px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 1px;
+  width: 137px;
+}
+
+.achat-admin-4 .iconarrow {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  justify-content: center;
+  left: 103px;
+  min-width: 13px;
+  position: absolute;
+  top: 0;
+}
+
+.achat-admin-4 .frame-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 1.02px;
+  margin-top: 44px;
+  min-width: 210px;
+}
+
+.achat-admin-4 .iconmagic-star {
+  background-image: url(../img/vector-1015@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 21px;
+  margin-top: 0;
+  width: 21px;
+}
+
+.achat-admin-4 .x49 {
+  align-self: flex-end;
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2.0px;
+  margin-left: 5px;
+  opacity: 0.74;
+  width: 183px;
+}
+
+.achat-admin-4 .frame-2 {
+  display: flex;
+  height: 21px;
+  margin-top: 36px;
+  width: 170px;
+}
+
+.achat-admin-4 .iconmagic-star-1 {
+  background-image: url(../img/vector-1016@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 21.35px;
+}
+
+.achat-admin-4 .x47 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -1.9px;
+  margin-left: 5.3px;
+  margin-right: -2px;
+  margin-top: 0.3px;
+  opacity: 0.74;
+}
+
+.achat-admin-4 .frame-3 {
+  display: flex;
+  height: 21px;
+  margin-top: 35px;
+  width: 195px;
+}
+
+.achat-admin-4 .x00 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -1.9px;
+  margin-left: 5.3px;
+  margin-right: -2px;
+  margin-top: 0.3px;
+  opacity: 0.74;
+}
+
+.achat-admin-4 .frame-4 {
+  display: flex;
+  height: 21px;
+  margin-left: 0;
+  margin-top: 35px;
+  width: 194px;
+}
+
+.achat-admin-4 .x49-1 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -1.9px;
+  margin-left: 5.3px;
+  margin-right: -2px;
+  margin-top: 0.3px;
+  opacity: 0.74;
+}
+
+.achat-admin-4 .date {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 619px;
+  min-height: 255px;
+  position: absolute;
+  top: 16px;
+  width: 149px;
+}
+
+.achat-admin-4 .overlap-group-4 {
+  height: 23px;
+  margin-left: 6px;
+  position: relative;
+  width: 124px;
+}
+
+.achat-admin-4 .date-heure {
+  height: 23px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 0;
+  width: 124px;
+}
+
+.achat-admin-4 .iconarrow-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  justify-content: center;
+  left: 89px;
+  min-width: 13px;
+  position: absolute;
+  top: 1px;
+}
+
+.achat-admin-4 .shortlist {
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 4px;
+  margin-top: 47px;
+  opacity: 0.74;
+  width: 147px;
+}
+
+.achat-admin-4 .frame-5 {
+  display: flex;
+  height: 21px;
+  margin-left: 4px;
+  margin-top: 34px;
+  width: 144px;
+}
+
+.achat-admin-4 .interview {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  opacity: 0.74;
+  width: 144px;
+}
+
+.achat-admin-4 .frame-6 {
+  display: flex;
+  height: 21px;
+  margin-left: 3px;
+  margin-top: 33px;
+  width: 145px;
+}
+
+.achat-admin-4 .new-applied {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  opacity: 0.74;
+  width: 145px;
+}
+
+.achat-admin-4 .frame-12 {
+  display: flex;
+  height: 21px;
+  margin-top: 32px;
+  width: 151px;
+}
+
+.achat-admin-4 .test {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  opacity: 0.74;
+  width: 151px;
+}
+
+.achat-admin-4 .top {
+  border-radius: 2px;
+  height: 19px;
+  left: 17px;
+  position: absolute;
+  top: 17px;
+  width: 18px;
+}
+
+.achat-admin-4 .ligne-2 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 295px;
+  width: 880px;
+}
+
+.achat-admin-4 .ligne-3 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 237px;
+  width: 880px;
+}
+
+.achat-admin-4 .ligne-4 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 182px;
+  width: 880px;
+}
+
+.achat-admin-4 .ligne-5 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 128px;
+  width: 880px;
+}
+
+.achat-admin-4 .ligne-6 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 58px;
+  width: 880px;
+}
+
+.achat-admin-4 .pagination {
+  align-items: flex-start;
+  display: flex;
+  height: 34px;
+  left: 36px;
+  min-width: 857px;
+  position: absolute;
+  top: 403px;
+}
+
+.achat-admin-4 .showing-1-10-from-46-data {
+  align-self: flex-end;
+  height: 26px;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -2px;
+  width: 328px;
+}
+
+.achat-admin-4 .btn-prev {
+  align-items: flex-start;
+  border-radius: 14px;
+  display: flex;
+  height: 31px;
+  margin-left: 300px;
+  min-width: 34px;
+  padding: 10.5px 11.6px;
+}
+
+.achat-admin-4 .ic_chevron {
+  align-items: flex-start;
+  display: flex;
+  height: 8px;
+  min-width: 9px;
+  transform: rotate(180deg);
+}
+
+.achat-admin-4 .vector-container-2 {
+  height: 11px;
+  margin-left: -1px;
+  margin-top: -1.41px;
+  position: relative;
+  width: 11px;
+}
+
+.achat-admin-4 .vector-4 {
+  height: 11px;
+  left: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 6px;
+}
+
+.achat-admin-4 .vector-5 {
+  height: 11px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 6px;
+}
+
+.achat-admin-4 .number-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 32px;
+  margin-left: 7px;
+  min-width: 148px;
+}
+
+.achat-admin-4 .overlap-group-5 {
+  height: 34px;
+  margin-bottom: -2px;
+  position: relative;
+  width: 34px;
+}
+
+.achat-admin-4 .selected-page {
+  background-color: var(--blaze-orange);
+  border-radius: 14px;
+  box-shadow: 0px 7px 32px #00000024;
+  height: 31px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 34px;
+}
+
+.achat-admin-4 .number-2 {
+  height: 31px;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 3px;
+  width: 7px;
+}
+
+.achat-admin-4 .number-3 {
+  height: 31px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 15px;
+  width: 9px;
+}
+
+.achat-admin-4 .number-4 {
+  height: 31px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 28px;
+  width: 9px;
+}
+
+.achat-admin-4 .number-5 {
+  height: 31px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 28px;
+  width: 10px;
+}
+
+.achat-admin-4 .btn-next {
+  align-items: flex-start;
+  border-radius: 14px;
+  display: flex;
+  height: 31px;
+  margin-left: 6px;
+  min-width: 34px;
+  padding: 10.5px 11.1px;
+}
+
+.achat-admin-4 .ic_chevron-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 8px;
+  min-width: 9px;
+}
+
+.achat-admin-4 .vector-6 {
+  height: 11px;
+  left: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 6px;
+}
+
+.achat-admin-4 .vector-7 {
+  height: 11px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 6px;
+}
+
+.achat-admin-4 .cong {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  left: 945px;
+  min-height: 463px;
+  padding: 30.0px 16.0px;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.achat-admin-4 .overlap-group-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 57px;
+  min-width: 311px;
+}
+
+.achat-admin-4 .total-candidates-container {
+  align-self: flex-end;
+  height: 54px;
+  position: relative;
+  width: 256px;
+}
+
+.achat-admin-4 .total-candidates-2 {
+  height: 28px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  width: 256px;
+}
+
+.achat-admin-4 .total-candidates-3 {
+  height: 28px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 13px;
+  position: absolute;
+  top: 26px;
+  width: 187px;
+}
+
+.achat-admin-4 .overlap-group-9 {
+  height: 33px;
+  margin-left: 5px;
+  position: relative;
+  width: 50px;
+}
+
+.achat-admin-4 .x20-1 {
+  height: 23px;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 6px;
+  width: 40px;
+}
+
+.achat-admin-4 .rectangle-379 {
+  height: 174px;
+  margin-right: 18.4px;
+  margin-top: 44px;
+  object-fit: cover;
+  width: 233px;
+}
+
+.achat-admin-4 .total-candidates-4 {
+  height: 28px;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-right: 16.0px;
+  margin-top: 20px;
+  text-align: center;
+  width: 273px;
+}
+
+.achat-admin-4 .utlisateur-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 74px;
+  min-height: 267px;
+  position: absolute;
+  top: 89px;
+  width: 213px;
+}
+
+.achat-admin-4 .flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 11px;
+  min-width: 106px;
+}
+
+.achat-admin-4 .utilisateur-1 {
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 14px;
+  width: 92px;
+}
+
+.achat-admin-4 .iconarrow-4 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  margin-left: 1px;
+  margin-top: 1.0px;
+  min-width: 13px;
+}
+
+.achat-admin-4 .name {
+  align-items: flex-end;
+  display: flex;
+  margin-top: 45px;
+  min-width: 203px;
+}
+
+.achat-admin-4 .rectangle-41 {
+  border-radius: 4px;
+  height: 30px;
+  object-fit: cover;
+  width: 29px;
+}
+
+.achat-admin-4 .cameron-williamson {
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: 1.0px;
+  margin-left: 12px;
+  opacity: 0.74;
+  width: 162px;
+}
+
+.achat-admin-4 .name-1 {
+  display: flex;
+  height: 29px;
+  margin-left: 2px;
+  margin-top: 28px;
+  width: 180px;
+}
+
+.achat-admin-4 .rectangle-42 {
+  border-radius: 4px;
+  object-fit: cover;
+  width: 28px;
+}
+
+.achat-admin-4 .savannah-nguyen {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: 1.0px;
+  margin-left: 11px;
+  margin-right: -2px;
+  margin-top: 5.0px;
+  opacity: 0.74;
+}
+
+.achat-admin-4 .name-2 {
+  align-items: flex-end;
+  display: flex;
+  height: 32px;
+  margin-top: 25px;
+  width: 215px;
+}
+
+.achat-admin-4 .rectangle-4 {
+  border-radius: 4px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.achat-admin-4 .darlene-robertson {
+  flex: 1;
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: 2.0px;
+  margin-left: 9px;
+  margin-right: -2px;
+  opacity: 0.74;
+  width: 174px;
+}
+
+.achat-admin-4 .name-3 {
+  display: flex;
+  height: 31px;
+  margin-left: 2px;
+  margin-top: 24px;
+  width: 208px;
+}
+
+.achat-admin-4 .leslie-alexander {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: 1.0px;
+  margin-left: 7px;
+  margin-right: -2px;
+  margin-top: 7.0px;
+  opacity: 0.74;
+}
+
+.achat-admin-4 .statut-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 786px;
+  min-height: 255px;
+  position: absolute;
+  top: 73px;
+  width: 183px;
+}
+
+.achat-admin-4 .overlap-group9 {
+  height: 23px;
+  margin-left: 5px;
+  position: relative;
+  width: 142px;
+}
+
+.achat-admin-4 .statut {
+  height: 23px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 0;
+  width: 142px;
+}
+
+.achat-admin-4 .iconarrow-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  justify-content: center;
+  left: 55px;
+  min-width: 13px;
+  position: absolute;
+  top: 1px;
+}
+
+.achat-admin-4 .overlap-group-10 {
+  height: 23px;
+  margin-top: 45px;
+  position: relative;
+  width: 185px;
+}
+
+.achat-admin-4 .rectangle-3 {
+  background-color: var(--serenade);
+  border-radius: 5px;
+  height: 21px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 64px;
+}
+
+.achat-admin-4 .en-cours-1 {
+  height: 23px;
+  left: 4px;
+  letter-spacing: -0.42px;
+  line-height: 14px;
+  opacity: 0.74;
+  position: absolute;
+  top: 0;
+  width: 181px;
+}
+
+.achat-admin-4 .name-7 {
+  background-image: url(../img/trac--562-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 21px;
+  margin-left: 0;
+  margin-top: 36px;
+  width: 66px;
+}
+
+.achat-admin-4 .accepetr {
+  flex: 1;
+  letter-spacing: -0.42px;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-left: 4px;
+  margin-right: 1px;
+  width: 61px;
+}
+
+.achat-admin-4 .overlap-group1-2 {
+  height: 23px;
+  margin-left: 0;
+  margin-top: 32px;
+  position: relative;
+  width: 184px;
+}
+
+.achat-admin-4 .en-cours-2 {
+  height: 23px;
+  left: 3px;
+  letter-spacing: -0.42px;
+  line-height: 14px;
+  opacity: 0.74;
+  position: absolute;
+  top: 0;
+  width: 181px;
+}
+
+.achat-admin-4 .overlap-group2-2 {
+  height: 23px;
+  margin-left: 0;
+  margin-top: 31px;
+  position: relative;
+  width: 184px;
+}
+
+.achat-admin-4 .rectangle-38 {
+  background-color: var(--serenade);
+  border-radius: 5px;
+  height: 21px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 66px;
+}
+
+.achat-admin-4 .refuser {
+  height: 23px;
+  left: 4px;
+  letter-spacing: -0.42px;
+  line-height: 14px;
+  position: absolute;
+  top: 0;
+  width: 180px;
+}
+
+.achat-admin-4 .rectangle-60 {
+  background-color: var(--blaze-orange);
+  border-radius: 10px;
+  height: 40px;
+  left: 1015px;
+  position: absolute;
+  top: 389px;
+  width: 208px;
+}
+
+.achat-admin-4 .ajouter-un-achat {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  left: 1065px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 400px;
+  white-space: nowrap;
+}
+
+.achat-admin-4 .trac-container-6 {
+  height: 16px;
+  left: 1031px;
+  position: absolute;
+  top: 401px;
+  width: 16px;
+}
+
+.achat-admin-4 .trac-576 {
+  height: 8px;
+  left: 4px;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 8px;
+}
+
+.achat-admin-4 .trac-577 {
+  height: 16px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.achat-admin-4 .liste {
+  background-color: var(--white);
+  border-radius: 15px;
+  display: flex;
+  height: 463px;
+  margin-right: 3.0px;
+  margin-top: 50px;
+  width: 1292px;
+}
+
+.achat-admin-4 .groupe-914-1 {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 35.0px;
+  margin-left: 23px;
+  margin-right: 19.0px;
+  margin-top: 29.0px;
+  min-height: calc(100.00% - 64px);
+  width: 1250px;
+}
+
+.achat-admin-4 .flex-row-6 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 36px;
+  margin-right: 1.0px;
+  min-width: 1223px;
+}
+
+.achat-admin-4 .total-candidates-5 {
+  align-self: center;
+  height: 28px;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: 0;
+  width: 256px;
+}
+
+.achat-admin-4 .overlap-group-11 {
+  align-self: flex-end;
+  height: 33px;
+  margin-left: 4px;
+  position: relative;
+  width: 46px;
+}
+
+.achat-admin-4 .frame-376-1 {
+  background-color: var(--serenade);
+  border-radius: 6px;
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 39px;
+}
+
+.achat-admin-4 .x20-2 {
+  height: 23px;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 6px;
+  width: 40px;
+}
+
+.achat-admin-4 .frame-13 {
+  background-color: var(--blaze-orange);
+  border-radius: 9px;
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  margin-left: 658px;
+  margin-top: 0;
+  width: 123px;
+}
+
+.achat-admin-4 .icon-awesome-file-export-1 {
+  height: 15.28px;
+  margin-left: 14.5px;
+  margin-top: -7.0px;
+  object-fit: cover;
+  width: 17.19px;
+}
+
+.achat-admin-4 .icon-material-filter-list-1 {
+  height: 10px;
+  left: 11px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 15px;
+}
+
+.achat-admin-4 .overlap-group7-1 {
+  height: 298px;
+  margin-right: 0;
+  margin-top: 13px;
+  position: relative;
+  width: 1250px;
+}
+
+.achat-admin-4 .rectangle-242-1 {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1240px;
+}
+
+.achat-admin-4 .frame-14 {
+  background-color: var(--white);
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 73px;
+  width: 1244px;
+}
+
+.achat-admin-4 .frame-15 {
+  background-color: var(--white);
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 129px;
+  width: 1250px;
+}
+
+.achat-admin-4 .frame-16 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 157px;
+  position: absolute;
+  top: 85px;
+  width: 1250px;
+}
+
+.achat-admin-4 .overlap-group2-3 {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  height: 57px;
+  margin-top: 18px;
+  min-width: 1250px;
+  padding: 19.0px 17px;
+}
+
+.achat-admin-4 .frame-17 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 56px;
+  left: 0;
+  min-width: 1250px;
+  padding: 18.0px 17px;
+  position: absolute;
+  top: 242px;
+}
+
+.achat-admin-4 .utlisateur-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 54px;
+  min-height: 267px;
+  position: absolute;
+  top: 16px;
+  width: 213px;
+}
+
+.achat-admin-4 .overlap-group3-2 {
+  height: 23px;
+  margin-left: 11px;
+  position: relative;
+  width: 133px;
+}
+
+.achat-admin-4 .iconarrow-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  justify-content: center;
+  left: 80px;
+  min-width: 13px;
+  position: absolute;
+  top: 1px;
+}
+
+.achat-admin-4 .utilisateur-2 {
+  height: 23px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 0;
+  width: 133px;
+}
+
+.achat-admin-4 .date-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 635px;
+  min-height: 257px;
+  position: absolute;
+  top: 16px;
+  width: 149px;
+}
+
+.achat-admin-4 .frame-18 {
+  display: flex;
+  height: 21px;
+  margin-top: 34px;
+  width: 151px;
+}
+
+.achat-admin-4 .top-1 {
+  border-radius: 2px;
+  height: 19px;
+  left: 17px;
+  position: absolute;
+  top: 17px;
+  width: 18px;
+}
+
+.achat-admin-4 .ligne-2-1 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 295px;
+  width: 1250px;
+}
+
+.achat-admin-4 .ligne-3-1 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 237px;
+  width: 1250px;
+}
+
+.achat-admin-4 .ligne-4-1 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 182px;
+  width: 1250px;
+}
+
+.achat-admin-4 .trac-573 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 126px;
+  width: 1250px;
+}
+
+.achat-admin-4 .ligne-6-1 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 58px;
+  width: 1250px;
+}
+
+.achat-admin-4 .date-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 870px;
+  min-height: 267px;
+  position: absolute;
+  top: 16px;
+  width: 124px;
+}
+
+.achat-admin-4 .date-heure-1 {
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 14px;
+  width: 124px;
+}
+
+.achat-admin-4 .frame-19 {
+  background-image: url(../img/icon-metro-file-pdf-12@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 31px;
+  margin-right: 31.91px;
+  margin-top: 38px;
+  width: 26px;
+}
+
+.achat-admin-4 .frame-20 {
+  background-image: url(../img/icon-metro-file-pdf-12@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 31px;
+  margin-right: 31.91px;
+  margin-top: 31px;
+  width: 26px;
+}
+
+.achat-admin-4 .frame-21 {
+  background-image: url(../img/icon-metro-file-pdf-12@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 31px;
+  margin-right: 31.91px;
+  margin-top: 26px;
+  width: 26px;
+}
+
+.achat-admin-4 .frame-22 {
+  background-image: url(../img/icon-metro-file-pdf-12@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 31px;
+  margin-right: 31.91px;
+  margin-top: 25px;
+  width: 26px;
+}
+
+.achat-admin-4 .type-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 347px;
+  min-height: 258px;
+  position: absolute;
+  top: 21px;
+  width: 209px;
+}
+
+.achat-admin-4 .x49-2 {
+  align-self: flex-end;
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2.0px;
+  margin-left: 5px;
+  opacity: 0.74;
+  width: 183px;
+}
+
+.achat-admin-4 .x47-1 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -1.9px;
+  margin-left: 5.3px;
+  margin-right: -2px;
+  margin-top: 0.3px;
+  opacity: 0.74;
+}
+
+.achat-admin-4 .x00-1 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -1.9px;
+  margin-left: 5.3px;
+  margin-right: -2px;
+  margin-top: 0.3px;
+  opacity: 0.74;
+}
+
+.achat-admin-4 .x49-3 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -1.9px;
+  margin-left: 5.3px;
+  margin-right: -2px;
+  margin-top: 0.3px;
+  opacity: 0.74;
+}
+
+.achat-admin-4 .statut-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 1061px;
+  min-height: 255px;
+  position: absolute;
+  top: 24px;
+  width: 147px;
+}
+
+.achat-admin-4 .overlap-group6-1 {
+  align-self: flex-end;
+  height: 23px;
+  position: relative;
+  width: 142px;
+}
+
+.achat-admin-4 .owner {
+  align-items: flex-end;
+  background-color: var(--madang);
+  border-radius: 5px;
+  display: flex;
+  height: 21px;
+  justify-content: flex-end;
+  margin-top: 42px;
+  min-width: 72px;
+}
+
+.achat-admin-4 .en-cours {
+  height: 23px;
+  letter-spacing: -0.42px;
+  line-height: 14px;
+  margin-bottom: -2px;
+  width: 66px;
+}
+
+.achat-admin-4 .owner-1 {
+  align-items: flex-end;
+  background-color: var(--madang);
+  border-radius: 5px;
+  display: flex;
+  height: 21px;
+  justify-content: flex-end;
+  margin-top: 41px;
+  min-width: 72px;
+}
+
+.achat-admin-4 .overlap-group-12 {
+  height: 23px;
+  margin-left: 0;
+  margin-top: 32px;
+  position: relative;
+  width: 78px;
+}
+
+.achat-admin-4 .rectangle-39 {
+  background-color: var(--sundown);
+  border-radius: 5px;
+  height: 21px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.achat-admin-4 .en-cours-3 {
+  height: 23px;
+  left: 14px;
+  letter-spacing: -0.42px;
+  line-height: 14px;
+  opacity: 0.74;
+  position: absolute;
+  top: 0;
+  width: 64px;
+}
+
+.achat-admin-4 .overlap-group1-3 {
+  height: 23px;
+  margin-left: 0;
+  margin-top: 31px;
+  position: relative;
+  width: 73px;
+}
+
+.achat-admin-4 .rectangle-38-1 {
+  background-color: var(--madang);
+  border-radius: 5px;
+  height: 21px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 71px;
+}
+
+.achat-admin-4 .refuser-1 {
+  height: 23px;
+  left: 4px;
+  letter-spacing: -0.42px;
+  line-height: 14px;
+  position: absolute;
+  top: 0;
+  width: 69px;
+}
+
+.achat-admin-4 .pagination-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 34px;
+  margin-right: 3.0px;
+  margin-top: 18px;
+  min-width: 1226px;
+}
+
+.achat-admin-4 .btn-prev-1 {
+  align-items: flex-start;
+  border-radius: 14px;
+  display: flex;
+  height: 31px;
+  margin-left: 669px;
+  min-width: 34px;
+  padding: 10.5px 11.9px;
+}
+
+.achat-admin-4 .btn-next-1 {
+  align-items: flex-start;
+  border-radius: 14px;
+  display: flex;
+  height: 31px;
+  margin-left: 6px;
+  min-width: 34px;
+  padding: 10.5px 11.5px;
+}

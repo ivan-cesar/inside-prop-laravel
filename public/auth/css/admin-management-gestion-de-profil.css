@@ -1,0 +1,1644 @@
+/* screen - admin-management-gestion-de-profil */
+
+.admin-management-gestion-de-profil {
+  align-items: flex-start;
+  background-color: var(--black-haze);
+  display: flex;
+  height: 1186px;
+  overflow: hidden;
+  width: 1675px;
+}
+
+.admin-management-gestion-de-profil .overlap-group9 {
+  height: 1989px;
+  margin-left: -11px;
+  margin-top: -14px;
+  position: relative;
+  width: 1645px;
+}
+
+.admin-management-gestion-de-profil .menu-notif {
+  align-items: center;
+  display: flex;
+  height: 48px;
+  justify-content: flex-end;
+  left: 1415px;
+  min-width: 224px;
+  position: absolute;
+  top: 66px;
+}
+
+.admin-management-gestion-de-profil .icon-feather-search {
+  align-items: flex-start;
+  display: flex;
+  height: 26px;
+  justify-content: flex-end;
+  margin-top: 6.0px;
+  min-width: 26px;
+}
+
+.admin-management-gestion-de-profil .trac-container-1 {
+  height: 29px;
+  margin-top: -1.0px;
+  position: relative;
+  width: 29px;
+}
+
+.admin-management-gestion-de-profil .trac-560 {
+  height: 25px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 25px;
+}
+
+.admin-management-gestion-de-profil .trac-561 {
+  height: 9px;
+  left: 19px;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: 9px;
+}
+
+.admin-management-gestion-de-profil .icon-feather-mail {
+  align-items: flex-start;
+  display: flex;
+  height: 23px;
+  margin-left: 40px;
+  margin-top: 2.0px;
+  min-width: 29px;
+}
+
+.admin-management-gestion-de-profil .trac-container-2 {
+  height: 25px;
+  margin-left: -1px;
+  margin-top: -1.0px;
+  position: relative;
+  width: 32px;
+}
+
+.admin-management-gestion-de-profil .trac-558 {
+  height: 25px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 31px;
+}
+
+.admin-management-gestion-de-profil .trac-559 {
+  height: 13px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 32px;
+}
+
+.admin-management-gestion-de-profil .icon-notification {
+  display: flex;
+  height: 31px;
+  margin-left: 30px;
+  margin-top: 3.0px;
+  width: 26px;
+}
+
+.admin-management-gestion-de-profil .vector-smart-object {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  min-width: 25.56px;
+}
+
+.admin-management-gestion-de-profil .overlap-group {
+  height: 33px;
+  margin-left: -1px;
+  margin-top: -1.02px;
+  position: relative;
+  width: 28px;
+}
+
+.admin-management-gestion-de-profil .trac-88 {
+  height: 27px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 26px;
+}
+
+.admin-management-gestion-de-profil .trac-89 {
+  height: 8px;
+  left: 7px;
+  object-fit: cover;
+  position: absolute;
+  top: 25px;
+  width: 12px;
+}
+
+.admin-management-gestion-de-profil .ellipse-1 {
+  background: linear-gradient(24.88deg, #ff0000 141845.66%, #fcba59 165027.1%);
+  border-radius: 6.2px/5.96px;
+  height: 14px;
+  left: 13px;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.admin-management-gestion-de-profil .ellipse-7 {
+  border-radius: 23.5px/24px;
+  height: 48px;
+  margin-left: 25px;
+  object-fit: cover;
+  width: 47px;
+}
+
+.admin-management-gestion-de-profil .overlap-group-container {
+  height: 1989px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1645px;
+}
+
+.admin-management-gestion-de-profil .overlap-group6 {
+  height: 1989px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1111px;
+}
+
+.admin-management-gestion-de-profil .dashboard-1 {
+  height: 27px;
+  left: 348px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  top: 71px;
+  white-space: nowrap;
+  width: 443px;
+}
+
+.admin-management-gestion-de-profil .hello-thomas-welcome-to-galucter {
+  left: 383px;
+  letter-spacing: -0.16px;
+  line-height: 16px;
+  opacity: 0.6;
+  position: absolute;
+  top: 106px;
+  width: 728px;
+}
+
+.admin-management-gestion-de-profil .vector-smart-object-1 {
+  display: flex;
+  height: 23px;
+  left: 349px;
+  position: absolute;
+  top: 107px;
+  width: 24px;
+}
+
+.admin-management-gestion-de-profil .groupe-5 {
+  display: flex;
+  flex: 1;
+  width: 24px;
+}
+
+.admin-management-gestion-de-profil .groupe-4 {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  width: 24px;
+}
+
+.admin-management-gestion-de-profil .groupe-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  margin-bottom: 3.1px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 3.4px;
+  min-width: 24px;
+  opacity: 0.5;
+}
+
+.admin-management-gestion-de-profil .trac-container {
+  height: 17px;
+  margin-top: 0;
+  position: relative;
+  width: 10px;
+}
+
+.admin-management-gestion-de-profil .trac-91 {
+  height: 8px;
+  left: 7px;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 3px;
+}
+
+.admin-management-gestion-de-profil .trac-93 {
+  height: 12px;
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 4px;
+}
+
+.admin-management-gestion-de-profil .trac-96 {
+  height: 17px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.admin-management-gestion-de-profil .trac-90 {
+  align-self: center;
+  height: 3px;
+  margin-bottom: 0.01px;
+  object-fit: cover;
+  width: 3px;
+}
+
+.admin-management-gestion-de-profil .trac-92 {
+  height: 8px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 3px;
+}
+
+.admin-management-gestion-de-profil .trac-94 {
+  height: 12px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 4px;
+}
+
+.admin-management-gestion-de-profil .trac-95 {
+  height: 17px;
+  left: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.admin-management-gestion-de-profil .overlap-group3 {
+  height: 1989px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 414px;
+}
+
+.admin-management-gestion-de-profil .rectangle-sidebar {
+  height: 1989px;
+  left: 11px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 314px;
+}
+
+.admin-management-gestion-de-profil .dashboard-active {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 535px;
+  position: absolute;
+  top: 225px;
+  width: 311px;
+}
+
+.admin-management-gestion-de-profil .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 28px;
+  margin-right: 16.5px;
+  min-width: 194px;
+}
+
+.admin-management-gestion-de-profil .x012-home {
+  background-image: url(../img/vector-1057@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 23px;
+  width: 21px;
+}
+
+.admin-management-gestion-de-profil .dashboard-2 {
+  align-self: flex-end;
+  height: 26px;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 16px;
+  width: 157px;
+}
+
+.admin-management-gestion-de-profil .rectangle-31 {
+  background-color: var(--seashell-peach);
+  border-radius: 0px 50px 50px 0px;
+  height: 73px;
+  margin-top: 434px;
+  width: 311px;
+}
+
+.admin-management-gestion-de-profil .contacts {
+  display: flex;
+  height: 46px;
+  left: 50px;
+  position: absolute;
+  top: 628px;
+  width: 156px;
+}
+
+.admin-management-gestion-de-profil .contacts-1 {
+  display: flex;
+  flex: 1;
+  width: 155.67px;
+}
+
+.admin-management-gestion-de-profil .group-4 {
+  display: flex;
+  flex: 1;
+  width: 155.67px;
+}
+
+.admin-management-gestion-de-profil .group-1 {
+  display: flex;
+  flex: 1;
+  width: 157.67px;
+}
+
+.admin-management-gestion-de-profil .x036-social {
+  background-image: url(../img/vector-1449@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 23.93px;
+  margin-left: 0;
+  margin-top: 0;
+  width: 23.33px;
+}
+
+.admin-management-gestion-de-profil .dashboard-3 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -2.0px;
+  margin-left: 19.3px;
+  margin-right: -2.0px;
+  margin-top: 3.7px;
+}
+
+.admin-management-gestion-de-profil .invoicing {
+  display: flex;
+  height: 42px;
+  left: 51px;
+  position: absolute;
+  top: 295px;
+  width: 247px;
+}
+
+.admin-management-gestion-de-profil .invoicing-1 {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  width: 246.5px;
+}
+
+.admin-management-gestion-de-profil .group-7 {
+  display: flex;
+  flex: 1;
+  margin-right: 4.5px;
+}
+
+.admin-management-gestion-de-profil .group-1-1 {
+  display: flex;
+  flex: 1;
+  width: 239.33px;
+}
+
+.admin-management-gestion-de-profil .x011-file {
+  background-image: url(../img/vector-1064@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 23.33px;
+  margin-left: 0;
+  margin-top: 1.3px;
+  width: 18.67px;
+}
+
+.admin-management-gestion-de-profil .dashboard-4 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -2px;
+  margin-left: 21.7px;
+  margin-right: -2.0px;
+}
+
+.admin-management-gestion-de-profil .icon-feather-chevron-down {
+  height: 9.27px;
+  margin-right: -0.6px;
+  margin-top: -2.4px;
+  object-fit: cover;
+  width: 5.26px;
+}
+
+.admin-management-gestion-de-profil .calendar {
+  display: flex;
+  height: 42px;
+  left: 50px;
+  position: absolute;
+  top: 369px;
+  width: 220px;
+}
+
+.admin-management-gestion-de-profil .calendar-1 {
+  display: flex;
+  flex: 1;
+  width: 220.5px;
+}
+
+.admin-management-gestion-de-profil .group-12 {
+  display: flex;
+  flex: 1;
+  width: 220.5px;
+}
+
+.admin-management-gestion-de-profil .group-1-2 {
+  display: flex;
+  flex: 1;
+  width: 222.5px;
+}
+
+.admin-management-gestion-de-profil .x003-date {
+  background-image: url(../img/vector-1169@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 22.17px;
+  margin-left: 0;
+  margin-top: 1.3px;
+  width: 21.0px;
+}
+
+.admin-management-gestion-de-profil .dashboard-5 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -2px;
+  margin-left: 20.5px;
+  margin-right: -2.0px;
+}
+
+.admin-management-gestion-de-profil .overlap-group1 {
+  height: 45px;
+  left: 50px;
+  position: absolute;
+  top: 428px;
+  width: 266px;
+}
+
+.admin-management-gestion-de-profil .calendar-2 {
+  display: flex;
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 266px;
+}
+
+.admin-management-gestion-de-profil .group-12-1 {
+  display: flex;
+  flex: 1;
+  width: 265.5px;
+}
+
+.admin-management-gestion-de-profil .group-1-3 {
+  display: flex;
+  flex: 1;
+  width: 267.5px;
+}
+
+.admin-management-gestion-de-profil .x007-edit {
+  align-items: center;
+  display: flex;
+  height: 21px;
+  margin-left: 0;
+  margin-top: 0;
+  min-width: 21px;
+  padding: 0 0.0px;
+}
+
+.admin-management-gestion-de-profil .vector-container {
+  height: 21px;
+  position: relative;
+  width: 21px;
+}
+
+.admin-management-gestion-de-profil .vector-1 {
+  height: 16px;
+  left: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.admin-management-gestion-de-profil .vector-2 {
+  height: 21px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 21px;
+}
+
+.admin-management-gestion-de-profil .dashboard-6 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -2.0px;
+  margin-left: 20.5px;
+  margin-right: -2.0px;
+  margin-top: 2.5px;
+}
+
+.admin-management-gestion-de-profil .icon-feather-chevron-down-1 {
+  height: 9px;
+  left: 243px;
+  object-fit: cover;
+  position: absolute;
+  top: 12px;
+  width: 5px;
+}
+
+.admin-management-gestion-de-profil .footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 32px;
+  min-height: 93px;
+  position: absolute;
+  top: 1054px;
+  width: 257px;
+}
+
+.admin-management-gestion-de-profil .x2021-all-rights-reserved {
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-right: 10.0px;
+  margin-top: -3px;
+  text-align: center;
+  white-space: nowrap;
+  width: 172px;
+}
+
+.admin-management-gestion-de-profil .unicos-modern-dashboard {
+  align-self: flex-end;
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 236px;
+}
+
+.admin-management-gestion-de-profil .x2021-all-rights-reserved-1 {
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-right: 10.0px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 172px;
+}
+
+.admin-management-gestion-de-profil .made-with-by-peterdraw {
+  align-self: flex-start;
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: 4px;
+  text-align: center;
+  white-space: nowrap;
+  width: 247px;
+}
+
+.admin-management-gestion-de-profil .banking {
+  display: flex;
+  height: 42px;
+  left: 50px;
+  position: absolute;
+  top: 494px;
+  width: 203px;
+}
+
+.admin-management-gestion-de-profil .banking-1 {
+  display: flex;
+  flex: 1;
+  width: 202.67px;
+}
+
+.admin-management-gestion-de-profil .group-8 {
+  display: flex;
+  flex: 1;
+  width: 202.67px;
+}
+
+.admin-management-gestion-de-profil .group-1-4 {
+  display: flex;
+  flex: 1;
+  width: 204.67px;
+}
+
+.admin-management-gestion-de-profil .x040-wallet {
+  background-image: url(../img/vector-1075@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 21px;
+  margin-left: 0;
+  margin-top: 1.5px;
+  width: 23.33px;
+}
+
+.admin-management-gestion-de-profil .dashboard {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: -2px;
+  margin-left: 19.3px;
+  margin-right: -2.0px;
+}
+
+.admin-management-gestion-de-profil .crypto {
+  display: flex;
+  height: 42px;
+  left: 50px;
+  position: absolute;
+  top: 564px;
+  width: 183px;
+}
+
+.admin-management-gestion-de-profil .crypto-1 {
+  display: flex;
+  flex: 1;
+  width: 182.67px;
+}
+
+.admin-management-gestion-de-profil .group-5 {
+  display: flex;
+  flex: 1;
+  width: 182.67px;
+}
+
+.admin-management-gestion-de-profil .group-1-5 {
+  display: flex;
+  flex: 1;
+  width: 184.67px;
+}
+
+.admin-management-gestion-de-profil .x005-dollar {
+  align-items: flex-start;
+  display: flex;
+  height: 23.33px;
+  justify-content: flex-end;
+  margin-left: 0;
+  margin-top: 0.3px;
+  min-width: 23.33px;
+}
+
+.admin-management-gestion-de-profil .vector-container-1 {
+  height: 23px;
+  margin-top: 0;
+  position: relative;
+  width: 23px;
+}
+
+.admin-management-gestion-de-profil .vector-3 {
+  height: 14px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 7px;
+}
+
+.admin-management-gestion-de-profil .vector-4 {
+  height: 23px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.admin-management-gestion-de-profil .icon-open-menu {
+  height: 13px;
+  left: 28px;
+  object-fit: cover;
+  position: absolute;
+  top: 87px;
+  width: 14px;
+}
+
+.admin-management-gestion-de-profil .logo {
+  display: flex;
+  height: 81px;
+  left: 60px;
+  position: absolute;
+  top: 74px;
+  width: 354px;
+}
+
+.admin-management-gestion-de-profil .groupe-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 50.64px;
+  justify-content: flex-end;
+  min-width: 50px;
+  padding: 0.0px 0;
+}
+
+.admin-management-gestion-de-profil .overlap-group-1 {
+  height: 51px;
+  position: relative;
+  width: 50px;
+}
+
+.admin-management-gestion-de-profil .subtract {
+  height: 21px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 20px;
+}
+
+.admin-management-gestion-de-profil .subtract-1 {
+  height: 47px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 48px;
+}
+
+.admin-management-gestion-de-profil .ellipse-4 {
+  background-color: var(--yellow-orange);
+  border-radius: 6.3px;
+  height: 13px;
+  left: 35px;
+  position: absolute;
+  top: 35px;
+  transform: rotate(-41.90deg);
+  width: 13px;
+}
+
+.admin-management-gestion-de-profil .groupe-3-1 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 4.5px;
+  min-height: 100%;
+}
+
+.admin-management-gestion-de-profil .insidepro {
+  height: 83px;
+  letter-spacing: -0.75px;
+  line-height: 191.3px;
+  margin-top: -81px;
+  white-space: nowrap;
+}
+
+.admin-management-gestion-de-profil .by-propulse-group {
+  letter-spacing: 5.16px;
+  line-height: 36.4px;
+  margin-left: 4.0px;
+  margin-top: 16px;
+  min-height: 10px;
+  min-width: 142px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.admin-management-gestion-de-profil .overlap-group2 {
+  height: 126px;
+  left: 50px;
+  position: absolute;
+  top: 712px;
+  width: 247px;
+}
+
+.admin-management-gestion-de-profil .file-manager {
+  display: flex;
+  height: 126px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 247px;
+}
+
+.admin-management-gestion-de-profil .group-10 {
+  display: flex;
+  flex: 1;
+  margin-left: 0;
+  margin-right: 0;
+  width: 246.67px;
+}
+
+.admin-management-gestion-de-profil .group-1-6 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  min-width: 248.67px;
+}
+
+.admin-management-gestion-de-profil .x014-folder {
+  background-image: url(../img/vector-1468@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 21px;
+  margin-top: 4.5px;
+  width: 23px;
+}
+
+.admin-management-gestion-de-profil .dashboard-container {
+  height: 120px;
+  margin-left: 19px;
+  position: relative;
+  width: 206px;
+}
+
+.admin-management-gestion-de-profil .dashboard-7 {
+  height: 44px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 0;
+  width: 126px;
+}
+
+.admin-management-gestion-de-profil .dashboard-8 {
+  height: 92px;
+  left: 4px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 28px;
+  width: 202px;
+}
+
+.admin-management-gestion-de-profil .icon-feather-chevron-down-2 {
+  height: 5px;
+  left: 235px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 9px;
+}
+
+.admin-management-gestion-de-profil .content-popup-step-2 {
+  align-items: center;
+  background-color: var(--white-2);
+  border-radius: 15px;
+  box-shadow: 3.82px 21.67px 40px #695f971a;
+  display: flex;
+  flex-direction: column;
+  left: 361px;
+  min-height: 600px;
+  padding: 53px 47.7px;
+  position: absolute;
+  top: 273px;
+  width: 579px;
+}
+
+.admin-management-gestion-de-profil .title-copy-4 {
+  display: flex;
+  height: 31px;
+  margin-left: 8.0px;
+  width: 453px;
+}
+
+.admin-management-gestion-de-profil .formulaire-dajout-d {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-bottom: -6px;
+  margin-right: -2px;
+  margin-top: 4px;
+  white-space: nowrap;
+  width: 453px;
+}
+
+.admin-management-gestion-de-profil .terms {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.12px;
+  margin-top: 68px;
+  min-height: 76px;
+  width: 469px;
+}
+
+.admin-management-gestion-de-profil .intitul-du-role {
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-bottom: -37px;
+  margin-top: -20px;
+  min-height: 23px;
+  white-space: nowrap;
+}
+
+.admin-management-gestion-de-profil .overlap-group3-1 {
+  height: 53px;
+  margin-top: 20px;
+  position: relative;
+  width: 469px;
+}
+
+.admin-management-gestion-de-profil .text-box-copy-3 {
+  background-color: var(--white);
+  border-radius: 8px;
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 469px;
+}
+
+.admin-management-gestion-de-profil .profil {
+  left: 20px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.admin-management-gestion-de-profil .terms-1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  min-height: 111px;
+  width: 470px;
+}
+
+.admin-management-gestion-de-profil .description {
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-bottom: -37px;
+  margin-top: -20px;
+  min-height: 23px;
+  white-space: nowrap;
+}
+
+.admin-management-gestion-de-profil .overlap-group-2 {
+  height: 92px;
+  margin-top: 16px;
+  position: relative;
+  width: 470px;
+}
+
+.admin-management-gestion-de-profil .text-box-copy-3-1 {
+  background-color: var(--white);
+  border-radius: 8px;
+  height: 85px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 470px;
+}
+
+.admin-management-gestion-de-profil .button-next {
+  align-items: flex-start;
+  display: flex;
+  height: 40px;
+  margin-right: 22.5px;
+  margin-top: 50px;
+  min-width: 388px;
+}
+
+.admin-management-gestion-de-profil .overlap-group1-1 {
+  height: 52px;
+  margin-top: -12.09px;
+  position: relative;
+  width: 172px;
+}
+
+.admin-management-gestion-de-profil .bg {
+  height: 40px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 12px;
+  width: 172px;
+}
+
+.admin-management-gestion-de-profil .annuler {
+  left: 58px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.admin-management-gestion-de-profil .overlap-group2-1 {
+  height: 52px;
+  margin-left: 44px;
+  margin-top: -12.09px;
+  position: relative;
+  width: 172px;
+}
+
+.admin-management-gestion-de-profil .bg-1 {
+  background-color: var(--blaze-orange);
+  border-radius: 17px;
+  box-shadow: 1.39px 7.88px 29px #695f9724;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 12px;
+  width: 172px;
+}
+
+.admin-management-gestion-de-profil .enregistrer {
+  left: 48px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.admin-management-gestion-de-profil .flex-row-1 {
+  align-items: flex-start;
+  background-color: var(--white-2);
+  border-radius: 15px;
+  box-shadow: 3.82px 21.67px 40px #695f971a;
+  display: flex;
+  height: 600px;
+  left: 965px;
+  min-width: 680px;
+  padding: 49.0px 36px;
+  position: absolute;
+  top: 273px;
+}
+
+.admin-management-gestion-de-profil .overlap-group-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 388px;
+  width: 562px;
+}
+
+.admin-management-gestion-de-profil .overlap-group4 {
+  height: 40px;
+  margin-left: 13.0px;
+  position: relative;
+  width: 280px;
+}
+
+.admin-management-gestion-de-profil .total-candidates {
+  color: var(--cioccolato);
+  font-family: var(--font-family-cerapro-medium);
+  font-size: 30px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 0;
+  width: 256px;
+}
+
+.admin-management-gestion-de-profil .overlap-group-3 {
+  height: 33px;
+  left: 231px;
+  position: absolute;
+  top: 5px;
+  width: 49px;
+}
+
+.admin-management-gestion-de-profil .frame-376 {
+  background-color: var(--serenade);
+  border-radius: 6px;
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 39px;
+}
+
+.admin-management-gestion-de-profil .x20 {
+  height: 23px;
+  left: 9px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 6px;
+  width: 40px;
+}
+
+.admin-management-gestion-de-profil .overlap-group5 {
+  height: 278px;
+  margin-top: 70px;
+  position: relative;
+  width: 562px;
+}
+
+.admin-management-gestion-de-profil .rectangle-242 {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 554px;
+}
+
+.admin-management-gestion-de-profil .frame {
+  background-color: var(--white);
+  height: 52px;
+  left: 0;
+  position: absolute;
+  top: 68px;
+  width: 556px;
+}
+
+.admin-management-gestion-de-profil .frame-1 {
+  background-color: var(--white);
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 117px;
+  width: 562px;
+}
+
+.admin-management-gestion-de-profil .frame-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 157px;
+  position: absolute;
+  top: 59px;
+  width: 562px;
+}
+
+.admin-management-gestion-de-profil .rectangle-1 {
+  border-radius: 2px;
+  height: 19px;
+  margin-left: 17px;
+  width: 18px;
+}
+
+.admin-management-gestion-de-profil .rectangle-2 {
+  border-radius: 2px;
+  height: 19px;
+  margin-left: 17px;
+  margin-top: 44px;
+  width: 18px;
+}
+
+.admin-management-gestion-de-profil .overlap-group1-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 57px;
+  margin-top: 18px;
+  min-width: 562px;
+  padding: 19.0px 17px;
+}
+
+.admin-management-gestion-de-profil .rectangle {
+  border-radius: 2px;
+  height: 19px;
+  width: 18px;
+}
+
+.admin-management-gestion-de-profil .frame-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 56px;
+  left: 0;
+  min-width: 562px;
+  padding: 18.0px 17px;
+  position: absolute;
+  top: 222px;
+}
+
+.admin-management-gestion-de-profil .utlisateur {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  left: 59px;
+  min-height: 249px;
+  position: absolute;
+  top: 11px;
+  width: 208px;
+}
+
+.admin-management-gestion-de-profil .overlap-group3-2 {
+  align-self: flex-start;
+  height: 25px;
+  position: relative;
+  width: 126px;
+}
+
+.admin-management-gestion-de-profil .iconarrow {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  justify-content: center;
+  left: 113px;
+  min-width: 13px;
+  position: absolute;
+  top: 0;
+}
+
+.admin-management-gestion-de-profil .overlap-group2-2 {
+  height: 13px;
+  margin-top: 0;
+  position: relative;
+  width: 13px;
+}
+
+.admin-management-gestion-de-profil .group {
+  height: 9px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 9px;
+}
+
+.admin-management-gestion-de-profil .vector-container-2 {
+  height: 11px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 6px;
+}
+
+.admin-management-gestion-de-profil .vector-5 {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 6px;
+}
+
+.admin-management-gestion-de-profil .vector {
+  height: 11px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.admin-management-gestion-de-profil .vector-container-3 {
+  height: 11px;
+  left: 5px;
+  position: absolute;
+  top: -1px;
+  width: 6px;
+}
+
+.admin-management-gestion-de-profil .vector-6 {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 6px;
+}
+
+.admin-management-gestion-de-profil .vector-7 {
+  height: 13px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 13px;
+}
+
+.admin-management-gestion-de-profil .utilisateur {
+  height: 23px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 2px;
+  width: 125px;
+}
+
+.admin-management-gestion-de-profil .cameron-williamson {
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-right: 10px;
+  margin-top: 34px;
+  opacity: 0.74;
+  width: 162px;
+}
+
+.admin-management-gestion-de-profil .name {
+  align-self: center;
+  display: flex;
+  height: 21px;
+  margin-left: 5.0px;
+  margin-top: 34px;
+  width: 141px;
+}
+
+.admin-management-gestion-de-profil .savannah-nguyen {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  opacity: 0.74;
+  width: 141px;
+}
+
+.admin-management-gestion-de-profil .name-1 {
+  display: flex;
+  height: 21px;
+  margin-right: -2px;
+  margin-top: 35px;
+  width: 174px;
+}
+
+.admin-management-gestion-de-profil .darlene-robertson {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  opacity: 0.74;
+  width: 174px;
+}
+
+.admin-management-gestion-de-profil .name-2 {
+  display: flex;
+  height: 21px;
+  margin-right: 3px;
+  margin-top: 35px;
+  width: 169px;
+}
+
+.admin-management-gestion-de-profil .leslie-alexander {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  opacity: 0.74;
+  width: 169px;
+}
+
+.admin-management-gestion-de-profil .type {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 304px;
+  min-height: 247px;
+  position: absolute;
+  top: 16px;
+  width: 226px;
+}
+
+.admin-management-gestion-de-profil .type-1 {
+  align-self: flex-start;
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 14px;
+  width: 137px;
+}
+
+.admin-management-gestion-de-profil .frame-4 {
+  align-items: flex-end;
+  display: flex;
+  height: 21px;
+  margin-right: 34.0px;
+  margin-top: 34px;
+  min-width: 146px;
+}
+
+.admin-management-gestion-de-profil .text-3 {
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  opacity: 0.74;
+  width: 146px;
+}
+
+.admin-management-gestion-de-profil .frame-5 {
+  display: flex;
+  height: 21px;
+  margin-right: 39.0px;
+  margin-top: 36px;
+  width: 143px;
+}
+
+.admin-management-gestion-de-profil .text-4 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  opacity: 0.74;
+  width: 143px;
+}
+
+.admin-management-gestion-de-profil .frame-6 {
+  align-self: flex-end;
+  display: flex;
+  height: 21px;
+  margin-right: -2.0px;
+  margin-top: 35px;
+  width: 206px;
+}
+
+.admin-management-gestion-de-profil .text-5 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  opacity: 0.74;
+  width: 206px;
+}
+
+.admin-management-gestion-de-profil .frame-7 {
+  display: flex;
+  height: 21px;
+  margin-right: 15.0px;
+  margin-top: 35px;
+  width: 167px;
+}
+
+.admin-management-gestion-de-profil .text-6 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  opacity: 0.74;
+  width: 167px;
+}
+
+.admin-management-gestion-de-profil .top {
+  border-radius: 2px;
+  height: 19px;
+  left: 17px;
+  position: absolute;
+  top: 15px;
+  width: 18px;
+}
+
+.admin-management-gestion-de-profil .ligne-2 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 275px;
+  width: 561px;
+}
+
+.admin-management-gestion-de-profil .ligne-3 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 217px;
+  width: 561px;
+}
+
+.admin-management-gestion-de-profil .ligne-4 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 169px;
+  width: 561px;
+}
+
+.admin-management-gestion-de-profil .trac-573 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 117px;
+  width: 561px;
+}
+
+.admin-management-gestion-de-profil .ligne-6 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 561px;
+}
+
+.admin-management-gestion-de-profil .icon-awesome-edit {
+  height: 20px;
+  left: 533px;
+  object-fit: cover;
+  position: absolute;
+  top: 76px;
+  width: 22px;
+}
+
+.admin-management-gestion-de-profil .icon-awesome-edit-1 {
+  height: 20px;
+  left: 533px;
+  object-fit: cover;
+  position: absolute;
+  top: 134px;
+  width: 22px;
+}
+
+.admin-management-gestion-de-profil .icon-awesome-edit-2 {
+  height: 20px;
+  left: 533px;
+  object-fit: cover;
+  position: absolute;
+  top: 191px;
+  width: 22px;
+}
+
+.admin-management-gestion-de-profil .icon-awesome-edit-3 {
+  height: 20px;
+  left: 533px;
+  object-fit: cover;
+  position: absolute;
+  top: 240px;
+  width: 22px;
+}
+
+.admin-management-gestion-de-profil .icon-material-delete-sweep-container {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 56.18px;
+  min-height: 183px;
+  width: 22px;
+}
+
+.admin-management-gestion-de-profil .icon-material-delete-sweep {
+  height: 17px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.admin-management-gestion-de-profil .icon-material-delete-sweep-1 {
+  height: 17px;
+  margin-top: 41px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.admin-management-gestion-de-profil .icon-material-delete-sweep-2 {
+  height: 17px;
+  margin-top: 40px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.admin-management-gestion-de-profil .icon-material-delete-sweep-3 {
+  height: 17px;
+  margin-top: 33px;
+  object-fit: cover;
+  width: 22px;
+}

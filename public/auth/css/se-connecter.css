@@ -1,0 +1,5376 @@
+/* screen - se-connecter */
+
+.se-connecter {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 900px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.se-connecter .overlap-group12 {
+  height: 1358px;
+  margin-left: -135px;
+  margin-top: -294.78px;
+  position: relative;
+  width: 1776px;
+}
+
+.se-connecter .overlap-group10 {
+  height: 1116px;
+  left: 924px;
+  position: absolute;
+  top: 0;
+  width: 852px;
+}
+
+.se-connecter .rectangle {
+  background-color: #fff3e8;
+  border-radius: 137px;
+  height: 397px;
+  left: 310px;
+  position: absolute;
+  top: 76px;
+  transform: rotate(-22.00deg);
+  width: 485px;
+}
+
+.se-connecter .group-61 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 40px;
+  box-shadow: 0px 4px 70px #00000014;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 741px;
+  padding: 56px 42.0px;
+  position: absolute;
+  top: 375px;
+  width: 539px;
+}
+
+.se-connecter .sign-in {
+  align-self: flex-start;
+  color: var(--cioccolato);
+  font-family: var(--font-family-poppins);
+  font-size: 40px;
+  font-weight: 500;
+  height: 52px;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 2.0px;
+  width: 345px;
+}
+
+.se-connecter .group-49 {
+  align-self: flex-start;
+  display: flex;
+  height: 32px;
+  margin-left: 4.0px;
+  width: 264px;
+}
+
+.se-connecter .welcome-to-lorem {
+  color: var(--cioccolato);
+  flex: 1;
+  font-family: var(--font-family-poppins);
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 2.10px;
+  line-height: 21px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  width: 264px;
+}
+
+.se-connecter .group-53 {
+  align-items: flex-end;
+  display: flex;
+  height: 56px;
+  margin-top: 62px;
+  min-width: 451px;
+}
+
+.se-connecter .group-50 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-14@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 55px;
+  justify-content: flex-end;
+  min-width: 298px;
+  padding: 14px 30px;
+}
+
+.se-connecter .content-de-vour-revoir {
+  color: #261a0d;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  height: 26px;
+  letter-spacing: 0;
+  line-height: 15px;
+  width: 201px;
+}
+
+.se-connecter .overlap-group {
+  align-items: flex-start;
+  background-color: var(--black-haze);
+  border-radius: 9px;
+  display: flex;
+  height: 55px;
+  justify-content: flex-end;
+  margin-left: 20px;
+  min-width: 60px;
+  padding: 13.5px 16.9px;
+}
+
+.se-connecter .icon-awesome-info-circle {
+  height: 26px;
+  object-fit: cover;
+  width: 26px;
+}
+
+.se-connecter .group-51 {
+  align-items: flex-start;
+  align-self: flex-start;
+  background-color: var(--black-haze);
+  border-radius: 9px;
+  display: flex;
+  height: 55px;
+  justify-content: flex-end;
+  margin-left: 13px;
+  min-width: 60px;
+  padding: 15.1px 17.5px;
+}
+
+.se-connecter .icon-awesome-question-circle {
+  height: 24px;
+  object-fit: cover;
+  width: 24px;
+}
+
+.se-connecter .groupe-929 {
+  display: flex;
+  height: 94px;
+  margin-top: 32px;
+  width: 451px;
+}
+
+.se-connecter .group-54 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 451px;
+}
+
+.se-connecter .email {
+  flex: 1;
+  height: 26px;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-right: 144px;
+  max-height: 26px;
+}
+
+.se-connecter .rectangle-17 {
+  background-color: #f5f5f5;
+  border: 0;
+  border-radius: 9px;
+  flex: 1;
+  height: 57px;
+  max-height: 57px;
+  padding: 10px;
+}
+
+.se-connecter .group-55 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 26px;
+  min-height: 94px;
+  width: 451px;
+}
+
+.se-connecter .password {
+  height: 26px;
+  letter-spacing: 0;
+  line-height: 16px;
+  width: 228px;
+}
+
+.se-connecter .rectangle-17-1 {
+  background-color: #f5f5f5;
+  border: 0;
+  border-radius: 9px;
+  height: 57px;
+  margin-top: 11px;
+  padding: 10px;
+  width: 451px;
+}
+
+.se-connecter .flex-row {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  margin-top: 43px;
+  min-width: 448px;
+}
+
+.se-connecter .icon-awesome-check-square {
+  height: 22px;
+  margin-top: 0.25px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.se-connecter .garder-connect {
+  height: 25px;
+  letter-spacing: 0;
+  line-height: 13px;
+  margin-left: 14px;
+  width: 187px;
+}
+
+.se-connecter .mot-pass-oubli {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: 13px;
+  margin-left: 84px;
+  width: 141px;
+}
+
+.se-connecter .group-56 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-top: 43px;
+  min-width: 451px;
+}
+
+.se-connecter .overlap-group1 {
+  border-radius: 10px;
+  height: 54px;
+  position: relative;
+  width: 451px;
+}
+
+.se-connecter .rectangle-18 {
+  background-color: var(--blaze-orange);
+  border-radius: 10px;
+  box-shadow: 0px 4px 38px #7793414d;
+  cursor: pointer;
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 451px;
+}
+
+.se-connecter .se-connecter-1 {
+  color: var(--white);
+  cursor: pointer;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 500;
+  height: 44px;
+  left: 136px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  width: 207px;
+}
+
+.se-connecter .trac-container {
+  height: 18px;
+  left: 124px;
+  position: absolute;
+  top: 16px;
+  width: 17px;
+}
+
+.se-connecter .trac-202 {
+  cursor: pointer;
+  height: 11px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 17px;
+}
+
+.se-connecter .trac-203 {
+  cursor: pointer;
+  height: 9px;
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+
+.se-connecter .x80604 {
+  height: 50px;
+  left: 57px;
+  object-fit: cover;
+  position: absolute;
+  top: 579px;
+  width: 50px;
+}
+
+.se-connecter .group-container-1 {
+  height: 1072px;
+  left: 0;
+  position: absolute;
+  top: 286px;
+  width: 954px;
+}
+
+.se-connecter .groupe-3-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 319px;
+  left: 607px;
+  min-width: 315px;
+  opacity: 0.04;
+  position: absolute;
+  top: 28px;
+  transform: rotate(258.00deg);
+}
+
+.se-connecter .overlap-group-1 {
+  height: 356px;
+  margin-left: -22px;
+  margin-top: -29.58px;
+  position: relative;
+  width: 347px;
+}
+
+.se-connecter .subtract {
+  height: 131px;
+  left: 84px;
+  object-fit: cover;
+  position: absolute;
+  top: 83px;
+  transform: rotate(-258.00deg);
+  width: 126px;
+}
+
+.se-connecter .subtract-1 {
+  height: 290px;
+  left: 22px;
+  object-fit: cover;
+  position: absolute;
+  top: 33px;
+  transform: rotate(-258.00deg);
+  width: 303px;
+}
+
+.se-connecter .ellipse-4 {
+  background-color: var(--yellow-orange);
+  border-radius: 39.69px;
+  height: 79px;
+  left: 242px;
+  position: absolute;
+  top: 253px;
+  transform: rotate(-41.90deg);
+  width: 79px;
+}
+
+.se-connecter .groupe-2-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 391px;
+  left: 50px;
+  min-width: 387px;
+  opacity: 0.04;
+  position: absolute;
+  top: 634px;
+  transform: rotate(73.00deg);
+}
+
+.se-connecter .overlap-group2 {
+  height: 454px;
+  margin-left: -34px;
+  margin-top: -44.74px;
+  position: relative;
+  width: 438px;
+}
+
+.se-connecter .subtract-2 {
+  height: 160px;
+  left: 111px;
+  object-fit: cover;
+  position: absolute;
+  top: 111px;
+  transform: rotate(-73.00deg);
+  width: 150px;
+}
+
+.se-connecter .subtract-3 {
+  height: 345px;
+  left: 34px;
+  object-fit: cover;
+  position: absolute;
+  top: 55px;
+  transform: rotate(-73.00deg);
+  width: 369px;
+}
+
+.se-connecter .ellipse-4-1 {
+  background-color: var(--yellow-orange);
+  border-radius: 48.7px;
+  height: 97px;
+  left: 303px;
+  position: absolute;
+  top: 319px;
+  transform: rotate(-41.90deg);
+  width: 97px;
+}
+
+.se-connecter .overlap-group9 {
+  height: 399px;
+  left: 195px;
+  position: absolute;
+  top: 279px;
+  width: 671px;
+}
+
+.se-connecter .background_-complete {
+  align-items: flex-end;
+  display: flex;
+  height: 399px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 671px;
+  padding: 0 0.0px;
+  position: absolute;
+  top: 0;
+}
+
+.se-connecter .group-container-2 {
+  height: 208px;
+  margin-bottom: 3.25px;
+  position: relative;
+  width: 69px;
+}
+
+.se-connecter .groupe-container {
+  height: 153px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 69px;
+}
+
+.se-connecter .groupe-184 {
+  background-image: url(../img/trac--219@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 135px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 69px;
+}
+
+.se-connecter .groupe-186 {
+  background-image: url(../img/trac--220@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 138px;
+  left: 30px;
+  position: absolute;
+  top: 15px;
+  width: 7px;
+}
+
+.se-connecter .groupe-188 {
+  background-image: url(../img/trac--221@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 15px;
+  left: 18px;
+  position: absolute;
+  top: 49px;
+  width: 14px;
+}
+
+.se-connecter .groupe-190 {
+  background-image: url(../img/trac--222@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 17px;
+  left: 33px;
+  position: absolute;
+  top: 47px;
+  width: 17px;
+}
+
+.se-connecter .groupe-192 {
+  background-image: url(../img/trac--223@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 11px;
+  left: 33px;
+  position: absolute;
+  top: 82px;
+  width: 18px;
+}
+
+.se-connecter .groupe-194 {
+  background-image: url(../img/trac--224@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 10px;
+  left: 17px;
+  position: absolute;
+  top: 83px;
+  width: 17px;
+}
+
+.se-connecter .groupe-196 {
+  background-image: url(../img/trac--225@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 13px;
+  left: 13px;
+  position: absolute;
+  top: 109px;
+  width: 22px;
+}
+
+.se-connecter .groupe-198 {
+  background-image: url(../img/trac--226@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 15px;
+  left: 34px;
+  position: absolute;
+  top: 106px;
+  width: 23px;
+}
+
+.se-connecter .groupe-220 {
+  align-items: flex-end;
+  background-image: url(../img/trac--227@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  left: 22px;
+  min-height: 69px;
+  padding: 5.6px 1.3px;
+  position: absolute;
+  top: 139px;
+  width: 28px;
+}
+
+.se-connecter .groupe-204 {
+  background-image: url(../img/trac--228@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 6px;
+  width: 25px;
+}
+
+.se-connecter .groupe-207 {
+  background-image: url(../img/trac--229@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 5px;
+  margin-right: 0.51px;
+  margin-top: 4px;
+  width: 24px;
+}
+
+.se-connecter .groupe-210 {
+  background-image: url(../img/trac--230@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  margin-right: 1.83px;
+  margin-top: 5px;
+  width: 21px;
+}
+
+.se-connecter .groupe-213 {
+  background-image: url(../img/trac--231@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  margin-right: 3.6px;
+  margin-top: 7px;
+  width: 18px;
+}
+
+.se-connecter .groupe-216 {
+  background-image: url(../img/trac--232@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 4px;
+  margin-right: 5.54px;
+  margin-top: 8px;
+  width: 15px;
+}
+
+.se-connecter .groupe-219 {
+  background-image: url(../img/trac--233@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  margin-right: 6.23px;
+  margin-top: 6px;
+  width: 13px;
+}
+
+.se-connecter .groupe-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  margin-left: 421px;
+  min-height: 399px;
+  width: 182px;
+}
+
+.se-connecter .groupe-175 {
+  height: 229px;
+  position: relative;
+  width: 137px;
+}
+
+.se-connecter .groupe-container-2 {
+  background-color: var(--cararra-2);
+  height: 215px;
+  left: 9px;
+  position: absolute;
+  top: 6px;
+  width: 120px;
+}
+
+.se-connecter .groupe-160 {
+  background-color: var(--alabaster);
+  height: 202px;
+  left: 5px;
+  position: absolute;
+  top: 6px;
+  width: 109px;
+}
+
+.se-connecter .groupe-161 {
+  background-image: url(../img/trac--204@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 141px;
+  left: 5px;
+  position: absolute;
+  top: 6px;
+  width: 109px;
+}
+
+.se-connecter .groupe-162 {
+  background-color: var(--cararra-2);
+  height: 2px;
+  left: 5px;
+  position: absolute;
+  top: 64px;
+  width: 111px;
+}
+
+.se-connecter .groupe-163 {
+  background-color: var(--cararra-2);
+  height: 2px;
+  left: 5px;
+  position: absolute;
+  top: 113px;
+  width: 111px;
+}
+
+.se-connecter .groupe-164 {
+  background-color: var(--cararra-2);
+  height: 2px;
+  left: 5px;
+  position: absolute;
+  top: 161px;
+  width: 111px;
+}
+
+.se-connecter .groupe-165 {
+  display: flex;
+  height: 149px;
+  left: 56px;
+  position: absolute;
+  top: 65px;
+  width: 6px;
+}
+
+.se-connecter .rectangle-7 {
+  background-color: var(--cararra-2);
+  flex: 1;
+  margin-bottom: 71.6px;
+  margin-left: -71.6px;
+  margin-right: -71.6px;
+  margin-top: 71.6px;
+  transform: rotate(-90deg);
+  width: 148.68px;
+}
+
+.se-connecter .groupe-166 {
+  background-color: var(--cararra-2);
+  height: 59px;
+  left: 26px;
+  position: absolute;
+  top: 6px;
+  width: 2px;
+}
+
+.se-connecter .groupe-167 {
+  background-color: var(--cararra-2);
+  height: 59px;
+  left: 47px;
+  position: absolute;
+  top: 6px;
+  width: 2px;
+}
+
+.se-connecter .groupe-168 {
+  background-color: var(--cararra-2);
+  height: 59px;
+  left: 69px;
+  position: absolute;
+  top: 6px;
+  width: 2px;
+}
+
+.se-connecter .groupe-169 {
+  background-color: var(--cararra-2);
+  height: 59px;
+  left: 90px;
+  position: absolute;
+  top: 6px;
+  width: 2px;
+}
+
+.se-connecter .groupe-container-3 {
+  height: 223px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 137px;
+}
+
+.se-connecter .groupe-170 {
+  background-color: var(--cultured-pearl);
+  height: 220px;
+  left: 4px;
+  position: absolute;
+  top: 2px;
+  width: 5px;
+}
+
+.se-connecter .groupe-171 {
+  background-image: url(../img/trac--205@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 220px;
+  left: 128px;
+  position: absolute;
+  top: 2px;
+  width: 5px;
+}
+
+.se-connecter .groupe-172 {
+  background-color: var(--bon-jour-2);
+  height: 6px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 130px;
+}
+
+.se-connecter .groupe-174 {
+  background-image: url(../img/trac--206@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 221px;
+  width: 137px;
+}
+
+.se-connecter .groupe-173 {
+  background-color: var(--bon-jour-2);
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 223px;
+  width: 137px;
+}
+
+.se-connecter .groupe-183 {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+  min-height: 156px;
+  width: 79px;
+}
+
+.se-connecter .overlap-group-2 {
+  height: 108px;
+  margin-right: 0;
+  position: relative;
+  width: 79px;
+}
+
+.se-connecter .trac-207 {
+  height: 20px;
+  left: 47px;
+  object-fit: cover;
+  position: absolute;
+  top: 63px;
+  width: 31px;
+}
+
+.se-connecter .trac-208 {
+  height: 47px;
+  left: 39px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.se-connecter .trac-209 {
+  height: 38px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 14px;
+  width: 37px;
+}
+
+.se-connecter .groupe-176 {
+  background-image: url(../img/trac--210@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 39px;
+  left: 42px;
+  position: absolute;
+  top: 69px;
+  width: 22px;
+}
+
+.se-connecter .groupe-177 {
+  background-image: url(../img/trac--211@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 87px;
+  left: 42px;
+  position: absolute;
+  top: 17px;
+  width: 10px;
+}
+
+.se-connecter .groupe-178 {
+  background-image: url(../img/trac--212@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 59px;
+  left: 14px;
+  position: absolute;
+  top: 23px;
+  width: 28px;
+}
+
+.se-connecter .overlap-group2-1 {
+  height: 42px;
+  margin-left: 7.64px;
+  margin-top: 1px;
+  position: relative;
+  width: 49px;
+}
+
+.se-connecter .trac-213 {
+  height: 29px;
+  left: 4px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 41px;
+}
+
+.se-connecter .rectangle-15 {
+  background-color: var(--bon-jour-2);
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 49px;
+}
+
+.se-connecter .trac-214 {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 39px;
+  width: 49px;
+}
+
+.se-connecter .groupe-180 {
+  background-image: url(../img/trac--216@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 8px;
+  left: 4px;
+  position: absolute;
+  top: 17px;
+  width: 40px;
+}
+
+.se-connecter .groupe-181 {
+  background-image: url(../img/trac--217@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 4px;
+  position: absolute;
+  top: 11px;
+  width: 42px;
+}
+
+.se-connecter .overlap-group3 {
+  height: 6px;
+  margin-left: 7.76px;
+  position: relative;
+  width: 45px;
+}
+
+.se-connecter .trac-215 {
+  height: 6px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 45px;
+}
+
+.se-connecter .groupe-182 {
+  background-image: url(../img/trac--218@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 45px;
+}
+
+.se-connecter .background_-simple {
+  background-image: url(../img/trac--234@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 376px;
+  left: 79px;
+  position: absolute;
+  top: 12px;
+  width: 533px;
+}
+
+.se-connecter .floor {
+  background-image: url(../img/trac--235@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 397px;
+  width: 667px;
+}
+
+.se-connecter .character_1 {
+  display: flex;
+  height: 294px;
+  left: 82px;
+  position: absolute;
+  top: 104px;
+  width: 162px;
+}
+
+.se-connecter .groupe-462 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  min-width: 161.63px;
+}
+
+.se-connecter .group-container-3 {
+  height: 294px;
+  position: relative;
+  width: 162px;
+}
+
+.se-connecter .overlap-group7 {
+  height: 294px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 162px;
+}
+
+.se-connecter .group-container-4 {
+  height: 194px;
+  left: 0;
+  position: absolute;
+  top: 100px;
+  width: 107px;
+}
+
+.se-connecter .groupe-container-4 {
+  height: 111px;
+  left: 2px;
+  position: absolute;
+  top: 82px;
+  width: 105px;
+}
+
+.se-connecter .groupe-229 {
+  display: flex;
+  height: 99px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 105px;
+}
+
+.se-connecter .groupe-228 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  min-width: 104.61px;
+}
+
+.se-connecter .groupe-container-5 {
+  height: 99px;
+  margin-top: 0;
+  position: relative;
+  width: 105px;
+}
+
+.se-connecter .groupe-223 {
+  background-color: var(--zeus);
+  height: 88px;
+  left: 50px;
+  position: absolute;
+  top: 11px;
+  width: 7px;
+}
+
+.se-connecter .groupe {
+  background-image: url(../img/trac--236@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 105px;
+}
+
+.se-connecter .groupe-227 {
+  background-image: url(../img/trac--237@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 47px;
+  position: absolute;
+  top: 11px;
+  width: 13px;
+}
+
+.se-connecter .groupe-230 {
+  background-image: url(../img/trac--238@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 32px;
+  left: 21px;
+  position: absolute;
+  top: 75px;
+  width: 64px;
+}
+
+.se-connecter .groupe-231 {
+  background-image: url(../img/trac--239@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 10px;
+  left: 17px;
+  position: absolute;
+  top: 102px;
+  width: 10px;
+}
+
+.se-connecter .groupe-232 {
+  background-image: url(../img/trac--240@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 10px;
+  left: 80px;
+  position: absolute;
+  top: 102px;
+  width: 10px;
+}
+
+.se-connecter .groupe-234 {
+  background-image: url(../img/trac--241@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 23px;
+  position: absolute;
+  top: 99px;
+  width: 62px;
+}
+
+.se-connecter .groupe-236 {
+  background-image: url(../img/trac--242@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 87px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 65px;
+}
+
+.se-connecter .groupe-237 {
+  background-image: url(../img/trac--243@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 79px;
+  left: 10px;
+  position: absolute;
+  top: 3px;
+  width: 7px;
+}
+
+.se-connecter .groupe-238 {
+  background-image: url(../img/trac--244@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 4px;
+  left: 5px;
+  position: absolute;
+  top: 82px;
+  width: 39px;
+}
+
+.se-connecter .overlap-group3-1 {
+  height: 68px;
+  left: 106px;
+  position: absolute;
+  top: 48px;
+  width: 56px;
+}
+
+.se-connecter .trac-245 {
+  height: 30px;
+  left: 35px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 21px;
+}
+
+.se-connecter .trac-246 {
+  height: 48px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: 45px;
+}
+
+.se-connecter .groupe-240 {
+  background-image: url(../img/trac--247@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  left: 45px;
+  position: absolute;
+  top: 11px;
+  width: 8px;
+}
+
+.se-connecter .groupe-241 {
+  background-image: url(../img/trac--248@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  left: 47px;
+  position: absolute;
+  top: 13px;
+  width: 7px;
+}
+
+.se-connecter .groupe-242 {
+  background-image: url(../img/trac--249@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  left: 49px;
+  position: absolute;
+  top: 15px;
+  width: 7px;
+}
+
+.se-connecter .groupe-243 {
+  background-image: url(../img/trac--250@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 9px;
+  left: 41px;
+  position: absolute;
+  top: 14px;
+  width: 4px;
+}
+
+.se-connecter .groupe-container-6 {
+  height: 97px;
+  left: 14px;
+  position: absolute;
+  top: 57px;
+  width: 87px;
+}
+
+.se-connecter .groupe-246 {
+  background-image: url(../img/trac--251@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 97px;
+  left: 5px;
+  position: absolute;
+  top: 0;
+  width: 83px;
+}
+
+.se-connecter .groupe-249 {
+  background-image: url(../img/trac--252@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 41px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 30px;
+}
+
+.se-connecter .groupe-250 {
+  background-image: url(../img/trac--253@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  left: 9px;
+  position: absolute;
+  top: 85px;
+  width: 63px;
+}
+
+.se-connecter .groupe-251 {
+  background-image: url(../img/trac--254@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 15px;
+  left: 9px;
+  opacity: 0.2;
+  position: absolute;
+  top: 78px;
+  width: 63px;
+}
+
+.se-connecter .group-container-5 {
+  height: 143px;
+  left: 22px;
+  position: absolute;
+  top: 152px;
+  width: 129px;
+}
+
+.se-connecter .overlap-group1-1 {
+  height: 11px;
+  left: 46px;
+  position: absolute;
+  top: 132px;
+  width: 28px;
+}
+
+.se-connecter .groupe-320 {
+  display: flex;
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 28px;
+}
+
+.se-connecter .groupe-319 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  min-width: 28.26px;
+}
+
+.se-connecter .groupe-container-7 {
+  height: 11px;
+  margin-top: 0;
+  position: relative;
+  width: 28px;
+}
+
+.se-connecter .groupe-259 {
+  align-items: flex-end;
+  background-image: url(../img/trac--255@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 28px;
+}
+
+.se-connecter .groupe-258 {
+  background-image: url(../img/trac--256@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 4.84px;
+  margin-bottom: 0.7px;
+  margin-left: 0.1px;
+  opacity: 0.5;
+  width: 6.08px;
+}
+
+.se-connecter .groupe-262 {
+  background-image: url(../img/trac--257@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 28px;
+}
+
+.se-connecter .groupe-266 {
+  background-image: url(../img/trac--258@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 28px;
+}
+
+.se-connecter .groupe-270 {
+  background-image: url(../img/trac--259@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 22px;
+  position: absolute;
+  top: 8px;
+  width: 2px;
+}
+
+.se-connecter .groupe-274 {
+  background-image: url(../img/trac--260@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 17px;
+  position: absolute;
+  top: 7px;
+  width: 1px;
+}
+
+.se-connecter .groupe-278 {
+  background-image: url(../img/trac--261@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 16px;
+  position: absolute;
+  top: 6px;
+  width: 1px;
+}
+
+.se-connecter .groupe-282 {
+  background-image: url(../img/trac--262@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 15px;
+  position: absolute;
+  top: 6px;
+  width: 2px;
+}
+
+.se-connecter .groupe-286 {
+  background-image: url(../img/trac--263@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 15px;
+  position: absolute;
+  top: 5px;
+  width: 2px;
+}
+
+.se-connecter .groupe-290 {
+  background-image: url(../img/trac--264@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 18px;
+  position: absolute;
+  top: 5px;
+  width: 3px;
+}
+
+.se-connecter .groupe-294 {
+  background-image: url(../img/trac--265@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 17px;
+  position: absolute;
+  top: 4px;
+  width: 2px;
+}
+
+.se-connecter .groupe-298 {
+  background-image: url(../img/trac--266@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 6px;
+}
+
+.se-connecter .groupe-302 {
+  background-image: url(../img/trac--267@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 8px;
+  position: absolute;
+  top: 9px;
+  width: 5px;
+}
+
+.se-connecter .groupe-3 {
+  background-image: url(../img/trac--268@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 5px;
+  position: absolute;
+  top: 9px;
+  width: 1px;
+}
+
+.se-connecter .groupe-310 {
+  background-image: url(../img/trac--269@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 4px;
+  position: absolute;
+  top: 7px;
+  width: 1px;
+}
+
+.se-connecter .groupe-3-1 {
+  background-image: url(../img/trac--270@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 2px;
+  position: absolute;
+  top: 6px;
+  width: 1px;
+}
+
+.se-connecter .groupe-318 {
+  background-image: url(../img/trac--271@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 1px;
+  position: absolute;
+  top: 6px;
+  width: 1px;
+}
+
+.se-connecter .trac-2 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 17px;
+}
+
+.se-connecter .overlap-group2-2 {
+  height: 11px;
+  left: 101px;
+  position: absolute;
+  top: 131px;
+  width: 29px;
+}
+
+.se-connecter .groupe-389 {
+  display: flex;
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 29px;
+}
+
+.se-connecter .groupe-388 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  min-width: 28.93px;
+}
+
+.se-connecter .groupe-container-8 {
+  height: 11px;
+  position: relative;
+  width: 29px;
+}
+
+.se-connecter .groupe-328 {
+  align-items: flex-end;
+  background-image: url(../img/trac--273@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 29px;
+}
+
+.se-connecter .groupe-327 {
+  background-image: url(../img/trac--274@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 4.95px;
+  margin-bottom: 0.7px;
+  margin-left: 0.1px;
+  opacity: 0.5;
+  width: 6.21px;
+}
+
+.se-connecter .groupe-331 {
+  background-image: url(../img/trac--275@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 29px;
+}
+
+.se-connecter .groupe-335 {
+  background-image: url(../img/trac--276@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 29px;
+}
+
+.se-connecter .groupe-339 {
+  background-image: url(../img/trac--277@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 23px;
+  position: absolute;
+  top: 8px;
+  width: 2px;
+}
+
+.se-connecter .groupe-343 {
+  background-image: url(../img/trac--278@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 18px;
+  position: absolute;
+  top: 7px;
+  width: 1px;
+}
+
+.se-connecter .groupe-347 {
+  background-image: url(../img/trac--279@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 17px;
+  position: absolute;
+  top: 6px;
+  width: 1px;
+}
+
+.se-connecter .groupe-351 {
+  background-image: url(../img/trac--280@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 16px;
+  position: absolute;
+  top: 6px;
+  width: 2px;
+}
+
+.se-connecter .groupe-355 {
+  background-image: url(../img/trac--281@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 15px;
+  position: absolute;
+  top: 5px;
+  width: 2px;
+}
+
+.se-connecter .groupe-359 {
+  background-image: url(../img/trac--282@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 18px;
+  position: absolute;
+  top: 5px;
+  width: 3px;
+}
+
+.se-connecter .groupe-363 {
+  background-image: url(../img/trac--283@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 17px;
+  position: absolute;
+  top: 5px;
+  width: 2px;
+}
+
+.se-connecter .groupe-367 {
+  background-image: url(../img/trac--284@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 6px;
+}
+
+.se-connecter .groupe-371 {
+  background-image: url(../img/trac--285@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 9px;
+  position: absolute;
+  top: 9px;
+  width: 5px;
+}
+
+.se-connecter .groupe-379 {
+  background-image: url(../img/trac--287@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 4px;
+  position: absolute;
+  top: 7px;
+  width: 1px;
+}
+
+.se-connecter .groupe-387 {
+  background-image: url(../img/trac--289@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 1px;
+  position: absolute;
+  top: 6px;
+  width: 1px;
+}
+
+.se-connecter .groupe-393 {
+  background-image: url(../img/trac--291@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 135px;
+  left: 35px;
+  position: absolute;
+  top: 0;
+  width: 89px;
+}
+
+.se-connecter .groupe-398 {
+  align-items: flex-start;
+  background-image: url(../img/trac--292@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 136px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 74px;
+  padding: 26.8px 35.1px;
+  position: absolute;
+  top: 0;
+}
+
+.se-connecter .groupe-397 {
+  background-image: url(../img/trac--293@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 9px;
+  width: 1px;
+}
+
+.se-connecter .groupe-400 {
+  background-image: url(../img/trac--294@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 32px;
+  left: 37px;
+  position: absolute;
+  top: 0;
+  width: 33px;
+}
+
+.se-connecter .groupe-403 {
+  background-image: url(../img/trac--295@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 24px;
+  left: 14px;
+  position: absolute;
+  top: 80px;
+  width: 29px;
+}
+
+.se-connecter .groupe-405 {
+  background-image: url(../img/trac--296@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 15px;
+  left: 28px;
+  position: absolute;
+  top: 61px;
+  width: 15px;
+}
+
+.se-connecter .groupe-407 {
+  background-image: url(../img/trac--297@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 19px;
+  left: 81px;
+  position: absolute;
+  top: 77px;
+  width: 1px;
+}
+
+.se-connecter .trac-298 {
+  height: 41px;
+  left: 18px;
+  object-fit: cover;
+  position: absolute;
+  top: 103px;
+  width: 62px;
+}
+
+.se-connecter .groupe-408 {
+  background-image: url(../img/trac--299@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  left: 33px;
+  position: absolute;
+  top: 123px;
+  width: 5px;
+}
+
+.se-connecter .groupe-409 {
+  background-image: url(../img/trac--300@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 9px;
+  left: 13px;
+  position: absolute;
+  top: 84px;
+  width: 29px;
+}
+
+.se-connecter .groupe-410 {
+  background-image: url(../img/trac--301@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 5px;
+  left: 21px;
+  position: absolute;
+  top: 66px;
+  width: 19px;
+}
+
+.se-connecter .groupe-411 {
+  background-image: url(../img/trac--302@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 9px;
+  left: 44px;
+  position: absolute;
+  top: 74px;
+  width: 51px;
+}
+
+.se-connecter .groupe-412 {
+  background-image: url(../img/trac--303@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 66px;
+  position: absolute;
+  top: 61px;
+  width: 16px;
+}
+
+.se-connecter .groupe-413 {
+  background-image: url(../img/trac--304@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  left: 38px;
+  position: absolute;
+  top: 103px;
+  width: 35px;
+}
+
+.se-connecter .group-container-6 {
+  height: 70px;
+  left: 41px;
+  position: absolute;
+  top: 0;
+  width: 39px;
+}
+
+.se-connecter .groupe-container-9 {
+  height: 70px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 39px;
+}
+
+.se-connecter .groupe-429 {
+  display: flex;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 39px;
+}
+
+.se-connecter .groupe-428 {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  min-width: 38.91px;
+}
+
+.se-connecter .groupe-container-10 {
+  height: 70px;
+  position: relative;
+  width: 39px;
+}
+
+.se-connecter .groupe-419 {
+  display: flex;
+  height: 58px;
+  left: 5px;
+  position: absolute;
+  top: 12px;
+  width: 31px;
+}
+
+.se-connecter .groupe-418 {
+  align-items: flex-end;
+  background-image: url(../img/trac--305@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  min-width: 31.18px;
+  padding: 15.6px 9.6px;
+}
+
+.se-connecter .groupe-417 {
+  background-image: url(../img/trac--306@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 6px;
+  width: 11px;
+}
+
+.se-connecter .groupe-425 {
+  align-items: flex-start;
+  background-image: url(../img/trac--307@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 10px;
+  left: 2px;
+  min-width: 7px;
+  padding: 2.1px 1.6px;
+  position: absolute;
+  top: 27px;
+}
+
+.se-connecter .groupe-424 {
+  background-image: url(../img/trac--308@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 5px;
+  width: 3px;
+}
+
+.se-connecter .groupe-427 {
+  background-image: url(../img/trac--309@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 32px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 39px;
+}
+
+.se-connecter .groupe-456 {
+  display: flex;
+  height: 20px;
+  left: 16px;
+  position: absolute;
+  top: 21px;
+  width: 18px;
+}
+
+.se-connecter .groupe-455 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100%;
+  width: 18.08px;
+}
+
+.se-connecter .groupe-container-11 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 0;
+  min-width: 18px;
+}
+
+.se-connecter .groupe-452 {
+  background-image: url(../img/trac--316@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  width: 6px;
+}
+
+.se-connecter .groupe-454 {
+  align-self: flex-end;
+  background-image: url(../img/trac--317@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  margin-left: 7px;
+  width: 4px;
+}
+
+.se-connecter .groupe-450 {
+  display: flex;
+  height: 16px;
+  margin-left: 0.81px;
+  margin-top: 2px;
+  width: 17px;
+}
+
+.se-connecter .groupe-449 {
+  display: flex;
+  flex: 1;
+  width: 17.26px;
+}
+
+.se-connecter .groupe-448 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  min-width: 17.26px;
+}
+
+.se-connecter .groupe-441 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  height: 4px;
+  justify-content: space-between;
+  margin-top: 0.24px;
+  width: 5px;
+}
+
+.se-connecter .groupe-4 {
+  background-image: url(../img/trac--311@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 1.27px;
+  max-height: 1.27px;
+}
+
+.se-connecter .groupe-437 {
+  background-image: url(../img/trac--310@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2.27px;
+  margin-right: 0.2px;
+  width: 2.36px;
+}
+
+.se-connecter .group-container-7 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1px;
+  min-height: 16px;
+  width: 12px;
+}
+
+.se-connecter .groupe-container-12 {
+  height: 11px;
+  margin-left: 3.37px;
+  position: relative;
+  width: 9px;
+}
+
+.se-connecter .groupe-435 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  height: 4px;
+  justify-content: space-between;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.se-connecter .groupe-431 {
+  background-image: url(../img/trac--310@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2.27px;
+  margin-right: 0.3px;
+  width: 2.36px;
+}
+
+.se-connecter .groupe-444 {
+  background-image: url(../img/trac--314@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 4px;
+}
+
+.se-connecter .groupe-447 {
+  background-image: url(../img/trac--315@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 4px;
+  margin-top: 1px;
+  width: 4px;
+}
+
+.se-connecter .groupe-458 {
+  background-image: url(../img/trac--318@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 39px;
+}
+
+.se-connecter .groupe-461 {
+  background-image: url(../img/trac--319@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 50px;
+  left: 53px;
+  position: absolute;
+  top: 82px;
+  width: 90px;
+}
+
+.se-connecter .character_3 {
+  display: flex;
+  height: 283px;
+  left: 419px;
+  position: absolute;
+  top: 114px;
+  width: 165px;
+}
+
+.se-connecter .groupe-653 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  min-width: 164.54px;
+}
+
+.se-connecter .overlap-group6 {
+  height: 283px;
+  position: relative;
+  width: 165px;
+}
+
+.se-connecter .group-container-8 {
+  height: 196px;
+  left: 57px;
+  position: absolute;
+  top: 87px;
+  width: 108px;
+}
+
+.se-connecter .groupe-container-13 {
+  height: 109px;
+  left: 0;
+  position: absolute;
+  top: 86px;
+  width: 105px;
+}
+
+.se-connecter .groupe-469 {
+  display: flex;
+  height: 95px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 105px;
+}
+
+.se-connecter .groupe-468 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  min-width: 104.61px;
+}
+
+.se-connecter .groupe-container-14 {
+  height: 95px;
+  position: relative;
+  width: 105px;
+}
+
+.se-connecter .groupe-463 {
+  display: flex;
+  height: 88px;
+  left: 48px;
+  position: absolute;
+  top: 7px;
+  width: 7px;
+}
+
+.se-connecter .rectangle-17-2 {
+  background-color: var(--zeus);
+  flex: 1;
+  margin-left: 0;
+  margin-top: 0;
+  transform: rotate(180deg);
+  width: 7.31px;
+}
+
+.se-connecter .groupe-467 {
+  background-image: url(../img/trac--321@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 45px;
+  position: absolute;
+  top: 11px;
+  width: 13px;
+}
+
+.se-connecter .groupe-470 {
+  background-image: url(../img/trac--322@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 32px;
+  left: 20px;
+  position: absolute;
+  top: 71px;
+  width: 64px;
+}
+
+.se-connecter .groupe-471 {
+  background-image: url(../img/trac--323@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 10px;
+  left: 79px;
+  position: absolute;
+  top: 100px;
+  width: 10px;
+}
+
+.se-connecter .groupe-472 {
+  background-image: url(../img/trac--324@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 10px;
+  left: 15px;
+  position: absolute;
+  top: 99px;
+  width: 10px;
+}
+
+.se-connecter .groupe-474 {
+  background-image: url(../img/trac--325@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 20px;
+  position: absolute;
+  top: 95px;
+  width: 62px;
+}
+
+.se-connecter .groupe-476 {
+  background-image: url(../img/trac--326@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 87px;
+  left: 43px;
+  position: absolute;
+  top: 0;
+  width: 65px;
+}
+
+.se-connecter .groupe-477 {
+  background-image: url(../img/trac--327@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 83px;
+  left: 90px;
+  position: absolute;
+  top: 3px;
+  width: 7px;
+}
+
+.se-connecter .groupe-478 {
+  background-image: url(../img/trac--328@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 4px;
+  left: 63px;
+  position: absolute;
+  top: 86px;
+  width: 39px;
+}
+
+.se-connecter .trac {
+  height: 36px;
+  left: 48px;
+  object-fit: cover;
+  position: absolute;
+  top: 91px;
+  width: 97px;
+}
+
+.se-connecter .overlap-group3-2 {
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 47px;
+  width: 60px;
+}
+
+.se-connecter .groupe-484 {
+  align-items: flex-end;
+  background-image: url(../img/trac--330@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 20px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 19px;
+  padding: 1.7px 4.4px;
+  position: absolute;
+  top: 0;
+}
+
+.se-connecter .groupe-container-15 {
+  height: 12px;
+  position: relative;
+  width: 10px;
+}
+
+.se-connecter .groupe-480 {
+  background-image: url(../img/trac--331@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 11px;
+  left: 3px;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.se-connecter .groupe-482 {
+  background-image: url(../img/trac--332@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 3px;
+}
+
+.se-connecter .groupe-481 {
+  background-image: url(../img/trac--333@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  margin-top: 0;
+  width: 3.33px;
+}
+
+.se-connecter .groupe-483 {
+  background-image: url(../img/trac--334@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 10px;
+  left: 1px;
+  position: absolute;
+  top: 2px;
+  width: 4px;
+}
+
+.se-connecter .trac-335 {
+  height: 43px;
+  left: 14px;
+  object-fit: cover;
+  position: absolute;
+  top: 12px;
+  width: 46px;
+}
+
+.se-connecter .groupe-539 {
+  display: flex;
+  height: 16px;
+  left: 50px;
+  position: absolute;
+  top: 267px;
+  width: 32px;
+}
+
+.se-connecter .groupe-538 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  min-width: 32.08px;
+}
+
+.se-connecter .groupe-container-16 {
+  height: 16px;
+  position: relative;
+  width: 32px;
+}
+
+.se-connecter .groupe-490 {
+  align-items: flex-end;
+  background-image: url(../img/trac--336@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 16px;
+  justify-content: flex-end;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+
+.se-connecter .groupe-489 {
+  background-image: url(../img/trac--337@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 5.59px;
+  margin-bottom: 1.3px;
+  margin-right: 0;
+  opacity: 0.5;
+  width: 6.82px;
+}
+
+.se-connecter .groupe-492 {
+  background-image: url(../img/trac--338@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  top: 13px;
+  width: 32px;
+}
+
+.se-connecter .groupe-495 {
+  background-image: url(../img/trac--339@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 14px;
+  width: 32px;
+}
+
+.se-connecter .groupe-498 {
+  background-image: url(../img/trac--340@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 5px;
+  position: absolute;
+  top: 13px;
+  width: 2px;
+}
+
+.se-connecter .groupe-501 {
+  background-image: url(../img/trac--341@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 11px;
+  position: absolute;
+  top: 11px;
+  width: 1px;
+}
+
+.se-connecter .groupe-504 {
+  background-image: url(../img/trac--342@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 12px;
+  position: absolute;
+  top: 11px;
+  width: 1px;
+}
+
+.se-connecter .groupe-507 {
+  background-image: url(../img/trac--343@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 13px;
+  position: absolute;
+  top: 10px;
+  width: 2px;
+}
+
+.se-connecter .groupe-510 {
+  background-image: url(../img/trac--344@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 13px;
+  position: absolute;
+  top: 9px;
+  width: 2px;
+}
+
+.se-connecter .groupe-513 {
+  background-image: url(../img/trac--345@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 8px;
+  position: absolute;
+  top: 9px;
+  width: 4px;
+}
+
+.se-connecter .groupe-516 {
+  background-image: url(../img/trac--346@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 11px;
+  position: absolute;
+  top: 9px;
+  width: 2px;
+}
+
+.se-connecter .groupe-519 {
+  background-image: url(../img/trac--347@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 6px;
+  left: 25px;
+  position: absolute;
+  top: 9px;
+  width: 7px;
+}
+
+.se-connecter .groupe-522 {
+  background-image: url(../img/trac--348@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 8px;
+  left: 29px;
+  position: absolute;
+  top: 1px;
+  width: 1px;
+}
+
+.se-connecter .groupe-525 {
+  background-image: url(../img/trac--349@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 17px;
+  position: absolute;
+  top: 13px;
+  width: 6px;
+}
+
+.se-connecter .groupe-528 {
+  background-image: url(../img/trac--350@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 26px;
+  position: absolute;
+  top: 13px;
+  width: 1px;
+}
+
+.se-connecter .groupe-531 {
+  background-image: url(../img/trac--351@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 27px;
+  position: absolute;
+  top: 11px;
+  width: 1px;
+}
+
+.se-connecter .groupe-534 {
+  background-image: url(../img/trac--352@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 28px;
+  position: absolute;
+  top: 10px;
+  width: 1px;
+}
+
+.se-connecter .groupe-537 {
+  background-image: url(../img/trac--289@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 30px;
+  position: absolute;
+  top: 10px;
+  width: 1px;
+}
+
+.se-connecter .groupe-593 {
+  display: flex;
+  height: 21px;
+  left: 4px;
+  position: absolute;
+  top: 214px;
+  width: 35px;
+}
+
+.se-connecter .groupe-592 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  min-width: 34.94px;
+}
+
+.se-connecter .groupe-container-17 {
+  height: 21px;
+  margin-top: 0;
+  position: relative;
+  width: 35px;
+}
+
+.se-connecter .groupe-544 {
+  align-items: flex-end;
+  background-image: url(../img/trac--354@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 21px;
+  justify-content: flex-end;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 35px;
+}
+
+.se-connecter .groupe-543 {
+  background-image: url(../img/trac--355@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 5.59px;
+  margin-bottom: 0.3px;
+  margin-right: 3.9px;
+  opacity: 0.5;
+  width: 8.47px;
+}
+
+.se-connecter .groupe-546 {
+  background-image: url(../img/trac--356@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 14px;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  top: 7px;
+  width: 29px;
+}
+
+.se-connecter .groupe-549 {
+  background-image: url(../img/trac--357@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 14px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 29px;
+}
+
+.se-connecter .groupe-552 {
+  background-image: url(../img/trac--358@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 6px;
+  position: absolute;
+  top: 7px;
+  width: 1px;
+}
+
+.se-connecter .groupe-555 {
+  background-image: url(../img/trac--359@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 12px;
+  position: absolute;
+  top: 9px;
+  width: 1px;
+}
+
+.se-connecter .groupe-558 {
+  background-image: url(../img/trac--360@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 13px;
+  position: absolute;
+  top: 9px;
+  width: 1px;
+}
+
+.se-connecter .groupe-561 {
+  background-image: url(../img/trac--361@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 14px;
+  position: absolute;
+  top: 8px;
+  width: 2px;
+}
+
+.se-connecter .groupe-564 {
+  background-image: url(../img/trac--362@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 14px;
+  position: absolute;
+  top: 8px;
+  width: 2px;
+}
+
+.se-connecter .groupe-567 {
+  background-image: url(../img/trac--363@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 9px;
+  position: absolute;
+  top: 6px;
+  width: 3px;
+}
+
+.se-connecter .groupe-570 {
+  background-image: url(../img/trac--364@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 12px;
+  position: absolute;
+  top: 7px;
+  width: 2px;
+}
+
+.se-connecter .groupe-573 {
+  background-image: url(../img/trac--365@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 23px;
+  position: absolute;
+  top: 15px;
+  width: 8px;
+}
+
+.se-connecter .groupe-576 {
+  background-image: url(../img/trac--366@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  left: 29px;
+  position: absolute;
+  top: 8px;
+  width: 3px;
+}
+
+.se-connecter .groupe-579 {
+  background-image: url(../img/trac--367@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 16px;
+  position: absolute;
+  top: 13px;
+  width: 5px;
+}
+
+.se-connecter .groupe-582 {
+  background-image: url(../img/trac--368@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 24px;
+  position: absolute;
+  top: 17px;
+  width: 1px;
+}
+
+.se-connecter .groupe-585 {
+  background-image: url(../img/trac--270@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 26px;
+  position: absolute;
+  top: 16px;
+  width: 1px;
+}
+
+.se-connecter .groupe-588 {
+  background-image: url(../img/trac--370@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 28px;
+  position: absolute;
+  top: 16px;
+  width: 1px;
+}
+
+.se-connecter .groupe-591 {
+  background-image: url(../img/trac--371@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 30px;
+  position: absolute;
+  top: 17px;
+  width: 1px;
+}
+
+.se-connecter .groupe-594 {
+  background-image: url(../img/trac--372@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 120px;
+  position: absolute;
+  top: 90px;
+  width: 22px;
+}
+
+.se-connecter .groupe-598 {
+  align-items: flex-start;
+  background-image: url(../img/trac--373@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 93px;
+  justify-content: flex-end;
+  left: 53px;
+  min-width: 89px;
+  padding: 20.3px 19.0px;
+  position: absolute;
+  top: 53px;
+}
+
+.se-connecter .groupe-596 {
+  background-image: url(../img/trac--374@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 18px;
+  width: 3px;
+}
+
+.se-connecter .groupe-597 {
+  background-image: url(../img/trac--375@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 33px;
+  margin-left: 36px;
+  margin-top: 0.77px;
+  opacity: 0.2;
+  width: 6px;
+}
+
+.se-connecter .group-container-9 {
+  height: 147px;
+  left: 11px;
+  position: absolute;
+  top: 128px;
+  width: 128px;
+}
+
+.se-connecter .overlap-group-3 {
+  height: 147px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 128px;
+}
+
+.se-connecter .trac-376 {
+  height: 101px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 128px;
+}
+
+.se-connecter .trac-377 {
+  height: 129px;
+  left: 42px;
+  object-fit: cover;
+  position: absolute;
+  top: 18px;
+  width: 79px;
+}
+
+.se-connecter .groupe-599 {
+  background-image: url(../img/trac--378@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 21px;
+  left: 52px;
+  position: absolute;
+  top: 26px;
+  width: 69px;
+}
+
+.se-connecter .groupe-600 {
+  background-image: url(../img/trac--379@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 30px;
+  left: 42px;
+  position: absolute;
+  top: 35px;
+  width: 14px;
+}
+
+.se-connecter .groupe-601 {
+  background-image: url(../img/trac--380@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 66px;
+  position: absolute;
+  top: 57px;
+  width: 6px;
+}
+
+.se-connecter .groupe-602 {
+  background-image: url(../img/trac--381@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 6px;
+  left: 68px;
+  position: absolute;
+  top: 54px;
+  width: 4px;
+}
+
+.se-connecter .groupe-604 {
+  background-image: url(../img/trac--382@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 9px;
+  left: 72px;
+  position: absolute;
+  top: 58px;
+  width: 6px;
+}
+
+.se-connecter .trac-383 {
+  height: 7px;
+  left: 83px;
+  object-fit: cover;
+  position: absolute;
+  top: 126px;
+  width: 53px;
+}
+
+.se-connecter .overlap-group5 {
+  height: 106px;
+  left: 77px;
+  position: absolute;
+  top: 0;
+  width: 41px;
+}
+
+.se-connecter .trac-384 {
+  height: 33px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 19px;
+}
+
+.se-connecter .groupe-635 {
+  display: flex;
+  height: 68px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 35px;
+}
+
+.se-connecter .groupe-634 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  min-width: 35.31px;
+}
+
+.se-connecter .overlap-group2-3 {
+  height: 68px;
+  margin-top: 0;
+  position: relative;
+  width: 35px;
+}
+
+.se-connecter .groupe-633 {
+  align-items: center;
+  background-image: url(../img/trac--385@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 67px;
+  padding: 16.7px 1.8px;
+  position: absolute;
+  top: 2px;
+  width: 28px;
+}
+
+.se-connecter .overlap-group1-2 {
+  height: 20px;
+  margin-right: 7.05px;
+  position: relative;
+  width: 18px;
+}
+
+.se-connecter .trac-387 {
+  height: 4px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 16px;
+  width: 4px;
+}
+
+.se-connecter .groupe-632 {
+  display: flex;
+  height: 19px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+.se-connecter .groupe-631 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100%;
+  width: 17.84px;
+}
+
+.se-connecter .groupe-630 {
+  background-image: url(../img/trac--395@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  margin-left: 0.46px;
+  width: 4px;
+}
+
+.se-connecter .groupe-628 {
+  align-self: flex-end;
+  background-image: url(../img/trac--394@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  margin-right: 0;
+  width: 6px;
+}
+
+.se-connecter .groupe-626 {
+  display: flex;
+  height: 16px;
+  margin-top: 1px;
+  width: 17px;
+}
+
+.se-connecter .groupe-625 {
+  display: flex;
+  flex: 1;
+  width: 17.26px;
+}
+
+.se-connecter .groupe-624 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  min-width: 17.26px;
+}
+
+.se-connecter .group-container-10 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 16px;
+  width: 12px;
+}
+
+.se-connecter .groupe-container-18 {
+  height: 11px;
+  margin-right: 3.37px;
+  position: relative;
+  width: 9px;
+}
+
+.se-connecter .groupe-611 {
+  display: flex;
+  flex-direction: column;
+  height: 4px;
+  justify-content: space-between;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.se-connecter .groupe-61 {
+  background-image: url(../img/trac--389@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 1.27px;
+  max-height: 1.27px;
+}
+
+.se-connecter .groupe-607 {
+  background-image: url(../img/trac--388@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2.27px;
+  margin-left: 0.3px;
+  width: 2.36px;
+}
+
+.se-connecter .groupe-620 {
+  background-image: url(../img/trac--392@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 11px;
+  left: 5px;
+  position: absolute;
+  top: 0;
+  width: 4px;
+}
+
+.se-connecter .groupe-623 {
+  background-image: url(../img/trac--393@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 4px;
+  margin-top: 1px;
+  width: 4px;
+}
+
+.se-connecter .groupe-617 {
+  display: flex;
+  flex-direction: column;
+  height: 4px;
+  justify-content: space-between;
+  margin-left: 1px;
+  margin-top: 0.24px;
+  width: 5px;
+}
+
+.se-connecter .groupe-613 {
+  background-image: url(../img/trac--390@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2.27px;
+  margin-left: 0.2px;
+  width: 2.36px;
+}
+
+.se-connecter .trac-386 {
+  height: 6px;
+  margin-left: 1.37px;
+  margin-top: 5px;
+  object-fit: cover;
+  width: 11px;
+}
+
+.se-connecter .trac-396 {
+  height: 35px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 34px;
+}
+
+.se-connecter .trac-397 {
+  height: 10px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 3px;
+}
+
+.se-connecter .trac-398 {
+  height: 91px;
+  left: 26px;
+  object-fit: cover;
+  position: absolute;
+  top: 15px;
+  width: 14px;
+}
+
+.se-connecter .groupe-636 {
+  background-image: url(../img/trac--399@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 30px;
+  position: absolute;
+  top: 82px;
+  width: 5px;
+}
+
+.se-connecter .groupe-637 {
+  background-image: url(../img/trac--400@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 10px;
+  left: 29px;
+  position: absolute;
+  top: 69px;
+  width: 8px;
+}
+
+.se-connecter .groupe-638 {
+  background-image: url(../img/trac--401@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 31px;
+  position: absolute;
+  top: 68px;
+  width: 5px;
+}
+
+.se-connecter .groupe-639 {
+  background-image: url(../img/trac--402@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 10px;
+  left: 33px;
+  position: absolute;
+  top: 56px;
+  width: 5px;
+}
+
+.se-connecter .groupe-640 {
+  background-image: url(../img/trac--403@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 33px;
+  position: absolute;
+  top: 53px;
+  width: 4px;
+}
+
+.se-connecter .groupe-641 {
+  background-image: url(../img/trac--404@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 13px;
+  left: 32px;
+  position: absolute;
+  top: 41px;
+  width: 5px;
+}
+
+.se-connecter .groupe-642 {
+  background-image: url(../img/trac--405@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 32px;
+  position: absolute;
+  top: 39px;
+  width: 5px;
+}
+
+.se-connecter .groupe-643 {
+  background-image: url(../img/trac--406@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 8px;
+  left: 29px;
+  position: absolute;
+  top: 18px;
+  width: 12px;
+}
+
+.se-connecter .groupe-644 {
+  background-image: url(../img/trac--407@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 13px;
+  left: 28px;
+  position: absolute;
+  top: 18px;
+  width: 12px;
+}
+
+.se-connecter .groupe-645 {
+  background-image: url(../img/trac--408@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 12px;
+  left: 8px;
+  position: absolute;
+  top: 4px;
+  width: 30px;
+}
+
+.se-connecter .groupe-646 {
+  background-image: url(../img/trac--409@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 6px;
+  left: 9px;
+  position: absolute;
+  top: 3px;
+  width: 25px;
+}
+
+.se-connecter .groupe-647 {
+  background-image: url(../img/trac--410@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 29px;
+  position: absolute;
+  top: 93px;
+  width: 5px;
+}
+
+.se-connecter .groupe-648 {
+  background-image: url(../img/trac--411@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 10px;
+  left: 30px;
+  position: absolute;
+  top: 85px;
+  width: 4px;
+}
+
+.se-connecter .groupe-652 {
+  align-items: flex-start;
+  background-image: url(../img/trac--413@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 50px;
+  left: 5px;
+  min-width: 95px;
+  padding: 20.7px 28.6px;
+  position: absolute;
+  top: 70px;
+}
+
+.se-connecter .groupe-651 {
+  background-image: url(../img/trac--414@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 8px;
+  width: 6px;
+}
+
+.se-connecter .desk {
+  background-image: url(../img/trac--415@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 154px;
+  left: 117px;
+  position: absolute;
+  top: 235px;
+  width: 448px;
+}
+
+.se-connecter .character_2 {
+  display: flex;
+  height: 292px;
+  left: 223px;
+  position: absolute;
+  top: 105px;
+  width: 199px;
+}
+
+.se-connecter .groupe-895 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  min-width: 199.35px;
+}
+
+.se-connecter .overlap-group4 {
+  height: 292px;
+  margin-top: 0;
+  position: relative;
+  width: 199px;
+}
+
+.se-connecter .trac-416 {
+  height: 54px;
+  left: 87px;
+  object-fit: cover;
+  position: absolute;
+  top: 233px;
+  width: 19px;
+}
+
+.se-connecter .groupe-704 {
+  display: flex;
+  height: 7px;
+  left: 87px;
+  position: absolute;
+  top: 285px;
+  width: 28px;
+}
+
+.se-connecter .groupe-703 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  min-width: 28.37px;
+}
+
+.se-connecter .groupe-container-19 {
+  height: 7px;
+  margin-top: 0;
+  position: relative;
+  width: 28px;
+}
+
+.se-connecter .groupe-658 {
+  align-items: flex-end;
+  background-image: url(../img/trac--417@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 28px;
+}
+
+.se-connecter .groupe-657 {
+  background-image: url(../img/trac--418@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 4.69px;
+  margin-bottom: 0.4px;
+  margin-left: 0;
+  opacity: 0.4;
+  width: 6.14px;
+}
+
+.se-connecter .groupe-660 {
+  background-image: url(../img/trac--419@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  top: 3px;
+  width: 28px;
+}
+
+.se-connecter .groupe-1 {
+  background-image: url(../img/trac--420@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 28px;
+}
+
+.se-connecter .groupe-2 {
+  background-image: url(../img/trac--421@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 22px;
+  position: absolute;
+  top: 3px;
+  width: 2px;
+}
+
+.se-connecter .groupe-669 {
+  background-image: url(../img/trac--422@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 18px;
+  position: absolute;
+  top: 2px;
+  width: 1px;
+}
+
+.se-connecter .groupe-672 {
+  background-image: url(../img/trac--423@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 16px;
+  position: absolute;
+  top: 2px;
+  width: 1px;
+}
+
+.se-connecter .groupe-5 {
+  background-image: url(../img/trac--424@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 15px;
+  position: absolute;
+  top: 1px;
+  width: 2px;
+}
+
+.se-connecter .groupe-678 {
+  background-image: url(../img/trac--425@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 15px;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+
+.se-connecter .groupe-6 {
+  background-image: url(../img/trac--426@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 18px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.se-connecter .groupe-684 {
+  background-image: url(../img/trac--427@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 17px;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+
+.se-connecter .groupe-7 {
+  background-image: url(../img/trac--428@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 6px;
+}
+
+.se-connecter .groupe-690 {
+  background-image: url(../img/trac--429@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 8px;
+  position: absolute;
+  top: 4px;
+  width: 5px;
+}
+
+.se-connecter .groupe-8 {
+  background-image: url(../img/trac--430@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 5px;
+  position: absolute;
+  top: 4px;
+  width: 1px;
+}
+
+.se-connecter .groupe-9 {
+  background-image: url(../img/trac--431@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 4px;
+  position: absolute;
+  top: 3px;
+  width: 1px;
+}
+
+.se-connecter .groupe-10 {
+  background-image: url(../img/trac--270@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 1px;
+}
+
+.se-connecter .groupe-11 {
+  background-image: url(../img/trac--289@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 1px;
+  position: absolute;
+  top: 2px;
+  width: 1px;
+}
+
+.se-connecter .trac-434 {
+  height: 53px;
+  left: 108px;
+  object-fit: cover;
+  position: absolute;
+  top: 233px;
+  width: 19px;
+}
+
+.se-connecter .trac-435 {
+  height: 95px;
+  left: 43px;
+  object-fit: cover;
+  position: absolute;
+  top: 143px;
+  width: 107px;
+}
+
+.se-connecter .groupe-705 {
+  background-image: url(../img/trac--436@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 9px;
+  left: 122px;
+  position: absolute;
+  top: 159px;
+  width: 4px;
+}
+
+.se-connecter .groupe-706 {
+  background-image: url(../img/trac--437@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  left: 126px;
+  position: absolute;
+  top: 183px;
+  width: 5px;
+}
+
+.se-connecter .groupe-707 {
+  background-image: url(../img/trac--438@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 5px;
+  left: 122px;
+  position: absolute;
+  top: 202px;
+  width: 6px;
+}
+
+.se-connecter .groupe-708 {
+  background-image: url(../img/trac--439@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 8px;
+  left: 140px;
+  position: absolute;
+  top: 207px;
+  width: 2px;
+}
+
+.se-connecter .groupe-709 {
+  background-image: url(../img/trac--440@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  left: 127px;
+  position: absolute;
+  top: 221px;
+  width: 3px;
+}
+
+.se-connecter .groupe-710 {
+  background-image: url(../img/trac--441@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 9px;
+  left: 113px;
+  position: absolute;
+  top: 194px;
+  width: 2px;
+}
+
+.se-connecter .group-container-11 {
+  height: 54px;
+  left: 96px;
+  position: absolute;
+  top: 73px;
+  width: 103px;
+}
+
+.se-connecter .group {
+  height: 54px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 103px;
+}
+
+.se-connecter .groupe-712 {
+  display: flex;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 50px;
+  width: 77px;
+}
+
+.se-connecter .groupe-711 {
+  display: flex;
+  flex: 1;
+  width: 77.01px;
+}
+
+.se-connecter .rectangle-18-1 {
+  background-color: #1a2e35;
+  flex: 1;
+  margin-left: 0;
+  transform: rotate(180deg);
+  width: 77.01px;
+}
+
+.se-connecter .groupe-714 {
+  background-image: url(../img/trac--442@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 54px;
+  left: 30px;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.se-connecter .groupe-717 {
+  background-image: url(../img/trac--443@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 48px;
+  left: 34px;
+  position: absolute;
+  top: 3px;
+  width: 66px;
+}
+
+.se-connecter .groupe-719 {
+  background-image: url(../img/trac--444@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 13px;
+  left: 44px;
+  position: absolute;
+  top: 12px;
+  width: 39px;
+}
+
+.se-connecter .groupe-721 {
+  background-image: url(../img/trac--445@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 48px;
+  position: absolute;
+  top: 10px;
+  width: 28px;
+}
+
+.se-connecter .groupe-723 {
+  background-image: url(../img/trac--446@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 48px;
+  position: absolute;
+  top: 14px;
+  width: 11px;
+}
+
+.se-connecter .groupe-725 {
+  background-image: url(../img/trac--447@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 61px;
+  position: absolute;
+  top: 14px;
+  width: 7px;
+}
+
+.se-connecter .groupe-727 {
+  background-image: url(../img/trac--448@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 48px;
+  position: absolute;
+  top: 16px;
+  width: 31px;
+}
+
+.se-connecter .groupe-729 {
+  background-image: url(../img/trac--449@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 47px;
+  position: absolute;
+  top: 19px;
+  width: 10px;
+}
+
+.se-connecter .groupe-731 {
+  background-image: url(../img/trac--450@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 48px;
+  position: absolute;
+  top: 22px;
+  width: 29px;
+}
+
+.se-connecter .groupe-733 {
+  background-image: url(../img/trac--451@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 44px;
+  position: absolute;
+  top: 29px;
+  width: 11px;
+}
+
+.se-connecter .groupe-735 {
+  background-image: url(../img/trac--452@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 57px;
+  position: absolute;
+  top: 29px;
+  width: 8px;
+}
+
+.se-connecter .groupe-737 {
+  background-image: url(../img/trac--453@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 67px;
+  position: absolute;
+  top: 29px;
+  width: 3px;
+}
+
+.se-connecter .groupe-739 {
+  background-image: url(../img/trac--454@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 44px;
+  position: absolute;
+  top: 32px;
+  width: 4px;
+}
+
+.se-connecter .groupe-741 {
+  background-image: url(../img/trac--455@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 50px;
+  position: absolute;
+  top: 32px;
+  width: 8px;
+}
+
+.se-connecter .groupe-743 {
+  background-image: url(../img/trac--456@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 61px;
+  position: absolute;
+  top: 31px;
+  width: 22px;
+}
+
+.se-connecter .groupe-745 {
+  background-image: url(../img/trac--457@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 44px;
+  position: absolute;
+  top: 34px;
+  width: 4px;
+}
+
+.se-connecter .groupe-747 {
+  background-image: url(../img/trac--458@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 48px;
+  position: absolute;
+  top: 34px;
+  width: 4px;
+}
+
+.se-connecter .groupe-749 {
+  background-image: url(../img/trac--459@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 55px;
+  position: absolute;
+  top: 34px;
+  width: 14px;
+}
+
+.se-connecter .groupe-751 {
+  background-image: url(../img/trac--460@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 43px;
+  position: absolute;
+  top: 39px;
+  width: 17px;
+}
+
+.se-connecter .groupe-753 {
+  background-image: url(../img/trac--461@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 63px;
+  position: absolute;
+  top: 39px;
+  width: 8px;
+}
+
+.se-connecter .groupe-755 {
+  background-image: url(../img/trac--462@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 72px;
+  position: absolute;
+  top: 39px;
+  width: 13px;
+}
+
+.se-connecter .groupe-757 {
+  background-image: url(../img/trac--463@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 79px;
+  position: absolute;
+  top: 9px;
+  width: 3px;
+}
+
+.se-connecter .groupe-759 {
+  background-image: url(../img/trac--464@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 49px;
+  position: absolute;
+  top: 8px;
+  width: 6px;
+}
+
+.se-connecter .groupe-760 {
+  background-image: url(../img/trac--465@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 45px;
+  position: absolute;
+  top: 3px;
+  width: 55px;
+}
+
+.se-connecter .groupe-761 {
+  background-color: var(--alabaster);
+  border-radius: 0.59px;
+  height: 1px;
+  left: 48px;
+  position: absolute;
+  top: 4px;
+  width: 1px;
+}
+
+.se-connecter .groupe-762 {
+  background-color: var(--alabaster);
+  border-radius: 0.59px;
+  height: 1px;
+  left: 50px;
+  position: absolute;
+  top: 4px;
+  width: 1px;
+}
+
+.se-connecter .groupe-763 {
+  background-color: var(--alabaster);
+  border-radius: 0.59px;
+  height: 1px;
+  left: 52px;
+  position: absolute;
+  top: 4px;
+  width: 1px;
+}
+
+.se-connecter .groupe-772 {
+  align-items: flex-end;
+  display: flex;
+  height: 39px;
+  justify-content: flex-end;
+  left: 84px;
+  position: absolute;
+  top: 91px;
+  width: 91px;
+}
+
+.se-connecter .groupe-765 {
+  background-image: url(../img/trac--466@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  margin-right: 0;
+}
+
+.se-connecter .groupe-771 {
+  align-items: flex-end;
+  background-image: url(../img/trac--467@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 20.04px;
+  justify-content: flex-end;
+  margin-bottom: 0;
+  min-width: 26.14px;
+  padding: 3.2px 4.3px;
+}
+
+.se-connecter .groupe-container-20 {
+  height: 4px;
+  position: relative;
+  width: 9px;
+}
+
+.se-connecter .groupe-768 {
+  background-image: url(../img/trac--468@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.se-connecter .groupe-770 {
+  background-image: url(../img/trac--469@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 1px;
+  position: absolute;
+  top: 3px;
+  width: 6px;
+}
+
+.se-connecter .groupe-782 {
+  display: flex;
+  height: 60px;
+  left: 45px;
+  position: absolute;
+  top: 3px;
+  width: 44px;
+}
+
+.se-connecter .groupe-781 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  min-width: 44.41px;
+}
+
+.se-connecter .groupe-container-21 {
+  height: 60px;
+  position: relative;
+  width: 44px;
+}
+
+.se-connecter .groupe-779 {
+  display: flex;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+.se-connecter .groupe-778 {
+  display: flex;
+  flex: 1;
+  width: 40.37px;
+}
+
+.se-connecter .groupe-777 {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  min-width: 40.37px;
+}
+
+.se-connecter .groupe-container-22 {
+  height: 60px;
+  margin-bottom: 0;
+  position: relative;
+  width: 40px;
+}
+
+.se-connecter .groupe-774 {
+  background-image: url(../img/trac--470@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 53px;
+  left: 5px;
+  position: absolute;
+  top: 6px;
+  width: 33px;
+}
+
+.se-connecter .groupe-776 {
+  background-image: url(../img/trac--471@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+.se-connecter .groupe-780 {
+  background-image: url(../img/trac--472@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 15px;
+  left: 26px;
+  position: absolute;
+  top: 1px;
+  width: 19px;
+}
+
+.se-connecter .groupe-791 {
+  display: flex;
+  height: 130px;
+  left: 26px;
+  position: absolute;
+  top: 57px;
+  width: 87px;
+}
+
+.se-connecter .groupe-790 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  min-width: 86.92px;
+}
+
+.se-connecter .groupe-container-23 {
+  height: 130px;
+  margin-top: 0;
+  position: relative;
+  width: 87px;
+}
+
+.se-connecter .groupe-787 {
+  background-image: url(../img/trac--473@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 85px;
+}
+
+.se-connecter .groupe-789 {
+  background-image: url(../img/trac--474@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 77px;
+  left: 0;
+  opacity: 0.2;
+  position: absolute;
+  top: 53px;
+  width: 68px;
+}
+
+.se-connecter .group-container-12 {
+  height: 194px;
+  left: 0;
+  position: absolute;
+  top: 98px;
+  width: 116px;
+}
+
+.se-connecter .group-container {
+  height: 180px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 116px;
+}
+
+.se-connecter .groupe-792 {
+  background-color: var(--zeus);
+  height: 88px;
+  left: 61px;
+  position: absolute;
+  top: 92px;
+  width: 7px;
+}
+
+.se-connecter .groupe-container-24 {
+  height: 92px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 116px;
+}
+
+.se-connecter .groupe-793 {
+  background-image: url(../img/trac--475@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 87px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 58px;
+}
+
+.se-connecter .groupe-794 {
+  background-image: url(../img/trac--476@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 11px;
+  left: 11px;
+  position: absolute;
+  top: 81px;
+  width: 105px;
+}
+
+.se-connecter .groupe-797 {
+  background-image: url(../img/trac--477@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 8px;
+  left: 14px;
+  position: absolute;
+  top: 79px;
+  width: 44px;
+}
+
+.se-connecter .groupe-799 {
+  background-image: url(../img/trac--478@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 59px;
+  position: absolute;
+  top: 92px;
+  width: 13px;
+}
+
+.se-connecter .groupe-802 {
+  background-image: url(../img/trac--479@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 41px;
+  left: 50px;
+  position: absolute;
+  top: 46px;
+  width: 53px;
+}
+
+.se-connecter .groupe-804 {
+  background-image: url(../img/trac--480@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 32px;
+  left: 33px;
+  position: absolute;
+  top: 155px;
+  width: 64px;
+}
+
+.se-connecter .groupe-805 {
+  background-image: url(../img/trac--481@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 10px;
+  left: 28px;
+  position: absolute;
+  top: 184px;
+  width: 10px;
+}
+
+.se-connecter .groupe-806 {
+  background-image: url(../img/trac--482@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 10px;
+  left: 92px;
+  position: absolute;
+  top: 184px;
+  width: 10px;
+}
+
+.se-connecter .groupe-808 {
+  background-image: url(../img/trac--483@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 34px;
+  position: absolute;
+  top: 179px;
+  width: 62px;
+}
+
+.se-connecter .trac-484 {
+  height: 35px;
+  left: 44px;
+  object-fit: cover;
+  position: absolute;
+  top: 16px;
+  width: 35px;
+}
+
+.se-connecter .trac-485 {
+  height: 73px;
+  left: 28px;
+  object-fit: cover;
+  position: absolute;
+  top: 16px;
+  width: 50px;
+}
+
+.se-connecter .trac-486 {
+  height: 20px;
+  left: 35px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 23px;
+}
+
+.se-connecter .trac-487 {
+  height: 17px;
+  left: 41px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.se-connecter .groupe-810 {
+  background-image: url(../img/trac--488@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 21px;
+  left: 38px;
+  position: absolute;
+  top: 11px;
+  width: 20px;
+}
+
+.se-connecter .groupe-811 {
+  background-image: url(../img/trac--489@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 9px;
+  left: 46px;
+  position: absolute;
+  top: 17px;
+  width: 7px;
+}
+
+.se-connecter .groupe-812 {
+  background-image: url(../img/trac--490@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 12px;
+  left: 42px;
+  position: absolute;
+  top: 3px;
+  width: 13px;
+}
+
+.se-connecter .groupe-813 {
+  background-image: url(../img/trac--491@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 10px;
+  left: 57px;
+  position: absolute;
+  top: 14px;
+  width: 23px;
+}
+
+.se-connecter .groupe-814 {
+  background-image: url(../img/trac--492@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 20px;
+  left: 57px;
+  position: absolute;
+  top: 14px;
+  width: 22px;
+}
+
+.se-connecter .groupe-815 {
+  background-image: url(../img/trac--493@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 13px;
+  left: 55px;
+  position: absolute;
+  top: 6px;
+  width: 28px;
+}
+
+.se-connecter .groupe-816 {
+  background-image: url(../img/trac--494@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 6px;
+  left: 57px;
+  position: absolute;
+  top: 3px;
+  width: 11px;
+}
+
+.se-connecter .groupe-817 {
+  background-image: url(../img/trac--495@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 11px;
+  left: 47px;
+  position: absolute;
+  top: 6px;
+  width: 10px;
+}
+
+.se-connecter .groupe-818 {
+  background-image: url(../img/trac--496@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 70px;
+  left: 51px;
+  position: absolute;
+  top: 18px;
+  width: 7px;
+}
+
+.se-connecter .groupe-819 {
+  background-image: url(../img/trac--497@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 58px;
+  left: 35px;
+  position: absolute;
+  top: 30px;
+  width: 13px;
+}
+
+.se-connecter .groupe-820 {
+  background-image: url(../img/trac--498@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 70px;
+  left: 58px;
+  position: absolute;
+  top: 17px;
+  width: 10px;
+}
+
+.se-connecter .groupe-871 {
+  display: flex;
+  height: 7px;
+  left: 108px;
+  position: absolute;
+  top: 285px;
+  width: 28px;
+}
+
+.se-connecter .groupe-870 {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  min-width: 28.37px;
+  padding: 0.0px 0;
+}
+
+.se-connecter .groupe-container-25 {
+  height: 7px;
+  position: relative;
+  width: 28px;
+}
+
+.se-connecter .groupe-825 {
+  align-items: flex-end;
+  background-image: url(../img/trac--499@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 28px;
+}
+
+.se-connecter .groupe-824 {
+  background-image: url(../img/trac--418@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 4.69px;
+  margin-bottom: 0.4px;
+  margin-left: 0;
+  opacity: 0.4;
+  width: 6.14px;
+}
+
+.se-connecter .groupe-827 {
+  background-image: url(../img/trac--501@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  top: 3px;
+  width: 28px;
+}
+
+.se-connecter .groupe-836 {
+  background-image: url(../img/trac--504@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 18px;
+  position: absolute;
+  top: 2px;
+  width: 1px;
+}
+
+.se-connecter .groupe-839 {
+  background-image: url(../img/trac--505@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 16px;
+  position: absolute;
+  top: 2px;
+  width: 1px;
+}
+
+.se-connecter .groupe-845 {
+  background-image: url(../img/trac--507@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 15px;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+
+.se-connecter .groupe-851 {
+  background-image: url(../img/trac--509@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 17px;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+
+.se-connecter .groupe-857 {
+  background-image: url(../img/trac--511@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 8px;
+  position: absolute;
+  top: 4px;
+  width: 5px;
+}
+
+.se-connecter .groupe-872 {
+  background-image: url(../img/trac--516@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 40px;
+  left: 102px;
+  position: absolute;
+  top: 190px;
+  width: 3px;
+}
+
+.se-connecter .groupe-873 {
+  background-image: url(../img/trac--517@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 42px;
+  left: 108px;
+  position: absolute;
+  top: 191px;
+  width: 4px;
+}
+
+.se-connecter .groupe-874 {
+  background-image: url(../img/trac--518@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 24px;
+  left: 72px;
+  opacity: 0.2;
+  position: absolute;
+  top: 189px;
+  width: 44px;
+}
+
+.se-connecter .groupe-875 {
+  background-image: url(../img/trac--519@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 57px;
+  position: absolute;
+  top: 122px;
+  width: 22px;
+}
+
+.se-connecter .groupe-876 {
+  background-image: url(../img/trac--520@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 6px;
+  left: 68px;
+  position: absolute;
+  top: 118px;
+  width: 4px;
+}
+
+.se-connecter .groupe-877 {
+  background-image: url(../img/trac--521@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 5px;
+  left: 72px;
+  position: absolute;
+  top: 119px;
+  width: 4px;
+}
+
+.se-connecter .groupe-878 {
+  background-image: url(../img/trac--522@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 10px;
+  left: 104px;
+  position: absolute;
+  top: 224px;
+  width: 4px;
+}
+
+.se-connecter .groupe-879 {
+  background-image: url(../img/trac--523@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  left: 78px;
+  position: absolute;
+  top: 222px;
+  width: 8px;
+}
+
+.se-connecter .groupe-880 {
+  background-image: url(../img/trac--524@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 6px;
+  left: 87px;
+  position: absolute;
+  top: 200px;
+  width: 4px;
+}
+
+.se-connecter .groupe-881 {
+  background-image: url(../img/trac--525@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  left: 77px;
+  position: absolute;
+  top: 167px;
+  width: 6px;
+}
+
+.se-connecter .groupe-882 {
+  background-image: url(../img/trac--526@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 95px;
+  position: absolute;
+  top: 170px;
+  width: 9px;
+}
+
+.se-connecter .groupe-883 {
+  background-image: url(../img/trac--527@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 6px;
+  left: 106px;
+  position: absolute;
+  top: 151px;
+  width: 4px;
+}
+
+.se-connecter .groupe-884 {
+  background-image: url(../img/trac--528@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 3px;
+  left: 80px;
+  position: absolute;
+  top: 154px;
+  width: 7px;
+}
+
+.se-connecter .groupe-885 {
+  background-image: url(../img/trac--529@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 6px;
+  left: 66px;
+  position: absolute;
+  top: 149px;
+  width: 9px;
+}
+
+.se-connecter .groupe-886 {
+  background-image: url(../img/trac--530@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 5px;
+  left: 63px;
+  position: absolute;
+  top: 131px;
+  width: 10px;
+}
+
+.se-connecter .groupe-887 {
+  background-image: url(../img/trac--531@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 6px;
+  left: 62px;
+  position: absolute;
+  top: 107px;
+  width: 6px;
+}
+
+.se-connecter .groupe-888 {
+  background-image: url(../img/trac--532@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 4px;
+  left: 76px;
+  position: absolute;
+  top: 100px;
+  width: 6px;
+}
+
+.se-connecter .groupe-889 {
+  background-image: url(../img/trac--533@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 6px;
+  left: 66px;
+  position: absolute;
+  top: 91px;
+  width: 5px;
+}
+
+.se-connecter .groupe-890 {
+  background-image: url(../img/trac--534@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 4px;
+  left: 79px;
+  position: absolute;
+  top: 78px;
+  width: 8px;
+}
+
+.se-connecter .groupe-891 {
+  background-image: url(../img/trac--535@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 7px;
+  left: 95px;
+  position: absolute;
+  top: 83px;
+  width: 2px;
+}
+
+.se-connecter .groupe-892 {
+  background-image: url(../img/trac--536@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 5px;
+  left: 92px;
+  position: absolute;
+  top: 100px;
+  width: 7px;
+}
+
+.se-connecter .groupe-893 {
+  background-image: url(../img/trac--537@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 8px;
+  left: 76px;
+  position: absolute;
+  top: 64px;
+  width: 5px;
+}
+
+.se-connecter .groupe-894 {
+  background-image: url(../img/trac--538@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 2px;
+  left: 43px;
+  position: absolute;
+  top: 91px;
+  width: 11px;
+}
+
+.se-connecter .charts {
+  display: flex;
+  height: 118px;
+  left: 197px;
+  position: absolute;
+  top: 49px;
+  width: 299px;
+}
+
+.se-connecter .groupe-910 {
+  flex: 1;
+  position: relative;
+  width: 299.09px;
+}
+
+.se-connecter .overlap-group2-4 {
+  height: 118px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 226px;
+}
+
+.se-connecter .groupe-898 {
+  align-items: flex-end;
+  background-color: var(--cultured-pearl);
+  display: flex;
+  height: 56px;
+  justify-content: flex-end;
+  left: 152px;
+  min-width: 74px;
+  padding: 7.6px 4.5px;
+  position: absolute;
+  top: 62px;
+}
+
+.se-connecter .overlap-group-4 {
+  height: 38px;
+  position: relative;
+  width: 64px;
+}
+
+.se-connecter .rectangle-21 {
+  background-color: #ff4f5b;
+  height: 34px;
+  left: 48px;
+  position: absolute;
+  top: 3px;
+  width: 9px;
+}
+
+.se-connecter .rectangle-22 {
+  background-color: #dd6400;
+  height: 37px;
+  left: 34px;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.se-connecter .rectangle-23 {
+  background-color: #ff4f5b;
+  height: 33px;
+  left: 20px;
+  position: absolute;
+  top: 5px;
+  width: 9px;
+}
+
+.se-connecter .rectangle-24 {
+  background-color: #efd4bb;
+  height: 33px;
+  left: 20px;
+  position: absolute;
+  top: 5px;
+  width: 9px;
+}
+
+.se-connecter .rectangle-25 {
+  background-color: var(--chilean-fire);
+  height: 27px;
+  left: 6px;
+  position: absolute;
+  top: 10px;
+  width: 9px;
+}
+
+.se-connecter .rectangle-26 {
+  background-color: var(--chilean-fire);
+  height: 34px;
+  left: 48px;
+  position: absolute;
+  top: 3px;
+  width: 9px;
+}
+
+.se-connecter .groupe-896 {
+  background-image: url(../img/trac--539@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 37px;
+  width: 64px;
+}
+
+.se-connecter .groupe-897 {
+  background-image: url(../img/trac--540@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 32px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 55px;
+}
+
+.se-connecter .groupe-899 {
+  background-image: url(../img/trac--541@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 79px;
+  left: 127px;
+  position: absolute;
+  top: 6px;
+  width: 25px;
+}
+
+.se-connecter .groupe-901 {
+  background-image: url(../img/trac--543@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 29px;
+  left: 31px;
+  position: absolute;
+  top: 75px;
+  width: 121px;
+}
+
+.se-connecter .trac-544 {
+  height: 9px;
+  left: 41px;
+  object-fit: cover;
+  position: absolute;
+  top: 99px;
+  width: 9px;
+}
+
+.se-connecter .trac-545 {
+  height: 14px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 63px;
+  width: 41px;
+}
+
+.se-connecter .ellipse-6 {
+  background-color: var(--bon-jour-2);
+  border-radius: 4.55px;
+  height: 9px;
+  left: 123px;
+  position: absolute;
+  top: 80px;
+  width: 9px;
+}
+
+.se-connecter .trac-555 {
+  height: 14px;
+  left: 107px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 41px;
+}
+
+.se-connecter .overlap-group3-3 {
+  height: 26px;
+  left: 211px;
+  position: absolute;
+  top: 36px;
+  width: 88px;
+}
+
+.se-connecter .groupe-900 {
+  background-image: url(../img/trac--542@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 19px;
+  left: 4px;
+  position: absolute;
+  top: 7px;
+  width: 46px;
+}
+
+.se-connecter .trac-554 {
+  height: 14px;
+  left: 47px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 41px;
+}
+
+.se-connecter .ellipse-5 {
+  background-color: var(--bon-jour-2);
+  border-radius: 4.55px;
+  height: 9px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 9px;
+}
+
+.se-connecter .overlap-group1-3 {
+  height: 42px;
+  left: 18px;
+  position: absolute;
+  top: 1px;
+  width: 77px;
+}
+
+.se-connecter .rectangle-27 {
+  background-color: var(--cultured-pearl);
+  height: 42px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 64px;
+}
+
+.se-connecter .rectangle-28 {
+  background-color: var(--chilean-fire);
+  height: 17px;
+  left: 35px;
+  position: absolute;
+  top: 13px;
+  width: 42px;
+}
+
+.se-connecter .groupe-902 {
+  background-image: url(../img/trac--546@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 7px;
+  position: absolute;
+  top: 13px;
+  width: 20px;
+}
+
+.se-connecter .groupe-903 {
+  background-image: url(../img/trac--546@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 7px;
+  position: absolute;
+  top: 16px;
+  width: 20px;
+}
+
+.se-connecter .groupe-904 {
+  background-image: url(../img/trac--548@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 7px;
+  position: absolute;
+  top: 19px;
+  width: 20px;
+}
+
+.se-connecter .groupe-905 {
+  background-image: url(../img/trac--549@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 7px;
+  position: absolute;
+  top: 22px;
+  width: 20px;
+}
+
+.se-connecter .groupe-906 {
+  background-image: url(../img/trac--548@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 7px;
+  position: absolute;
+  top: 26px;
+  width: 20px;
+}
+
+.se-connecter .groupe-907 {
+  background-image: url(../img/trac--551@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 7px;
+  position: absolute;
+  top: 29px;
+  width: 12px;
+}
+
+.se-connecter .groupe-908 {
+  background-image: url(../img/trac--552@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 63px;
+}
+
+.se-connecter .groupe-909 {
+  background-image: url(../img/trac--553@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 24px;
+  left: 172px;
+  position: absolute;
+  top: 22px;
+  width: 24px;
+}
+
+.se-connecter .rectangle-29 {
+  background-color: var(--bon-jour-2);
+  height: 12px;
+  left: 200px;
+  position: absolute;
+  top: 12px;
+  width: 12px;
+}
+
+.se-connecter .logo {
+  display: flex;
+  height: 81px;
+  left: 195px;
+  position: absolute;
+  top: 358px;
+  width: 371px;
+}
+
+.se-connecter .groupe-1-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 62.6px;
+  justify-content: flex-end;
+  min-width: 61.81px;
+  padding: 0 0.0px;
+}
+
+.se-connecter .overlap-group-5 {
+  height: 63px;
+  margin-top: 0;
+  position: relative;
+  width: 62px;
+}
+
+.se-connecter .subtract-4 {
+  height: 26px;
+  left: 12px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 25px;
+}
+
+.se-connecter .subtract-5 {
+  height: 58px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 59px;
+}
+
+.se-connecter .ellipse-4-2 {
+  background-color: var(--yellow-orange);
+  border-radius: 7.79px;
+  height: 16px;
+  left: 43px;
+  position: absolute;
+  top: 44px;
+  transform: rotate(-41.90deg);
+  width: 16px;
+}
+
+.se-connecter .groupe-3-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 9.7px;
+  margin-top: 0;
+  min-height: 100%;
+}
+
+.se-connecter .insidepro {
+  height: 83px;
+  letter-spacing: -1.00px;
+  line-height: 191.3px;
+  margin-top: -76px;
+  white-space: nowrap;
+}
+
+.se-connecter .span1 {
+  color: var(--mango-tango);
+  font-family: var(--font-family-comfortaa);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.se-connecter .by-propulse-group {
+  color: var(--granite-gray);
+  font-family: var(--font-family-sansation-regular);
+  font-size: 8px;
+  letter-spacing: 6.88px;
+  line-height: 36.4px;
+  margin-left: 6.0px;
+  margin-top: 21px;
+  min-height: 13px;
+  min-width: 188px;
+  text-align: center;
+  white-space: nowrap;
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1114.491" height="450.077" viewBox="0 0 1114.491 450.077">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f27200" stop-opacity="0.761"/>
+      <stop offset="1" stop-color="#df6a01"/>
+    </linearGradient>
+  </defs>
+  <g id="logo_inde" data-name="logo inde" transform="translate(-74 -47)">
+    <g id="Groupe_3" data-name="Groupe 3" transform="translate(10 4)">
+      <text id="Inside.pro" transform="translate(344.491 86.077)" fill="#241e0f" font-size="159.411" font-family="Comfortaa-Bold, Comfortaa" font-weight="700" letter-spacing="-0.025em"><tspan x="0" y="140">Inside</tspan><tspan y="140" fill="#f27200">.</tspan><tspan y="140">pro</tspan></text>
+      <text id="BY_PROPULSE_GROUP" data-name="BY PROPULSE GROUP" transform="translate(736.251 284.649)" fill="#666" font-size="30.305" font-family="SegoeUI, Segoe UI" letter-spacing="0.86em"><tspan x="-353.573" y="0">BY PROPULSE GROUP</tspan></text>
+    </g>
+    <path id="Subtract" d="M74.562,36.441C74.562,16.315,57.87,0,37.281,0S0,16.315,0,36.441V58.153a37.281,37.281,0,1,0,74.562,0Z" transform="matrix(0.744, -0.668, 0.668, 0.744, 129.255, 146.367)" fill="#ee8426"/>
+    <path id="Subtract-2" data-name="Subtract" d="M201.447,0a21.345,21.345,0,0,0-21.584,21.1V58.153a68.348,68.348,0,1,1-136.7,0V21.1A21.345,21.345,0,0,0,21.584,0,21.345,21.345,0,0,0,0,21.1V59.776c0,60.2,49.927,109,111.515,109s111.515-48.8,111.515-109V21.1A21.345,21.345,0,0,0,201.447,0Z" transform="matrix(0.744, -0.668, 0.668, 0.744, 74, 195.942)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="36.662" cy="36.662" r="36.662" transform="matrix(0.744, -0.668, 0.668, 0.744, 261.455, 287.127)" fill="#ffbb54"/>
+  </g>
+</svg>
