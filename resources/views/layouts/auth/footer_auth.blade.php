@@ -7,9 +7,9 @@
     </div>
 
     <!-- js plugins file -->
-    <script src="{{asset('auth/scripts/plugins.min.js') }}"></script>
+    <script src="{{asset('public/auth/scripts/plugins.min.js') }}"></script>
 
     <!-- main script file -->
-    <script src="{{asset('auth/scripts/main.min.js') }}"></script>
+    <script src="{{asset('public/auth/scripts/main.min.js') }}"></script>
   </body>
 </html>

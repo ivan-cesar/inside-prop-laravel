@@ -11,7 +11,7 @@
       saleGradientBg2.addColorStop(0, 'rgba(0, 208, 255, 0.19)');
       saleGradientBg2.addColorStop(1, 'rgba(0, 208, 255, 0.03)');
       var salesTopData = {
-          labels: ["SUN","sun", "MON", "mon", "TUE","tue", "WED", "wed", "THU", "thu", "FRI", "fri", "SAT"],
+          labels: ["JAN", "MON", "TUE", "WED", "THU", "FRI"],
           datasets: [{
               label: 'This week',
               data: [50, 110, 60, 290, 200, 115, 130, 170, 90, 210, 240, 280, 200],
@@ -223,7 +223,7 @@
     if ($("#status-summary").length) {
       var statusSummaryChartCanvas = document.getElementById("status-summary").getContext('2d');;
       var statusData = {
-          labels: ["SUN", "MON", "TUE", "WED", "THU", "FRI"],
+          labels: ["JAN", "MON", "TUE", "WED", "THU", "FRI"],
           datasets: [{
               label: '# of Votes',
               data: [50, 68, 70, 10, 12, 80],

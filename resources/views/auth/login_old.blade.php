@@ -1,5 +1,4 @@
 @extends('layouts.auth_template')
-
 @section('content')
 
      <!-- start of hero section -->

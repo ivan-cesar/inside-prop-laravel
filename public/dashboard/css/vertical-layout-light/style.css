@@ -8521,13 +8521,6 @@
 }
 
 /*-------------------------------------------------------------------*/
-/* === Boostrap Main SCSS === */
-/*!
- * Bootstrap v5.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --bs-blue: #5E50F9;
   --bs-indigo: #6610f2;
@@ -11506,7 +11499,6 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
   background-color: #ff6e00;
   border-color: #ff6e00;
 }
-
 .btn-primary:hover {
   color: #fff;
   background-color: #ff6e00;
@@ -16492,7 +16484,7 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
 }
 
 .fw-bold {
-  font-weight: 700 !important;
+  font-weight: normal !important;
 }
 
 .fw-bolder {
@@ -20545,12 +20537,12 @@ code {
 }
 
 .home-tab .btn, .home-tab .ajax-upload-dragdrop .ajax-file-upload, .ajax-upload-dragdrop .home-tab .ajax-file-upload, .home-tab .swal2-modal .swal2-buttonswrapper .swal2-styled, .swal2-modal .swal2-buttonswrapper .home-tab .swal2-styled {
-  padding: 8px 15px;
+  padding: 15px 15px;
   border: 1px solid #CADDFF;
   box-sizing: border-box;
   border-radius: 6px;
   color: #000000;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 12px;
   line-height: 12px;
   margin-bottom: 12px;
@@ -20611,9 +20603,11 @@ code {
 }
 
 .home-tab .statistics-details {
+  padding: 20px;
   margin-bottom: 48px;
 }
 .stat{
+    border-radius: 20px;
   background-color: #fff;
 }
 
@@ -21139,12 +21133,12 @@ code {
 
 .badge-success, .preview-list .preview-item .preview-thumbnail .badge.badge-online {
   color: #34B1AA;
-  border: 1px solid #34B1AA;
+  border: 1px solid #B0FFC2;
 }
 
 .badge-info, .preview-list .preview-item .preview-thumbnail .badge.badge-offline {
-  color: #52CDFF;
-  border: 1px solid #52CDFF;
+  color: #B1008A;
+  border: 1px solid #B1008A;
 }
 
 .badge-warning, .preview-list .preview-item .preview-thumbnail .badge.badge-busy {
@@ -21154,7 +21148,7 @@ code {
 
 .badge-danger {
   color: #F95F53;
-  border: 1px solid #F95F53;
+  border: 1px solid #ffb1c1;
 }
 
 .badge-light {
@@ -23681,7 +23675,9 @@ select.border-dark.tt-hint:focus {
   vertical-align: top;
   margin-bottom: .5rem;
 }
-
+.tox .tox-statusbar{
+    display:none!important;
+}
 .form-group.has-danger .form-control, .form-group.has-danger .asColorPicker-input, .form-group.has-danger .dataTables_wrapper select, .dataTables_wrapper .form-group.has-danger select, .form-group.has-danger .select2-container--default .select2-selection--single, .select2-container--default .form-group.has-danger .select2-selection--single, .form-group.has-danger .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .form-group.has-danger .select2-search__field, .form-group.has-danger .typeahead,
 .form-group.has-danger .tt-query,
 .form-group.has-danger .tt-hint {
@@ -25483,7 +25479,7 @@ dl li {
   line-height: 15px;
   padding-right: 5px;
   padding-left: 0;
-  font-weight: 500;
+  font-weight: normal;
 }
 
 .table.select-table th .form-check {
@@ -25509,7 +25505,7 @@ dl li {
 
 .table.select-table td h6, .table.select-table td .h6 {
   font-style: normal;
-  font-weight: 600;
+  font-weight: normal;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -27091,7 +27087,8 @@ body.avgrund-active {
 }
 
 .dataTables_wrapper .dataTables_length select {
-  min-width: 70px;
+  height:auto;
+  width: 30%!important;
   margin-left: .25rem;
   margin-right: .25rem;
   width: -webkit-fill-available;
@@ -28307,7 +28304,9 @@ table.dataTable tbody td.select-checkbox:after {
   width: 20px;
   height: 20px;
 }
-
+div.dataTables_wrapper div.dataTables_length select {
+    text-align:center!important;
+}
 .switchery-small {
   width: 25px;
   height: 13px;
@@ -29191,6 +29190,8 @@ border-radius: 51.92px;
 height: 104px;
 position: relative;
 width: 104px;
+margin-right: 50%;
+    margin-left: 47%;
 }
 .ellipse-1-1 {
   height: 85px;
@@ -29201,19 +29202,19 @@ width: 104px;
   width: 85px;
 }
 .icon-awesome-user-lock {
-  height: 35px;
-  left: 29px;
-  object-fit: cover;
-  position: absolute;
-  top: 29px;
-  width: 44px;
+    height: 50px;
+    left: 27px;
+    object-fit: cover;
+    position: absolute;
+    top: 28px;
+    width: 50px;
+    border-radius: 50%;
 }
 .overlap-group1-5 {
   height: 88px;
-  left: 323px;
   position: absolute;
-  top: 0px;
-  width: 72px;
+  top: -21%;
+  left: -56%;
 }
 .rectangle-211 {
   height: 88px;
@@ -29223,22 +29224,71 @@ width: 104px;
   top: 0;
   width: 65px;
 }
+  .iv_row{
+      width:20%;
+  }
+  .iv_edit{
+      float:left;
+      width:10%;
+  }
+  
+  .iv_delete{
+      float:right;
+      width:10%;
+  }
+  
 .title-4 {
   height: 36px;
-  left: 5px;
+  left: 248%!important;
   letter-spacing: 0;
   line-height: 16px;
   position: absolute;
   top: 30px;
+}
+@media(min-width:1440px){
+    .rectangle-211{
+        left: 104%!important;
+    }
+    .title-5{
+        left: 149%!important;
+    }
+    .title-4{
+        left: 132%!important;
+    }
+}
+@media(min-width: 1920px){
+    .group-5-1 {
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  height: 163%;
+  left: 0;
+  min-width: 133%;
+  padding: 11.2px 130.9px;
+  position: absolute;
+  top: 0;
+  margin-left: 10%;
+}
+.rectangle-211{
+    left: 198%!important;
+}
+
+.title-5{
+    left: 193%!important;
+}
+.title-name{
+    left: 143px;
+}
 }
 .group-5-1 {
   align-items: flex-start;
   background-color: #fff;
   border-radius: 15px;
   display: flex;
-  height: 308px;
+  height: 163%;
   left: 0;
-  min-width: 366px;
+  width: 366px;
   padding: 11.2px 130.9px;
   position: absolute;
   top: 0;
@@ -29260,7 +29310,7 @@ width: 104px;
 }
 .title-5 {
   height: 26px;
-  left: 14px;
+  left: 243%;
   letter-spacing: 0;
   line-height: 8px;
   position: absolute;
@@ -31268,13 +31318,13 @@ width: 104px;
   width: 252px !important;
 }
 .chart {
-  width: 30px !important;
-  align-items: center;
-  display: flex;
-  height: 98.17px;
-  margin-bottom: -44.8px;
-  margin-left: 36.0px;
-  min-width: 74px;
+    width: 30px !important;
+    align-items: center;
+    display: flex;
+    height: 74px;
+    margin-bottom: -44.8px;
+    margin-left: 36px;
+    min-width: 74px;
 }
 .title-chart {
   display: flex;
@@ -31285,7 +31335,7 @@ width: 104px;
   width: 127.88px;
 }
 .overlap-group-5 {
-  height: 98px;
+  height: 74px;
   position: relative;
   width: 9px;
 }
@@ -31356,7 +31406,7 @@ width: 104px;
   width: 9px;
 }
 .overlap-group {
-  height: 98px;
+  height: 74px;
   margin-left: 12px;
   position: relative;
   width: 9px;
@@ -31379,7 +31429,7 @@ width: 104px;
   width: 9px;
 }
 .overlap-group2-3 {
-  height: 98px;
+  height: 74px;
   margin-left: 14px;
   position: relative;
   width: 9px;
@@ -31393,12 +31443,7 @@ width: 104px;
   top: 16px;
   width: 9px;
 }
-.overlap-group {
-  height: 98px;
-  margin-left: 12px;
-  position: relative;
-  width: 9px;
-}
+
 .unread-email {
   width: 252px !important;
   align-items: flex-start;
@@ -31420,7 +31465,6 @@ width: 104px;
   padding: 16px 26.0px;
 }
 .overlap-group2-2 {
-  height: 106px;
   position: relative;
   width: 100px;
 }
@@ -31436,11 +31480,11 @@ width: 104px;
 .rectangle-29 {
   background-color: #ff3f4026;
   border-radius: 32px;
-  height: 89px;
-  left: 11px;
+  height: 74px;
+  left: 20%;
   position: absolute;
-  top: 17px;
-  width: 89px;
+  top: -36px;
+  width: 74px;
 }
 .rectangle_29 {
   background-color: #fff8eb;
@@ -31451,8 +31495,65 @@ width: 104px;
   top: 17px;
   width: 89px;
 }
+.rectangle_r {
+  background-color: #FFE7FA;
+  border-radius: 32px;
+  height: 89px;
+  left: 11px;
+  position: absolute;
+  top: 17px;
+  width: 89px;
+}
+.rectangle_2 {
+  background-color: #E9F6FF;
+  border-radius: 32px;
+  height: 89px;
+  left: 11px;
+  position: absolute;
+  top: 17px;
+  width: 89px;
+}
+.rectangle_ac {
+  background-color: #FFE7FA;
+  border-radius: 32px;
+  height: 89px;
+  left: 11px;
+  position: absolute;
+  top: 17px;
+  width: 89px;
+}
 .x019-message {
-  background-image: url(https://inside.demopg.com/required/auth/img/vector-1550@1x.png);
+  background-image: url(../../../auth/img/vector-1550@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 46px;
+  left: 32%;
+  position: absolute;
+  top: -21px;
+  width: 51px;
+}
+.xhoe-message {
+  background-image: url(../../../auth/img/icon-awesome-user-tie-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 58px;
+  left: 30px;
+  position: absolute;
+  top: 30px;
+  width: 51px;
+}
+.xfrais-message {
+  background-image: url(../../../auth/img/frais.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 57%;
+  left: 30px;
+  position: absolute;
+  top: 31%;
+  width: 51px;
+}
+.xr-message {
+  background-image: url(../../../auth/img/reporte.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 46px;
@@ -31461,29 +31562,59 @@ width: 104px;
   top: 38px;
   width: 51px;
 }
+.x0-message {
+  background-image: url(../../../auth/img/non-trait.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 46px;
+  left: 30px;
+  position: absolute;
+  top: 38px;
+  width: 51px;
+}
+.x01-message {
+  background-image: url(../../../auth/img/Collabo.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 46px;
+  left: 36%;
+  position: absolute;
+  top: 22%;
+  width: 51px;
+}
+.xac-message {
+  background-image: url(../../../auth/img/achat.png);
+  background-position: 50% 50%;
+  background-size: cover;
+   height: 39px;
+    left: 43%;
+    position: absolute;
+    top: 18%;
+    width: 34px;
+}
 .ellipse-17 {
   background-color: #ff3f40;
   border: 8px solid #fff;
   border-radius: 13.5px;
   height: 35px;
-  left: 0;
+  left: 12px;
   position: absolute;
-  top: 0;
+  top: -44px;
   width: 35px;
 }
 .number-1 {
-  color: #fff;
-  font-family: "Poppins";
-  font-size: 10px;
-  font-weight: 400;
-  height: 20px;
-  left: 11px;
-  letter-spacing: 0;
-  line-height: 10px;
-  position: absolute;
-  text-align: center;
-  top: 8px;
-  width: 16px;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 600;
+    height: 20px;
+    left: 21px;
+    letter-spacing: 0;
+    line-height: 10px;
+    position: absolute;
+    text-align: center;
+    top: -31px;
+    width: 16px;
 }
 .new-user {
   align-items: flex-start;
@@ -31535,43 +31666,35 @@ width: 104px;
 }
 .icon-metro-dollar2 {
   height: 31px;
-  left: 74px;
+  left: 38%;
   object-fit: cover;
   position: absolute;
-  top: 57px;
+  top: 28%;
   width: 16px;
 }
 .group-23 {
-  background-image: url(https://inside.demopg.com/required/auth/img/ellipse-16--stroke--1@1x.png);
+  background-image: url(../../../auth/img/ellipse-16--stroke--1@1x.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 74px;
-  left: 45px;
-  position: absolute;
-  top: 36px;
   width: 74px;
 }
 .visitor {
   align-items: center;
   background-color: #fff;
   border-radius: 12px;
-  display: flex;
-  height: 147px;
-  justify-content: flex-end;
-  min-width: 252px;
   padding: 33.0px 14.4px;
 }
 .overlap-group-4 {
   align-items: flex-start;
-  background-image: url(https://inside.demopg.com/required/auth/img/ellipse-16--stroke--2@1x.png);
+  background-image: url(../../../auth/img/ellipse-16--stroke--2@1x.png);
   background-position: 50% 50%;
   background-size: cover;
   display: flex;
   height: 74px;
   justify-content: flex-end;
   margin-bottom: 1.35px;
-  min-width: 74px;
-  padding: 19.3px 13.4px;
+  width: 74px;
 }
 .flex-col {
   align-items: flex-start;
@@ -31583,11 +31706,15 @@ width: 104px;
   width: 102px;
 }
 .icon-awesome-user-check {
-  height: 32px;
-  object-fit: cover;
-  width: 41px;
+    top: 25%;
+    left: -23%;
+    position: relative;
+    height: 32px;
+    object-fit: cover;
+    width: 41px;
 }
 .group-20 {
+  text-align:center;
   display: flex;
   height: 16px;
   margin-left: 0.68px;
@@ -31601,9 +31728,10 @@ width: 104px;
   white-space: nowrap;
 }
 .poppins-semi-bold-gun-powder-49px {
+  text-align:center;
   color: var(--gun-powder);
   font-family: var(--font-family-poppins);
-  font-size: 49px;
+  font-size: 38px;
   font-style: normal;
   font-weight: 600;
 }
@@ -31621,7 +31749,6 @@ width: 104px;
   margin-left: 7.0px;
   text-align: center;
   white-space: nowrap;
-  width: 253px;
 }
 .poppins-normal-gun-powder-25px {
   color:#464255;
@@ -31635,9 +31762,9 @@ width: 104px;
   border-radius: 51px;
   display: flex;
   height: 33px;
-  margin-left: 1.0px;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-top: 7px;
-  width: 139px;
 }
 .title-3 {
   color: #979797;
@@ -32044,7 +32171,7 @@ width: 104px;
 }
 .frame-28 {
   background-color: rgb(253, 250, 245);
-  /*background-image: url(https://inside.demopg.com/required/auth/img/rectangle-210-1@1x.png);
+  /*background-image: url(../auth/img/rectangle-210-1@1x.png);
   background-position: 50% 50%;
   background-size: cover;*/
   display: flex;
@@ -32147,6 +32274,78 @@ width: 104px;
   min-width: 89px;
   padding: 19.5px 20.8px;
 }
+.icon-emp {
+  align-items: flex-start;
+  background-color: #fff8eb;
+  border-radius: 24px;
+  display: flex;
+  height:89px;
+  min-width: 89px;
+  padding: 19.5px 20.8px;
+}
+.icon-non {
+  align-items: flex-start;
+  background-color:#fff8eb;
+  border-radius: 24px;
+  display: flex;
+  height:89px;
+  min-width: 89px;
+  padding: 23.5px 22.8px;
+}
+.icon-hoe_fond {
+  align-items: flex-start;
+  background-color:#E9F6FF;
+  border-radius: 24px;
+  display: flex;
+  height:89px;
+  min-width: 89px;
+  padding: 23.5px 22.8px;
+}
+.icon-cfa {
+  align-items: flex-start;
+  background-color:#FFE7FA;
+  border-radius: 24px;
+  display: flex;
+  height:89px;
+  min-width: 89px;
+  padding: 23.5px 22.8px;
+}
+.icon-coll {
+  align-items: flex-start;
+  background-color:#E9F6FF;
+  border-radius: 24px;
+  display: flex;
+  height:89px;
+  min-width: 89px;
+  padding: 23.5px 22.8px;
+}
+.icon-report {
+  align-items: flex-start;
+  background-color:#FFE7FA;
+  border-radius: 24px;
+  display: flex;
+  height:89px;
+  min-width: 89px;
+  padding: 23.5px 22.8px;
+}
+.icon-money {
+  align-items: flex-start;
+  background-color:#ebfcff;
+  border-radius: 24px;
+  display: flex;
+  height:89px;
+  min-width: 89px;
+  padding: 23.5px 19.8px;
+}
+.icon-rejeter {
+  align-items: flex-start;
+  background-color: #fff4f2;
+  border-radius: 24px;
+  display: flex;
+  height:89px;
+  min-width: 89px;
+  padding: 19.5px 17.8px;
+}
 .icon-awesome-calendar-check {
   height: 39px;
   object-fit: cover;
@@ -32173,7 +32372,25 @@ width: 104px;
   top: 36px;
   width: 89px;
 }
-
+.icon-awesome-users{
+    position: relative;
+    top: 22%;
+    left: 11%;
+}
+.icon-awesome-user-nurse{
+    position: relative;
+    top: 31%;
+    left: 25%;
+}
+.ico-feme{
+  background-color: #f967b540;
+  border-radius: 24px;
+  height: 89px;
+  left: 45px;
+  position: absolute;
+  top: 36px;
+  width: 89px;
+}
 .icon-material-cancel {
   height: 22px;
   object-fit: cover;
@@ -32192,9 +32409,9 @@ width: 104px;
 }
 .overlap-group8 {
   height: 267px;
-  left: 613px;
+  left: 14%;
   position: absolute;
-  top: 76px;
+  top: 32%;
   width: 370px;
 }
 .bg {
@@ -32301,4 +32518,65 @@ width: 104px;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
+}
+.overlap-group6-1 {
+  height: 286px;
+  left: 7%;
+  position: absolute;
+  width: 205px;
+}
+.bg {
+  display: flex;
+  height: 286px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 205px;
+}
+.bg-1 {
+  border-radius: 15px;
+  flex: 1;
+  margin-bottom: -40.5px;
+  margin-left: -37.5px;
+  margin-right: -37.5px;
+  margin-top: -34.5px;
+  object-fit: cover;
+  width: 280px;
+}
+.button-browse-file {
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 17px;
+  display: flex;
+  height: 36px;
+  left: 8px;
+  min-width: 171px;
+  padding: 0 11.6px;
+  position: absolute;
+  top: 221px;
+}
+.border-1px-cararra {
+  border: 1px solid #ebebeb;
+}
+.rectangle-385 {
+  height: 175px;
+  left: 27px;
+  object-fit: cover;
+  position: absolute;
+  top: 20px;
+  width: 147px;
+}
+.ajouter-une-photo {
+  color: #7a86a1;
+  font-family: "Manrope",Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 51px;
+  margin-left: 16px;
+  margin-top: -9.44px;
+  min-height: 18px;
+  min-width: 100px;
+  text-align: center;
+  white-space: nowrap;
 }

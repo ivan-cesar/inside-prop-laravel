@@ -18,6 +18,7 @@ use App\Models\Departement;
 use App\Models\Profil;
 use App\Models\Responsable;
 use App\Models\User;
+use URL;
 //use App\Models\Country;
 
 
@@ -33,8 +34,8 @@ class UserController extends Controller
 	    $this->middleware('auth')->except('validation', 'validation_store');
         $this->middleware('auth');
 		View::share( 'section_title', 'Module utilisateur' );
-		View::share( 'menu', 'users' );	
-		
+		View::share( 'menu', 'users' );
+
 	/*	View::share( 'nbDirector', User::where("profil_id",4)->count());
 		View::share( 'nbManager', User::where("profil_id",3)->count());
 		View::share( 'nbuser', User::where("profil_id",2)->count());
@@ -44,37 +45,63 @@ class UserController extends Controller
 		View::share( 'departement', Departement::all());
 		View::share('responsable', Responsable::all());
 		
-		view::share('users',User::all());
-		
+		View::share('users',User::all());
+
+                $this->middleware(function ($request,$next){
+            /***/
+        switch(Auth::user()->profils()->first()->libelle){
+            
+        
+            case "Admin" :
+                    View::share('nbrUser',User::count());
+                    View::share('nbFemmes',User::where('sexe',1)->count());
+		            View::share('nbHommes',User::where('sexe',0)->count());
+		            View::share('nbrDepartement',Departement::count());
+              break;
+            default :
+                    $this->departement_id = Auth::user()->departement_id;
+                    View::share('nbrFonction',User::where("fonction_id",Auth::user()->fonction_id)->count());
+                    View::share('nbrUser',User::where("departement_id",$this->departement_id)->count());
+                    View::share('nbFemmes',User::where('sexe',1)->where("departement_id",$this->departement_id)->count());
+		            View::share('nbHommes',User::where('sexe',0)->where("departement_id",$this->departement_id)->count());
+		            //View::share('nbrDepartement',Departement::);
+             
+        }
+        /***/
+
+         return $next ($request);
+        });
 		$this->middleware('auth');
- 
+
     }
 
-	
+
 	public function index(){
-		$data['page_title'] = "Liste des utilisateurs - ";
-		$data['page_description'] = "";
+		$data['module'] = "Collaborateur";
+		$data['page_description'] = "Bienvenue sur votre consultation d'info de vos collaborateurs";
+      if(Auth::user()->responsable == 1){
+          $data['users'] = User::where("departement_id",Auth::user()->departement_id)->orderBy("id","DESC")->get();
+        }else{
 		$data['users'] = User::orderBy("id","DESC")->get();
-		
+        }
 		User:logs("Affichage de la liste des utilisateurs");
-		
+
 		return view('users.index',$data);
     }
-	
+
 	public function create(){
-		$data['page_title'] = "Ajouter un utilisateur - ";
-		$data['page_description'] = "";
+		$data['module'] = "Enregistrer un nouvel collaborateurs";
+		$data['page_description'] = "Bienvenue sur votre espace enregistrement de vos collaborateurs";
 		$data['matricule'] = User::newMatricule();
 		//dd($data['matricule']);
-		
+
 		User:logs("Affichage de la page de creation d'un utilisateur");
-		
+
 		return view('users.create',$data);
     }
 
 	public function store(Request $request){
 
-		//dd($request->all());
 		$this->validate(request(),[
 			  "nom" => "required",
 			  "prenoms" => "required",
@@ -82,8 +109,8 @@ class UserController extends Controller
 			  "adresse" => "required",
 			  "fonction" => "required|integer",
 			  "departement" => "required|integer",
-			  "telephone" => "required|integer",
-			  "cni"=> "required",
+			  "telephone" => "required",
+			  "numero_cni"=> "required",
 			  "debut" => "required|date",
 			  "role" => "required|integer",
 			  //"responsable" => "required|integer",
@@ -91,8 +118,21 @@ class UserController extends Controller
 			  "image" => "nullable",
 
 
-		]);
-		
+		],
+		[
+		   	  "nom" => "Le champ nom est obligatoire",
+			  "prenoms" => "Le champ prénoms est obligatoire",
+			  "email" => "Le champ email est obligatoire",
+			  "adresse" => "Le champ adresse est obligatoire",
+			  "fonction" => "Le champ fonction est obligatoire",
+			  "departement" => "Le champ departement est obligatoire",
+			  "telephone" => "Le champ téléphone est obligatoire",
+			  "numero_cni"=> "Le champ numero de la cni est obligatoire",
+			  "debut" => "Le champ la date debut est obligatoire",
+			  "role" => "Le champ rôle est obligatoire",
+			  "sexe" => "Le champ sexe est obligatoire",
+		    ]);
+
 
 
 		$usr = new User;
@@ -112,9 +152,11 @@ class UserController extends Controller
 		$usr->debut = htmlspecialchars($request->debut);
 		$usr->adresse = htmlspecialchars($request->adresse);
 		$usr->sexe = htmlspecialchars($request->sexe);
+		$usr->numero_cni = htmlspecialchars($request->numero_cni);
+		$usr->departement_id = htmlspecialchars($request->departement);
 		$usr->statut = 1;
 		$usr->created_by = Auth::user()->nom.' '.Auth::user()->prenoms;
-		
+
 		$password = '1234567890';
 		$usr->password = Hash::make($password);
 
@@ -125,20 +167,29 @@ class UserController extends Controller
 		$user['urlMailValidation'] = 'email='.strtolower($user['email']);
 		//$user['urlNameValidation'] = 'nom='.strtolower($user['nom']);
 
-		
+        if ($request->hasFile('file')) {
+                $fichier = time().'.'.$request->file->extension();
+                $annee = date('Y');
+                $mois = date('m');
+                $lien = 'fichiers/users/'.$annee.'/'.$mois;
+                $request->file->move($lien,$fichier);
+                $usr->avatars = URL::to('/').'/'.$lien.'/'.$fichier;
+              }
+
 		$user['profil_id'] =   htmlspecialchars($request->role);
 		//$roleValues=[2,3,4];
-		
+
 		/*$users = User::whereIn('profil_id',$user['profil_id'])
 						->where('statut',1)
 						->get();*/
-
+		//dd($request->all(),$usr);
+		
 		if($usr->save()){
-			
+
 			@Mail::send('emails.notification',$user, function($message) use($user) {
 				$message->from('contact@inside.demopg.com','PROPULSE GROUP')->to($user['email'])->subject('Accès INSIDE PROPULSE GROUP ');
 			});
-		/*	
+		/*
 			foreach ($users as $user){
 			   $user['emailuser'] = $user->email;
 			   @Mail::send('emails.notifuser', $user, function($message) use($user) {
@@ -160,28 +211,28 @@ class UserController extends Controller
 	}
 
 
-	
+
 
 	public function edit(Request $request){
 		$data['page_title'] = "Modifier un utilisateur - ";
 		$data['page_description'] = " ";
-		
+
 		$data['user'] = User::where(['id' => $request->id ])->first();
 		if(empty($data['user'])){
 			session()->flash('type', 'alert-danger');
             session()->flash('message', 'Utilisateur introuvable');
 			return back();
 		}
-		
+
 		//User:logs("Affichage de la page de modification d'un utilisateur");
-		
+
 		return view('users.edit',$data);
 	}
 
 	public function update(Request $request){
 
 		$this->validate(request(),[
-		      "id" => "required",			  
+		      "id" => "required",
 			  "nom" => "required",
 			  "prenoms" => "required",
 			  "adresse" => "required",
@@ -202,7 +253,7 @@ class UserController extends Controller
 		$data["adresse"] = htmlspecialchars($request->adresse);
 		$data["sexe"] = htmlspecialchars($request->sexe);
 
-		
+
         /*if ($request->file()){
             $file = $request->file('avatars');
             $ext = strtolower($file->getClientOriginalExtension());
@@ -210,7 +261,7 @@ class UserController extends Controller
             $request->avatars->move('images/avatars', $avatar);
             $data["avatars"] = '/images/avatars/'.$avatar;
         }*/
-		
+
 		if ($request->role){
             $data["role"] = htmlspecialchars($request->role);
         }
@@ -227,7 +278,7 @@ class UserController extends Controller
 
 	}
 
-	
+
 	public function editstate(Request $request){
         $id = htmlspecialchars($request->id);
         $user =User::where('id',$id)->first();
@@ -235,7 +286,7 @@ class UserController extends Controller
         if(!$user){
 			session()->flash('type', 'alert-danger');
             session()->flash('message', 'Utilisateur introuvable');
-			return back();            
+			return back();
         }
 		if($user->statut==1){
 			$user->statut =0;
@@ -252,31 +303,31 @@ class UserController extends Controller
 			//User::logs("Activation du compte utilisateur : ".$user->nom .' '.$user->prenoms);
 			return redirect()->route('users.index');
 		}
-		
+
     }
-	
+
 	public function destroy(Request $request){
         //
         $id = htmlspecialchars($request->id);
         $user = User::where(['id' => $id])->first();
 
         if(!$user){
-			
+
 			session()->flash('type', 'alert-danger');
 			session()->flash('message', "Utilisateur introuvable");
 			return back();
 		}
-		$user->delete();	
-		
+		$user->delete();
+
 		session()->flash('type', 'alert-success');
-		session()->flash('message', 'Utilisateur supprimé avec succès');			
+		session()->flash('message', 'Utilisateur supprimé avec succès');
 		return back();
     }
-    
+
     public function validation(Request $request){
 		$data['page_title'] = "Ajouter un utilisateur - ";
 		$data['page_description'] = "";
-		
+
 
 		return view('users.validation',$data);
     }
@@ -289,12 +340,12 @@ class UserController extends Controller
 			  "password" => "required",
 			  "password_conf" => "required",
 		]);
-		
+
 		$data['email'] =   htmlspecialchars($request->email);
 		$data['password'] = Hash::make(htmlspecialchars($request->password));
-		
+
 		$user=User::where('email',$data['email'])->first();
-		
+
 		if(!$user){
 			session()->flash('type', 'alert-danger');
 			session()->flash('message', 'XXXXXXX');

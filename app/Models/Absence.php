@@ -15,5 +15,10 @@ class Absence extends Model
     }
     public function user(){
         return $this->belongsTo(User::class);
+    } 
+    
+    public function notification(){
+        return $this->hasOne(Notification::class);
     }
 }
+

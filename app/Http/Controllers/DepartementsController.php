@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\View;
 use App\Models\Departement;
+use App\Models\Responsable;
 use App\Models\User;
 
 class DepartementsController extends Controller
@@ -18,6 +19,7 @@ class DepartementsController extends Controller
 		View::share( 'section_title', 'Module departement' );
 		View::share( 'menu', 'departement' );
 		View::share( 'departements', Departement::withCount('users')->get());
+		View::share( 'departement', Departement::all());
 		
 		view::share('users',User::all());
  
@@ -30,8 +32,8 @@ class DepartementsController extends Controller
     public function index()
     {
         //
-		$data['page_title'] = "Liste des departements - ";
-		$data['page_description'] = "";
+		$data['module'] = "Management - Gestion de Departement";
+		$data['page_description'] = "Bienvenue sur votre espace d'ajout de departement";
 		
 		User:logs("Affichage de la liste des departements");
 		
@@ -64,6 +66,43 @@ class DepartementsController extends Controller
 		}
 	}
 
+
+    public function affect(Request $request){
+		//dd($request->all());
+        $newResponsable = User::where("id",$request->id)->first();
+
+        $departement = Departement::where("id",$newResponsable->departement_id)->first();
+        if($departement->user_id != null){
+            $oldUser=User::where('id',$departement->user_id)->first();
+            //dd($oldUser);
+            $oldUser->responsable =0;
+            $oldUser->save();
+            $historique = Responsable::where("user_id",$oldUser->id)->where("departement_id",$departement->id)->where("statut",1)->first();
+            $historique->statut = 0;
+            $historique->to = Carbon::now();
+            $historique->save();
+        
+        }else{
+            $historique = new Responsable;
+            $historique->user_id = $newResponsable->id;
+            $historique->departement_id = $departement->id;
+            $historique->from = Carbon::now();
+            $historique->to = null;
+            $historique->statut = 1;
+            $historique->save();
+            $newResponsable->responsable=1;
+            $newResponsable->save();
+        }
+        //dd($departement,$newResponsable);
+        $departement->user_id = $newResponsable->id;
+        $departement->save(); 
+		
+		
+		session()->flash('type', 'alert-success');
+		session()->flash('message', 'Offer updated successfully.');
+		return back();
+        return $newResponsable;
+    }
     /**
      * Display the specified resource.
      *
@@ -81,9 +120,21 @@ class DepartementsController extends Controller
      * @param  \App\Models\Departement  $departement
      * @return \Illuminate\Http\Response
      */
-    public function edit(Departement $departement)
+    public function edit(Request $request)
     {
-        //
+       //
+		$data['module'] = "Management - Modifier le Departement";
+		$data['page_description'] = "";
+		
+		$data['departement'] = Departement::where(['id' => $request->id ])->first();
+		if(empty($data['departement'])){
+			session()->flash('type', 'alert-danger');
+            session()->flash('message', 'Departement introuvable');
+			return back();
+		}
+		
+		User:logs("Modification d'un departement");
+		return view('departements.edit',$data);
     }
 
     /**
@@ -93,9 +144,29 @@ class DepartementsController extends Controller
      * @param  \App\Models\Departement  $departement
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Departement $departement)
+    public function update(Request $request)
     {
-        //
+        	$this->validate(request(),[			 
+			  "description" => "required",
+			  "libelle" => "required|unique:departements",			  
+		]);
+
+		$id = htmlspecialchars($request->id);
+		$data['libelle'] = htmlspecialchars($request->libelle);
+		$data['description'] = htmlspecialchars($request->description);
+		$data['statut'] = 1;
+		//$data['created_by'] = Auth::user()->name.' '.Auth::user()->prenoms;		
+			
+	//test de l'enregistrement suivi d'un message selon cas
+		if(Departement::where([ 'id' => $id ])->update($data)){
+			session()->flash('type', 'alert-success');
+			session()->flash('message', 'Departement modifié avec succès');
+			return redirect()->route('departements.index');;
+		}else{
+			session()->flash('type', 'alert-danger');
+			session()->flash('message', 'Erreur lors de la modification');
+			return back();
+		}
     }
 
     /**
@@ -104,8 +175,17 @@ class DepartementsController extends Controller
      * @param  \App\Models\Departement  $departement
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Departement $departement)
+    public function destroy($id)
     {
-        //
+        if(Departement ::where('id', $id)->delete()){
+            session()->flash('type', 'alert-success');
+			session()->flash('message', "Departement supprimé avec succès");
+			return redirect()->route('departement s.create');
+        }else{
+			session()->flash('type', 'alert-danger');
+			session()->flash('message', 'Erreur lors de la modification');
+			return back();
+		}
     }
+    
 }

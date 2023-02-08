@@ -7,21 +7,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Inside Pro </title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="{{asset('dashboard/vendors/feather/feather.css')}}">
-  <link rel="stylesheet" href="{{asset('dashboard/vendors/mdi/css/materialdesignicons.min.css')}}">
-  <link rel="stylesheet" href="{{asset('dashboard/vendors/ti-icons/css/themify-icons.css')}}">
-  <link rel="stylesheet" href="{{asset('dashboard/vendors/typicons/typicons.css')}}">
-  <link rel="stylesheet" href="{{asset('dashboard/vendors/simple-line-icons/css/simple-line-icons.css')}}">
-  <link rel="stylesheet" href="{{asset('dashboard/vendors/css/vendor.bundle.base.css')}}">
+  <link rel="stylesheet" href="{{asset('public/dashboard/vendors/feather/feather.css')}}">
+  <link rel="stylesheet" href="{{asset('public/dashboard/vendors/mdi/css/materialdesignicons.min.css')}}">
+  <link rel="stylesheet" href="{{asset('public/dashboard/vendors/ti-icons/css/themify-icons.css')}}">
+  <link rel="stylesheet" href="{{asset('public/dashboard/vendors/typicons/typicons.css')}}">
+  <link rel="stylesheet" href="{{asset('public/dashboard/vendors/simple-line-icons/css/simple-line-icons.css')}}">
+  <link rel="stylesheet" href="{{asset('public/dashboard/vendors/css/vendor.bundle.base.css')}}">
   <!-- endinject -->
   <!-- Plugin css for this page -->
-  <link rel="stylesheet" href="{{asset('dashboard/vendors/datatables.net-bs4/dataTables.bootstrap4.css')}}">
-  <link rel="stylesheet" href="{{asset('dashboard/js/select.dataTables.min.css')}}">
+  <link rel="stylesheet" href="{{asset('public/dashboard/vendors/datatables.net-bs4/dataTables.bootstrap4.css')}}">
+  <link rel="stylesheet" href="{{asset('public/dashboard/js/select.dataTables.min.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{asset('public/dashboard/DataTables/datatables.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{asset('public/dashboard/DataTables/datatables.min.css')}}">
+ <link rel="stylesheet" type="text/css" href="{{asset('public/dashboard/DataTables/datatables.bootstrap.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{asset('public/dashboard/DataTables/dataTables.bootstrap4.min.css')}}">
+  <!--Modal-->
+  <link rel="stylesheet" type="text/css" href="{{asset('public/modal/css/ionicons.min.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{asset('public/modal/css/style.css')}}">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script type="text/javascript" charset="utf8" src="{{asset('public/dashboard/DataTables/datatables.js')}}" defer></script>
+<script>
+    $(document).on('click','.nav-item',function(){
+        $(this).addClass('active').siblings().removeClass('active')
+    })
+</script>
+<?php use App\Models\User;?>
+ <!-- Datatables CSS CDN -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"> -->
+
+    <!-- jQuery CDN -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+    <!-- Datatables JS CDN -->
+    <!-- <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script> -->
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="{{asset('dashboard/css/vertical-layout-light/style.css')}}">
+  <link rel="stylesheet" href="{{asset('public/dashboard/css/vertical-layout-light/style.css')}}">
   <!-- endinject -->
-  <link rel="shortcut icon" href="https://inside.demopg.com/required/dashboard/images/favicon.svg" />
+  <link rel="shortcut icon" href="https://inside.demopg.com/public/dashboard/images/favicon.ico" />
   <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 </head>
 <body>
@@ -35,23 +58,23 @@
           </button>
         </div>
         <div>
-          <a class="navbar-brand brand-logo" href="index.html">
-            <img src="https://inside.demopg.com/required/dashboard/images/logo.svg" alt="logo" />
+          <a class="navbar-brand brand-logo" href="{{route('home')}}">
+            <img src="{{asset('public/dashboard/images/logo.svg')}}" alt="logo" />
           </a>
-          <a class="navbar-brand brand-logo-mini" href="index.html">
-            <img src="https://inside.demopg.com/required/dashboard/images/favicon.svg" alt="logo" />
+          <a class="navbar-brand brand-logo-mini" href="{{route('home')}}">
+            <img src="{{asset('public/dashboard/images/favicon.ico')}}" alt="logo" />
           </a>
         </div>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-top">
         <ul class="navbar-nav">
           <li class="nav-item font-weight-semibold d-none d-lg-block ms-0">
-            <h1 class="welcome-text">Tableau de bord</h1>
-            <h3 class="welcome-sub-text">Hello, {{ucfirst(Auth::user()->name)}} {{ucfirst(Auth::user()->prenoms)}}. Bienvenue sur votre Back office </h3>
+            <h1 class="welcome-text">{{$module?? ""}}</h1>
+            <h3 class="welcome-sub-text">{{$page_description??""}} </h3>
           </li>
         </ul>
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <form class="search-form" action="#">
               <i class="icon-search"></i>
               <input type="search" class="form-control" placeholder="Rechercher ici" title="Rechercher ici">
@@ -63,7 +86,7 @@
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list pb-0" aria-labelledby="notificationDropdown">
               <a class="dropdown-item py-3 border-bottom">
-                <p class="mb-0 font-weight-medium float-left">Vous avez 4 nouvelles notifications </p>
+                <p class="mb-0 font-weight-medium float-left">Vous avez 7 nouvelles notifications </p>
                 <span class="badge badge-pill badge-primary float-right">Voir tous</span>
               </a>
               <a class="dropdown-item preview-item py-3">
@@ -94,60 +117,51 @@
                 </div>
               </a>
             </div>
-          </li>
+          </li>-->
           <li class="nav-item dropdown">
             <a class="nav-link count-indicator" id="countDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="icon-bell"></i>
-              <span class="count"></span>
+              @if(User::getNotification(Auth::user()->id)->count() != 0)
+                 <span class="count"></span>
+              @else
+              
+              @endif
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list pb-0" aria-labelledby="countDropdown">
               <a class="dropdown-item py-3">
-                <p class="mb-0 font-weight-medium float-left">Vous avez 7 messages non lus</p>
+                <p class="mb-0 font-weight-medium float-left">Vous avez {{User::getNotification(Auth::user()->id)->count() ?? "-" }} nouvelles notifications</p>
                 <span class="badge badge-pill badge-primary float-right">Voir tous</span>
               </a>
               <div class="dropdown-divider"></div>
+              @foreach(User::getNotification(Auth::user()->id) as $notif)
               <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <img src="{{asset('dashboard/images/faces/face10.jpg')}}" alt="image" class="img-sm profile-pic">
-                </div>
+                <!--<div class="preview-thumbnail">
+                  <img src="{{asset('public/dashboard/images/faces/face10.jpg')}}" alt="image" class="img-sm profile-pic">
+                </div>-->
                 <div class="preview-item-content flex-grow py-2">
-                  <p class="preview-subject ellipsis font-weight-medium text-dark">Marian Garner </p>
-                  <p class="fw-light small-text mb-0"> The meeting is cancelled </p>
+                  <p class="preview-subject ellipsis font-weight-medium text-dark">{{ucfirst($notif->sender)}} </p>
+                  <p class="fw-light small-text mb-0"> {{ucfirst($notif->message)}}</p>
                 </div>
               </a>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <img src="{{asset('dashboard/images/faces/face12.jpg')}}" alt="image" class="img-sm profile-pic">
-                </div>
-                <div class="preview-item-content flex-grow py-2">
-                  <p class="preview-subject ellipsis font-weight-medium text-dark">David Grey </p>
-                  <p class="fw-light small-text mb-0"> The meeting is cancelled </p>
-                </div>
-              </a>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <img src="{{asset('dashboard/images/faces/face1.jpg')}}" alt="image" class="img-sm profile-pic">
-                </div>
-                <div class="preview-item-content flex-grow py-2">
-                  <p class="preview-subject ellipsis font-weight-medium text-dark">Travis Jenkins </p>
-                  <p class="fw-light small-text mb-0"> The meeting is cancelled </p>
-                </div>
-              </a>
+              @endforeach
             </div>
           </li>
           <li class="nav-item dropdown d-none d-lg-block user-dropdown">
             <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-              <img class="img-xs rounded-circle" src="{{asset('dashboard/images/faces/face8.jpg')}}" alt="Profile image"> </a>
+              <img class="img-xs rounded-circle" src="{{ucfirst(Auth::user()->avatars)}}" alt="Profile image"> </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
               <div class="dropdown-header text-center">
-                <img class="img-md rounded-circle" src="{{asset('dashboard/images/faces/face8.jpg')}}" alt="Profile image">
+                <img class="img-md rounded-circle" style="width: 25%;" src="{{ucfirst(Auth::user()->avatars)}}" alt="Profile image">
                 <p class="mb-1 mt-3 font-weight-semibold">{{ucfirst(Auth::user()->name)}} {{ucfirst(Auth::user()->prenoms)}}</p>
                 <p class="fw-light text-muted mb-0">{{ucfirst(Auth::user()->email)}}</p>
               </div>
-              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-account-outline text-primary me-2"></i> Mon Profile <span class="badge badge-pill badge-danger">1</span></a>
-              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-message-text-outline text-primary me-2"></i> Messages</a>
+              <a class="dropdown-item" href="">
+                  <i class="dropdown-item-icon mdi mdi-account-outline text-primary me-2"></i> 
+                    Mon Profile
+              </a>
+              <!--<a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-message-text-outline text-primary me-2"></i> Messages</a>
               <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-calendar-check-outline text-primary me-2"></i> Activités</a>
-              <!--<a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-help-circle-outline text-primary me-2"></i> FAQ</a>-->
+              <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-help-circle-outline text-primary me-2"></i> FAQ</a>-->
               <form id="logout" action="/logout" method="POST" style="display: none;">{{ csrf_field() }}</form>
               <a class="dropdown-item" href="#" onclick="event.preventDefault(); document.getElementById('logout').submit();">
                 <i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Déconnexion</a>
@@ -274,7 +288,7 @@
             </div>
             <ul class="chat-list">
               <li class="list active">
-                <div class="profile"><img src="{{asset('dashboard/images/faces/face1.jpg')}}" alt="image"><span class="online"></span></div>
+                <div class="profile"><img src="{{asset('public/dashboard/images/faces/face1.jpg')}}" alt="image"><span class="online"></span></div>
                 <div class="info">
                   <p>Thomas Douglas</p>
                   <p>Available</p>
@@ -282,7 +296,7 @@
                 <small class="text-muted my-auto">19 min</small>
               </li>
               <li class="list">
-                <div class="profile"><img src="{{asset('dashboard/images/faces/face2.jpg')}}" alt="image"><span class="offline"></span></div>
+                <div class="profile"><img src="{{asset('public/dashboard/images/faces/face2.jpg')}}" alt="image"><span class="offline"></span></div>
                 <div class="info">
                   <div class="wrapper d-flex">
                     <p>Catherine</p>
@@ -293,7 +307,7 @@
                 <small class="text-muted my-auto">23 min</small>
               </li>
               <li class="list">
-                <div class="profile"><img src="{{asset('dashboard/images/faces/face3.jpg')}}" alt="image"><span class="online"></span></div>
+                <div class="profile"><img src="{{asset('public/dashboard/images/faces/face3.jpg')}}" alt="image"><span class="online"></span></div>
                 <div class="info">
                   <p>Daniel Russell</p>
                   <p>Available</p>
@@ -301,7 +315,7 @@
                 <small class="text-muted my-auto">14 min</small>
               </li>
               <li class="list">
-                <div class="profile"><img src="{{asset('dashboard/images/faces/face4.jpg')}}" alt="image"><span class="offline"></span></div>
+                <div class="profile"><img src="{{asset('public/dashboard/images/faces/face4.jpg')}}" alt="image"><span class="offline"></span></div>
                 <div class="info">
                   <p>James Richardson</p>
                   <p>Away</p>
@@ -309,7 +323,7 @@
                 <small class="text-muted my-auto">2 min</small>
               </li>
               <li class="list">
-                <div class="profile"><img src="{{asset('dashboard/images/faces/face5.jpg')}}" alt="image"><span class="online"></span></div>
+                <div class="profile"><img src="{{asset('public/dashboard/images/faces/face5.jpg')}}" alt="image"><span class="online"></span></div>
                 <div class="info">
                   <p>Madeline Kennedy</p>
                   <p>Available</p>
@@ -317,7 +331,7 @@
                 <small class="text-muted my-auto">5 min</small>
               </li>
               <li class="list">
-                <div class="profile"><img src="{{asset('dashboard/images/faces/face6.jpg')}}" alt="image"><span class="online"></span></div>
+                <div class="profile"><img src="{{asset('public/dashboard/images/faces/face6.jpg')}}" alt="image"><span class="online"></span></div>
                 <div class="info">
                   <p>Sarah Graves</p>
                   <p>Available</p>
@@ -335,43 +349,44 @@
           @case("Admin")
              <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="/">
+          <li class="nav-item {{Route::is('home') ? 'active' : ''}}">
+            <a class="nav-link" href="{{route('home')}}">
               <i class="mdi mdi-home-variant  menu-icon"></i>
               <span class="menu-title">Tableau de bord</span>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item {{Route::is('absences.index') ? 'active' : ''}}">
             <a class="nav-link" href="{{route('absences.index')}}">
               <i class="menu-icon mdi mdi-file-outline "></i>
               <span class="menu-title">Autorisaton d'absence</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{route('demandes.index')}}">
-              <i class="menu-icon mdi mdi-calendar-blank "></i>
-              <span class="menu-title">Demande de congé</span>
-            </a>
-          </li>
-          <li class="nav-item">
+          <li class="nav-item {{Route::is('justifications.index') ? 'active' : ''}}">
             <a class="nav-link" href="{{route('justifications.index')}}">
               <i class="menu-icon mdi mdi mdi-pencil-box-outline "></i>
               <span class="menu-title">Justification d'absence</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{route('achats.create')}}">
+          <li class="nav-item {{Route::is('demandes.index') ? 'active' : ''}}">
+            <a class="nav-link" href="{{route('demandes.index')}}">
+              <i class="menu-icon mdi mdi-calendar-blank "></i>
+              <span class="menu-title">Demande de congé</span>
+            </a>
+          </li>
+          
+          <li class="nav-item {{Route::is('achats.index') ? 'active' : ''}}">
+            <a class="nav-link" href="{{route('achats.index')}}">
               <i class="menu-icon  mdi mdi-wallet "></i>
               <span class="menu-title">Demande d'achat</span>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item {{Route::is('notedefrais.index') ? 'active' : ''}}">
             <a class="nav-link" href="{{route('notedefrais.index')}}">
               <i class="menu-icon mdi mdi-square-inc-cash "></i>
               <span class="menu-title">Note de frais</span>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item {{Route::is('users.create') ? 'active' : ''}}">
             <a class="nav-link" href="{{route('users.create')}}">
               <i class="menu-icon mdi mdi-account-multiple-outline "></i>
               <span class="menu-title">Utilisateurs</span>
@@ -385,9 +400,9 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="{{route('fonctions.create')}}"> Poste </a></li>
-                <li class="nav-item"> <a class="nav-link" href=""> Departement </a></li>
-                <li class="nav-item"> <a class="nav-link" href="{{route('profils.create')}}"> Gestion des profils </a></li>
+                <li class="nav-item {{Route::is('fonctions.index') ? 'active' : ''}}"> <a class="nav-link" href="{{route('fonctions.create')}}"> Poste </a></li>
+                <li class="nav-item {{Route::is('departements.index') ? 'active' : ''}}"> <a class="nav-link" href="{{route('departements.index')}}"> Departement </a></li>
+                <li class="nav-item {{Route::is('profils.create') ? 'active' : ''}}"> <a class="nav-link" href="{{route('profils.create')}}"> Gestion des profils </a></li>
               </ul>
           </div>
           </li>

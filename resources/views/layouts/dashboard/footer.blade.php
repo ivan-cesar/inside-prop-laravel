@@ -4,26 +4,35 @@
 <!-- container-scroller -->
 
 <!-- plugins:js -->
-<script src="{{asset('dashboard/vendors/js/vendor.bundle.base.js')}}"></script>
+<script src="{{asset('public/dashboard/vendors/js/vendor.bundle.base.js')}}"></script>
 <!-- endinject -->
 <!-- Plugin js for this page -->
-<script src="{{asset('dashboard/vendors/chart.js/Chart.min.js')}}"></script>
-<script src="{{asset('dashboard/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js')}}"></script>
-<script src="{{asset('dashboard/vendors/progressbar.js/progressbar.min.js')}}"></script>
+<script src="{{asset('public/dashboard/vendors/chart.js/Chart.min.js')}}"></script>
+<script src="{{asset('public/dashboard/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js')}}"></script>
+<script src="{{asset('public/dashboard/vendors/progressbar.js/progressbar.min.js')}}"></script>
 
 <!-- End plugin js for this page -->
 <!-- inject:js -->
-<script src="{{asset('dashboard/js/off-canvas.js')}}"></script>
-<script src="{{asset('dashboard/js/hoverable-collapse.js')}}"></script>
-<script src="{{asset('dashboard/js/template.js')}}"></script>
-<script src="{{asset('dashboard/js/settings.js')}}"></script>
-<script src="{{asset('dashboard/js/todolist.js')}}"></script>
+<script src="{{asset('public/dashboard/js/off-canvas.js')}}"></script>
+<script src="{{asset('public/dashboard/js/hoverable-collapse.js')}}"></script>
+<script src="{{asset('public/dashboard/js/template.js')}}"></script>
+<script src="{{asset('public/dashboard/js/settings.js')}}"></script>
+<script src="{{asset('public/dashboard/js/todolist.js')}}"></script>
 <!-- endinject -->
 <!-- Custom js for this page-->
-<script src="{{asset('dashboard/js/jquery.cookie.js')}}" type="text/javascript"></script>
-<script src="{{asset('dashboard/js/dashboard.js')}}"></script>
-<script src="{{asset('dashboard/js/Chart.roundedBarCharts.js')}}"></script>
-<script src="{{asset('dashboard/js/tinymce.min.js')}}"></script>
+<script src="{{asset('public/dashboard/js/jquery.cookie.js')}}" type="text/javascript"></script>
+<script src="{{asset('public/dashboard/js/dashboard.js')}}"></script>
+<script src="{{asset('public/dashboard/js/Chart.roundedBarCharts.js')}}"></script>
+<script src="{{asset('public/dashboard/js/tinymce.min.js')}}"></script>
+
+<!--Modal-->
+<script src="{{asset('public/modal/js/jquery.min.js')}}"></script>
+<script src="{{asset('public/modal/js/popper.js')}}"></script>
+<script src="{{asset('public/modal/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('public/modal/js/main.js')}}"></script>
+
+
+
 
 <script>
   tinymce.init({
@@ -80,6 +89,15 @@
 
   </script>
 <!-- End custom js for this page-->
+<script>
+
+$(document).ready(function (){
+    $('#table_dmd').DataTable();
+});
+$(document).ready(function (){
+    $('#table_d').DataTable();
+});
+</script>
 </body>
 
 </html>

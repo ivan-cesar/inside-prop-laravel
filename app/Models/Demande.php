@@ -31,7 +31,7 @@ class Demande extends Model
         return $this->belongsTo(User::class, 'user_id');
     }
    
-    public function motifs()
+    public function motif()
     {
         return $this->belongsTo(Motifsconge::class,'motif_id');
     }

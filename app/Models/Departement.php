@@ -18,7 +18,7 @@ class Departement extends Model
 	
 	public function responsable()
     {
-        return $this->hasMany(Responsable::class);
+        return $this->hasOne(Responsable::class);
     }
 	
 	public function users()
@@ -28,8 +28,9 @@ class Departement extends Model
 	
 	public static function getResponsable($departementId){
         $responsable=Responsable::where('departement_id',$departementId)->where('statut',1)->first();
+        //dd($responsable);
 		if($responsable){
-			$respo=$responsable->user->name .' '.$responsable->user->name;
+			$respo=$responsable->users->name ?? ""/*.' '.$responsable->users->prenoms ?? ""*/;
 		}else{
 			$respo="AUCUN RESPONSABLE";
 		}        

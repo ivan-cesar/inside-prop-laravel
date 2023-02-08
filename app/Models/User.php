@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use App\Models\Activity;
+use Illuminate\Support\Facades\Auth;
 
 class User extends Authenticatable
 {
@@ -107,5 +109,48 @@ class User extends Authenticatable
             $count = 1;
         }
         return 'PG/'.date('Y').'/'.date('m').'/M/'.str_pad($count, 4, '0', STR_PAD_LEFT);
+    }
+    public function activites()
+    {
+        return $this->hasMany('App\Models\Activity');
+    }
+    
+    public static function logs($msg){
+
+        $activity['user_id'] 	= Auth::user()->id;
+        $activity['ip']		 	= (isset($_SERVER['REMOTE_ADDR'])) ? $_SERVER['REMOTE_ADDR'] : '' ;
+
+        $agent = (isset($_SERVER['HTTP_USER_AGENT'])) ? $_SERVER['HTTP_USER_AGENT'] : '';
+
+        // Detect Device/Operating System
+        if(preg_match('/Linux/i',$agent)) $os = 'Linux';
+        elseif(preg_match('/Mac/i',$agent)) $os = 'Mac';
+        elseif(preg_match('/iPhone/i',$agent)) $os = 'iPhone';
+        elseif(preg_match('/iPad/i',$agent)) $os = 'iPad';
+        elseif(preg_match('/Droid/i',$agent)) $os = 'Droid';
+        elseif(preg_match('/Unix/i',$agent)) $os = 'Unix';
+        elseif(preg_match('/Windows/i',$agent)) $os = 'Windows';
+        else $os = 'Unknown';
+
+        // Browser Detection
+        if(preg_match('/Firefox/i',$agent)) $br = 'Firefox';
+        elseif(preg_match('/Mac/i',$agent)) $br = 'Mac';
+        elseif(preg_match('/Chrome/i',$agent)) $br = 'Chrome';
+        elseif(preg_match('/Opera/i',$agent)) $br = 'Opera';
+        elseif(preg_match('/MSIE/i',$agent)) $br = 'IE';
+        else $br = 'Unknown';
+        setlocale(LC_TIME, 'fr_FR.utf8','fra');
+        $activity['navigator']  = $br.'/'.$os;
+        $activity['action']		= $msg;
+        $activity['pays']		= (isset($_SERVER['GEOIP_COUNTRY_NAME'])) ? $_SERVER['GEOIP_COUNTRY_NAME'] : '' ;
+        $activity['codepays']	= (isset($_SERVER['GEOIP_COUNTRY_CODE'])) ? $_SERVER['GEOIP_COUNTRY_CODE'] : '' ;
+        $activity['url']		= (isset($_SERVER['SCRIPT_URI'])) ? $_SERVER['SCRIPT_URI'] : '' ;
+
+        Activity::create($activity);
+    }
+    
+    public static function getNotification($id){
+        $notif = Notification::where('user_id',$id)->get();
+        return $notif;
     }
 }

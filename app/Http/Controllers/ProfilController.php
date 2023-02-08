@@ -31,7 +31,7 @@ class ProfilController extends Controller
     }
     public function index()
     {
-        $data['page_title'] = "Liste des profils - ";
+        $data['module'] = "Management - Gestion de Profil";
 		$data['page_description'] = "";
 		$data['users'] = User::orderBy("id","DESC")->get();
 		
@@ -47,8 +47,8 @@ class ProfilController extends Controller
      */
     public function create()
     {
-        $data['page_title'] = "Ajouter un profil - ";
-		$data['page_description'] = "";
+        $data['module'] = "Management - Gestion de Profil";
+		$data['page_description'] = "Bienvenue sur votre espace d'ajout des droits utilisateurs";
 		
 		User:logs("Affichage de la page de creation d'un profil");
 		

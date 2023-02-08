@@ -31,8 +31,8 @@ class FonctionController extends Controller
     }
     
 	public function index(){
-		$data['page_title'] = "Liste des fonctions - ";
-		$data['page_description'] = "";
+		$data['module'] = "Management - Gestion de Poste";
+		$data['page_description'] = "Bienvenue sur votre espace d'ajout des postes utilisateurs";
 		$data['users'] = User::orderBy("id","DESC")->get();
 		
 		User:logs("Affichage de la liste des fonctions");
@@ -46,8 +46,8 @@ class FonctionController extends Controller
      * @return \Illuminate\Http\Response
      */
 	public function create(){
-		$data['page_title'] = "Ajouter une fonction - ";
-		$data['page_description'] = "";
+		$data['module'] = "Management - Gestion de Poste";
+		$data['page_description'] = "Bienvenue sur votre espace d'ajout des postes utilisateurs";
 		
 		User:logs("Affichage de la page de creation d'une fonction");
 		

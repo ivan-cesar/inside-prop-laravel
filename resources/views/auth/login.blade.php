@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 @extends('layouts.auth_template')
 
 @section('content')
@@ -17,10 +18,10 @@
               <div class="group-53">
                 <div class="group-50"><div class="content-de-vour-revoir">Content de vous revoir</div></div>
                 <div class="overlap-group">
-                  <img class="icon-awesome-info-circle" src="{{asset('auth/img/icon-awesome-info-circle@1x.png')}}" />
+                  <img class="icon-awesome-info-circle" src="{{asset('public/auth/img/icon-awesome-info-circle@1x.png')}}" />
                 </div>
                 <div class="group-51">
-                  <img class="icon-awesome-question-circle" src="{{asset('auth/img/icon-awesome-question-circle@1x.png')}}" />
+                  <img class="icon-awesome-question-circle" src="{{asset('public/auth/img/icon-awesome-question-circle@1x.png')}}" />
                 </div>
               </div>
               <div class="groupe-929">
@@ -45,13 +46,17 @@
               </div>
               <div class="group-55">
                 <p class="password poppins-normal-black-16px">Entrez votre mot de passe</p>
-                <input
-                  class="rectangle-17-1"
-                  name="password"
-                  placeholder="Mot de Passe"
-                  type="password"
-                  required
-                />
+                <div style="display: inline-flex;">
+                    <input
+                      class="rectangle-17-1"
+                      name="password"
+                      placeholder="Mot de Passe"
+                      type="password"
+                      id="password"
+                      required
+                    />
+                    <i class="bi bi-eye-slash" id="togglePassword" style="position: relative;bottom: -39%;margin-left: 2%;font-size: 29px;padding: 27px 0px 10px 0px;"></i>
+                </div>
                 <!-- validation errors messages -->
                       <div class="errors-msgs">
                         	@error('password')
@@ -65,7 +70,7 @@
                 <input class="icon-awesome-check-square" type="checkbox" name="" id="">
                 <div class="garder-connect" style="padding-top: 5px;">Gardez-moi connecté</div>
                 
-                <a href="#" class="mot-pass-oubli" style="display: inline-block!important;color: #54280a;">Mot de passe oublié?</a>
+                <a href="{{ route('forget.password.get') }}" class="mot-pass-oubli" style="display: inline-block!important;color: #54280a;">Mot de passe oublié?</a>
               </div>
                 <div class="group-56">
                   <div class="overlap-group1">
@@ -75,20 +80,20 @@
                       </button>
                   </div></div>
             </div>
-            <img class="x80604" src="{{asset('auth/img/80604@1x.png')}}" />
+            <img class="x80604" src="{{asset('public/auth/img/80604@1x.png')}}" />
           </div>
           <div class="group-container-1">
             <div class="groupe-3-2">
               <div class="overlap-group-1">
-                <img class="subtract" src="{{asset('auth/img/subtract-335@1x.png')}}" />
-                <img class="subtract-1" src="{{asset('auth/img/subtract-344@1x.png')}}" />
+                <img class="subtract" src="{{asset('public/auth/img/subtract-335@1x.png')}}" />
+                <img class="subtract-1" src="{{asset('public/auth/img/subtract-344@1x.png')}}" />
                 <div class="ellipse-4"></div>
               </div>
             </div>
             <div class="groupe-2-1">
               <div class="overlap-group2">
-                <img class="subtract-2" src="{{asset('auth/img/subtract-341@1x.png')}}" />
-                <img class="subtract-3" src="{{asset('auth/img/subtract-342@1x.png')}}" />
+                <img class="subtract-2" src="{{asset('public/auth/img/subtract-341@1x.png')}}" />
+                <img class="subtract-3" src="{{asset('public/auth/img/subtract-342@1x.png')}}" />
                 <div class="ellipse-4-1"></div>
               </div>
             </div>
@@ -140,22 +145,22 @@
                   </div>
                   <div class="groupe-183">
                     <div class="overlap-group-2">
-                      <img class="trac-207" src="{{asset('auth/img/trac--207@1x.png')}}" />
-                      <img class="trac-208" src="{{asset('auth/img/trac--208@1x.png')}}" />
-                      <img class="trac-209" src="{{asset('auth/img/trac--209@1x.png')}}" />
+                      <img class="trac-207" src="{{asset('public/auth/img/trac--207@1x.png')}}" />
+                      <img class="trac-208" src="{{asset('public/auth/img/trac--208@1x.png')}}" />
+                      <img class="trac-209" src="{{asset('public/auth/img/trac--209@1x.png')}}" />
                       <div class="groupe-176"></div>
                       <div class="groupe-177"></div>
                       <div class="groupe-178"></div>
                     </div>
                     <div class="overlap-group2-1">
-                      <img class="trac-213" src="{{asset('auth/img/trac--213@1x.png')}}" />
+                      <img class="trac-213" src="{{asset('public/auth/img/trac--213@1x.png')}}" />
                       <div class="rectangle-15"></div>
-                      <img class="trac-214" src="{{asset('auth/img/trac--214@1x.png')}}" />
+                      <img class="trac-214" src="{{asset('public/auth/img/trac--214@1x.png')}}" />
                       <div class="groupe-180"></div>
                       <div class="groupe-181"></div>
                     </div>
                     <div class="overlap-group3">
-                      <img class="trac-215" src="{{asset('auth/img/trac--215@1x.png')}}" />
+                      <img class="trac-215" src="{{asset('public/auth/img/trac--215@1x.png')}}" />
                       <div class="groupe-182"></div>
                     </div>
                   </div>
@@ -188,8 +193,8 @@
                         <div class="groupe-238"></div>
                       </div>
                       <div class="overlap-group3-1">
-                        <img class="trac-245" src="{{asset('auth/img/trac--245@1x.png')}}" />
-                        <img class="trac-246" src="{{asset('auth/img/trac--246@1x.png')}}" />
+                        <img class="trac-245" src="{{asset('public/auth/img/trac--245@1x.png')}}" />
+                        <img class="trac-246" src="{{asset('public/auth/img/trac--246@1x.png')}}" />
                         <div class="groupe-240"></div>
                         <div class="groupe-241"></div>
                         <div class="groupe-242"></div>
@@ -227,7 +232,7 @@
                               </div>
                             </div>
                           </div>
-                          <img class="trac-2" src="{{asset('auth/img/trac--272@1x.png')}}" />
+                          <img class="trac-2" src="{{asset('public/auth/img/trac--272@1x.png')}}" />
                         </div>
                         <div class="overlap-group2-2">
                           <div class="groupe-389">
@@ -254,7 +259,7 @@
                               </div>
                             </div>
                           </div>
-                          <img class="trac-2" src="{{asset('auth/img/trac--290@1x.png')}}" />
+                          <img class="trac-2" src="{{asset('public/auth/img/trac--290@1x.png')}}" />
                         </div>
                         <div class="groupe-393"></div>
                         <div class="groupe-398">
@@ -265,7 +270,7 @@
                       <div class="groupe-403"></div>
                       <div class="groupe-405"></div>
                       <div class="groupe-407"></div>
-                      <img class="trac-298" src="{{asset('auth/img/trac--298@1x.png')}}" />
+                      <img class="trac-298" src="{{asset('public/auth/img/trac--298@1x.png')}}" />
                       <div class="groupe-408"></div>
                       <div class="groupe-409"></div>
                       <div class="groupe-410"></div>
@@ -350,7 +355,7 @@
                       <div class="groupe-477"></div>
                       <div class="groupe-478"></div>
                     </div>
-                    <img class="trac" src="{{asset('auth/img/trac--329@1x.png')}}" />
+                    <img class="trac" src="{{asset('public/auth/img/trac--329@1x.png')}}" />
                     <div class="overlap-group3-2">
                       <div class="groupe-484">
                         <div class="groupe-container-15">
@@ -361,7 +366,7 @@
                           <div class="groupe-483"></div>
                         </div>
                       </div>
-                      <img class="trac-335" src="{{asset('auth/img/trac--335@1x.png')}}" />
+                      <img class="trac-335" src="{{asset('public/auth/img/trac--335@1x.png')}}" />
                     </div>
                     <div class="groupe-539">
                       <div class="groupe-538">
@@ -420,8 +425,8 @@
                     </div>
                     <div class="group-container-9">
                       <div class="overlap-group-3">
-                        <img class="trac-376" src="{{asset('auth/img/trac--376@1x.png')}}" />
-                        <img class="trac-377" src="{{asset('auth/img/trac--377@1x.png')}}" />
+                        <img class="trac-376" src="{{asset('public/auth/img/trac--376@1x.png')}}" />
+                        <img class="trac-377" src="{{asset('public/auth/img/trac--377@1x.png')}}" />
                         <div class="groupe-599"></div>
                         <div class="groupe-600"></div>
                         <div class="groupe-601"></div>
@@ -429,15 +434,15 @@
                       </div>
                       <div class="groupe-604"></div>
                     </div>
-                    <img class="trac-383" src="{{asset('auth/img/trac--383@1x.png')}}" />
+                    <img class="trac-383" src="{{asset('public/auth/img/trac--383@1x.png')}}" />
                     <div class="overlap-group5">
-                      <img class="trac-384" src="{{asset('auth/img/trac--384@1x.png')}}" />
+                      <img class="trac-384" src="{{asset('public/auth/img/trac--384@1x.png')}}" />
                       <div class="groupe-635">
                         <div class="groupe-634">
                           <div class="overlap-group2-3">
                             <div class="groupe-633">
                               <div class="overlap-group1-2">
-                                <img class="trac-387" src="{{asset('auth/img/trac--387@1x.png')}}" />
+                                <img class="trac-387" src="{{asset('public/auth/img/trac--387@1x.png')}}" />
                                 <div class="groupe-632">
                                   <div class="groupe-631">
                                     <div class="groupe-630"></div>
@@ -465,14 +470,14 @@
                                   </div>
                                 </div>
                               </div>
-                              <img class="trac-386" src="{{asset('auth/img/trac--386@1x.png')}}" />
+                              <img class="trac-386" src="{{asset('public/auth/img/trac--386@1x.png')}}" />
                             </div>
-                            <img class="trac-396" src="{{asset('auth/img/trac--396@1x.png')}}" />
-                            <img class="trac-397" src="{{asset('auth/img/trac--397@1x.png')}}" />
+                            <img class="trac-396" src="{{asset('public/auth/img/trac--396@1x.png')}}" />
+                            <img class="trac-397" src="{{asset('public/auth/img/trac--397@1x.png')}}" />
                           </div>
                         </div>
                       </div>
-                      <img class="trac-398" src="{{asset('auth/img/trac--398@1x.png')}}" />
+                      <img class="trac-398" src="{{asset('public/auth/img/trac--398@1x.png')}}" />
                       <div class="groupe-636"></div>
                       <div class="groupe-637"></div>
                       <div class="groupe-638"></div>
@@ -487,7 +492,7 @@
                       <div class="groupe-647"></div>
                       <div class="groupe-648"></div>
                     </div>
-                    <img class="trac" src="{{asset('auth/img/trac--412@1x.png')}}" />
+                    <img class="trac" src="{{asset('public/auth/img/trac--412@1x.png')}}" />
                     <div class="groupe-652">
                       <div class="groupe-651"></div>
                     </div>
@@ -498,7 +503,7 @@
               <div class="character_2">
                 <div class="groupe-895">
                   <div class="overlap-group4">
-                    <img class="trac-416" src="{{asset('auth/img/trac--416@1x.png')}}" />
+                    <img class="trac-416" src="{{asset('public/auth/img/trac--416@1x.png')}}" />
                     <div class="groupe-704">
                       <div class="groupe-703">
                         <div class="groupe-container-19">
@@ -523,8 +528,8 @@
                         </div>
                       </div>
                     </div>
-                    <img class="trac-434" src="{{asset('auth/img/trac--434@1x.png')}}" />
-                    <img class="trac-435" src="{{asset('auth/img/trac--435@1x.png')}}" />
+                    <img class="trac-434" src="{{asset('public/auth/img/trac--434@1x.png')}}" />
+                    <img class="trac-435" src="{{asset('public/auth/img/trac--435@1x.png')}}" />
                     <div class="groupe-705"></div>
                     <div class="groupe-706"></div>
                     <div class="groupe-707"></div>
@@ -621,10 +626,10 @@
                       <div class="groupe-806"></div>
                       <div class="groupe-808"></div>
                     </div>
-                    <img class="trac-484" src="{{asset('auth/img/trac--484@1x.png')}}" />
-                    <img class="trac-485" src="{{asset('auth/img/trac--485@1x.png')}}" />
-                    <img class="trac-486" src="{{asset('auth/img/trac--486@1x.png')}}" />
-                    <img class="trac-487" src="{{asset('auth/img/trac--487@1x.png')}}" />
+                    <img class="trac-484" src="{{asset('public/auth/img/trac--484@1x.png')}}" />
+                    <img class="trac-485" src="{{asset('public/auth/img/trac--485@1x.png')}}" />
+                    <img class="trac-486" src="{{asset('public/auth/img/trac--486@1x.png')}}" />
+                    <img class="trac-487" src="{{asset('public/auth/img/trac--487@1x.png')}}" />
                     <div class="groupe-810"></div>
                     <div class="groupe-811"></div>
                     <div class="groupe-812"></div>
@@ -703,14 +708,14 @@
                     </div>
                     <div class="groupe-899"></div>
                     <div class="groupe-901"></div>
-                    <img class="trac-544" src="{{asset('auth/img/trac--544@1x.png')}}" />
-                    <img class="trac-545" src="{{asset('auth/img/trac--545@1x.png')}}" />
+                    <img class="trac-544" src="{{asset('public/auth/img/trac--544@1x.png')}}" />
+                    <img class="trac-545" src="{{asset('public/auth/img/trac--545@1x.png')}}" />
                     <div class="ellipse-6"></div>
-                    <img class="trac-555" src="{{asset('auth/img/trac--555@1x.png')}}" />
+                    <img class="trac-555" src="{{asset('public/auth/img/trac--555@1x.png')}}" />
                   </div>
                   <div class="overlap-group3-3">
                     <div class="groupe-900"></div>
-                    <img class="trac-554" src="{{asset('auth/img/trac--554@1x.png')}}" />
+                    <img class="trac-554" src="{{asset('public/auth/img/trac--554@1x.png')}}" />
                     <div class="ellipse-5"></div>
                   </div>
                   <div class="overlap-group1-3">
@@ -733,8 +738,8 @@
           <div class="logo">
             <div class="groupe-1-1">
               <div class="overlap-group-5">
-                <img class="subtract-4" src="{{asset('auth/img/subtract-339@1x.png')}}" />
-                <img class="subtract-5" src="{{asset('auth/img/subtract-340@1x.png')}}" />
+                <img class="subtract-4" src="{{asset('public/auth/img/subtract-339@1x.png')}}" />
+                <img class="subtract-5" src="{{asset('public/auth/img/subtract-340@1x.png')}}" />
                 <div class="ellipse-4-2"></div>
               </div>
             </div>
@@ -749,6 +754,20 @@
         </div>
       </form>
     </div>
+    <script>
+        window.addEventListener("DOMContentLoaded", function () {
+  const togglePassword = document.querySelector("#togglePassword");
+
+  togglePassword.addEventListener("click", function (e) {
+    // toggle the type attribute
+    const type =
+      password.getAttribute("type") === "password" ? "text" : "password";
+    password.setAttribute("type", type);
+    // toggle the eye / eye slash icon
+    this.classList.toggle("bi-eye");
+  });
+});
+    </script>
   </body>
 </html>
 

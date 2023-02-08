@@ -9,7 +9,7 @@ class Achat extends Model
 {
     use HasFactory;
 
-    public function motifs()
+    public function motif()
     {
         return $this->belongsTo(Motifsachat::class,'motif_id');
     }

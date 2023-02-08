@@ -19,7 +19,7 @@ class Notedefrais extends Model
         'responsable_id',
         'user_id',
     ];
-    public function motifFrais()
+    public function motif()
     {
         return $this->belongsTo(Motifsfrais::class);
     }
